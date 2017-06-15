@@ -16,7 +16,7 @@ app.config(function ($translateProvider) {
   $translateProvider.preferredLanguage('en');
 });
 
-app.controller('Ctrl', function ($scope, $translate) {
+app.controller('TranslateCtrl', function ($scope, $translate) {
   $scope.changeLanguage = function (key) {
     $translate.use(key);
   };
