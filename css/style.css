@@ -450,11 +450,9 @@ h1, h2, h3, h4, h5, h6, figure {
         vertical-align: middle;
         height: 44px;
         font-size: 18px; }
-    .timeline > li.timeline-unverted {
-      text-align: right; }
-      @media screen and (max-width: 768px) {
-        .timeline > li.timeline-unverted {
-          text-align: left; } }
+    @media screen and (max-width: 768px) {
+      .timeline > li.timeline-unverted {
+        text-align: left; } }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right; }
       .timeline > li.timeline-inverted > .timeline-panel:before {

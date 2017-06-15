@@ -7,6 +7,8 @@ app.config(function ($translateProvider) {
     FOO: 'This is a paragraph.',
     FIRST_EXPE_TITLE: "Semantic Web design engineer",
     FIRST_EXPE_TXT: "BioPortal Project (https://github.com/sifrproject)<ul><li>Administration and development of a local instance of BioPortal (NCBO ontologies repository ) for SIFR et IBC projects (http://bioportal.lirmm.fr et http://agroportal.lirmm.fr)</li><li>Feature development (ontologies metadata, text semantic annotation, multilingual annotation)</li><li> Put into production new prototypes within the platform</li></ul>",
+    TWO_EXPE_TITLE: "Ingénieur d'étude au département informatique du LIRMM",
+    TWO_EXPE_TXT: "zz",
     BUTTON_LANG_EN: 'english',
     BUTTON_LANG_DE: 'german'
   });
@@ -15,6 +17,8 @@ app.config(function ($translateProvider) {
     FOO: 'En français.',
     FIRST_EXPE_TITLE: "Ingénieur d'étude Web sémantique",
     FIRST_EXPE_TXT: "Projet BioPortal (https://github.com/sifrproject)<ul><li>Administration et modification d'une instance locale de BioPortal (répertoire d'ontologies du NCBO) pour le projet SIFR et IBC (http://bioportal.lirmm.fr et http://agroportal.lirmm.fr)</li><li>Développement de fonctionnalités (metadata des ontologies, annotation multilingue)</li><li>Mise en production de nouveau prototypes au sein de la plateforme</li></ul>",
+    TWO_EXPE_TITLE: "Ingénieur d'étude au département informatique du LIRMM",
+    TWO_EXPE_TXT: "Projet BioPortal (https://github.com/sifrproject)<ul><li>Administration et modification d'une instance locale de BioPortal (NCBO) pour le projet SIFR et IBC (http://bioportal.lirmm.fr et http://agroportal.lirmm.fr)</li><li>Développement de fonctionnalités (modèle de metadonnées pour ontologies, gestion d'ontologies multilangue)</li></ul><br>Equipe Advanse (https://gite.lirmm.fr/advanse)<ul><li>Développement d'une plateforme Web pour exposer les programmes de Natural Language Processing développés par l'équipe Advanse (RESTful API et interface) : http://advanse.lirmm.fr</li><li>Aide au packaging de programmes développés par l'équipe Advanse</li><li>Administration du serveur Advanse (mise en place de Slurm)</li><li>Production de documentation</li></ul><br>Equipe Open Data (https://gite.lirmm.fr/opendata)<ul><li>Packaging, test et amélioration de l'outil de matching d'ontologies Yam++ Large Scale</li><li>Développement d'une interface Web de matching et de validation d'alignements d'ontologies</li></ul><br>Publications<ul><li>Multilingual Mapping Reconciliation between English-French Biomedical Ontologies ( https://hal.archives-ouvertes.fr/lirmm-01395880 )</li><li>Modèle de métadonnées dans un portail d'ontologies ( https://hal.archives-ouvertes.fr/lirmm-01397388/ )</li></ul><br>Compétences : Java (Maven, Tomcat), Ruby (on Rails), développement Web (HTML/CSS/AngularJS), ontologies, Docker, administration Linux",
     BUTTON_LANG_EN: 'englisch',
     BUTTON_LANG_DE: 'deutsch'
   });
