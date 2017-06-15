@@ -133,6 +133,16 @@
 				</div>
 				<div class="col-md-8">
 					<h2>Hello There!</h2>
+          <div class="span4">
+            <div class="well">
+                <h2 translate="TITLE" class="ng-scope">Hello</h2>
+                <p translate="FOO" class="ng-scope">This is a paragraph.</p>
+            </div>
+            <div ng-controller="Ctrl" class="ng-scope">
+              <button class="btn ng-scope" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">english</button>
+              <button class="btn ng-scope" ng-click="changeLanguage('de')" translate="BUTTON_LANG_DE">german</button>
+            </div>
+          </div>
 					<p>There live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in bookmarksgrove there live the blind texts far from the countries.</p>
 					<p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
 					<p>
@@ -630,10 +640,15 @@
 	<!-- Google Map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script>
+
+  <!-- Custom js -->
   <script src="vendor/jquery/freelancer.js"></script>
-  
-	<!-- Main -->
 	<script src="vendor/jquery/main.js"></script>
+
+  <!-- Angular: translate text in selected language -->
+  <script src="vendor/angular/angular.min.js"></script>
+  <script src="vendor/angular/angular-translate.min.js"></script>
+  <script src="js/translate.js"></script>
 
 	</body>
 </html>
