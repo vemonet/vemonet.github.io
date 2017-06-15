@@ -9,6 +9,42 @@ To begin using this template, choose one of the following options to get started
 * Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
 * Fork the repo
 
+
+
+## Using Sass to precompile the CSS
+
+Use `sass/style.scss` then compile it to `css/style.css` to change the CSS
+It will resolve all variable used in the SCSS. You can also directly change the themes.css, but it will be override if themes.scss is compiled into themes.css
+
+
+* Install Sass
+```
+gem install sass
+```
+
+* Convert scss to css (basically juste changing variables)
+```
+sass scss/style.scss css/style.css
+sass scss/*.scss css/
+```
+
+* Tell Sass to watch the file or the whole scss directory and update the CSS every time the Sass file changes
+```
+sass --watch scss/style.scss:css/style.css
+sass --watch scss:css
+```
+
+* How to use variables
+```css
+$nav-color-light: #0080FF;
+.navbar-inverse {
+  border-color: $nav-color-light;
+}
+```
+
+
+
+
 ## Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
