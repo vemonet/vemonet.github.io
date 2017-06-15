@@ -25,8 +25,6 @@ gem install sass
 * Convert scss to css (basically juste changing variables)
 ```shell
 sass sass/style.scss css/style.css
-# All SCSS files:
-sass sass/*.scss css/
 ```
 
 * Tell Sass to watch the file or the whole scss directory and update the CSS every time the Sass file changes
