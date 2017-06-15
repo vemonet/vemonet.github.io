@@ -70,7 +70,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right f32">
+                <ul class="nav navbar-nav navbar-right f32" ng-controller="Ctrl" class="ng-scope">
                     <li class="hidden">
                         <a href="/"></a>
                     </li>
@@ -84,10 +84,10 @@
                         <a href="mailto:vincent.emonet@gmail.com">Contact</a>
                     </li>
                     <li class="page-scroll" style="padding-left: 15px;">
-                      <a href="#" class="flag gb" title="English"></a>
+                      <span class="flag gb" ng-click="changeLanguage('en')" title="English" style="cursor: pointer;"></span>
                     </li>
                     <li class="page-scroll" style="padding-left: 15px;">
-                      <a href="#" class="flag fr" title="Français"></a>
+                      <span class="flag fr" ng-click="changeLanguage('fr')" title="Français" style="cursor: pointer;"></span>
                     </li>
                 </ul>
             </div>
@@ -122,10 +122,6 @@
               <div class="well">
                   <h2 translate="TITLE" class="ng-scope">Hello</h2>
                   <p translate="FOO" class="ng-scope">This is a paragraph.</p>
-              </div>
-              <div ng-controller="Ctrl" class="ng-scope">
-                <button class="btn ng-scope" ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN">english</button>
-                <button class="btn ng-scope" ng-click="changeLanguage('de')" translate="BUTTON_LANG_DE">german</button>
               </div>
             </div>
             <p>There live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in bookmarksgrove there live the blind texts far from the countries.</p>

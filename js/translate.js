@@ -7,7 +7,7 @@ app.config(function ($translateProvider) {
     BUTTON_LANG_EN: 'english',
     BUTTON_LANG_DE: 'german'
   });
-  $translateProvider.translations('de', {
+  $translateProvider.translations('fr', {
     TITLE: 'Hallo',
     FOO: 'Dies ist ein Paragraph.',
     BUTTON_LANG_EN: 'englisch',
