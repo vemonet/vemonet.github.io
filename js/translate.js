@@ -8,8 +8,8 @@ app.config(function ($translateProvider) {
     BUTTON_LANG_DE: 'german'
   });
   $translateProvider.translations('fr', {
-    TITLE: 'Hallo',
-    FOO: 'Dies ist ein Paragraph.',
+    TITLE: 'Salut',
+    FOO: 'En français.',
     BUTTON_LANG_EN: 'englisch',
     BUTTON_LANG_DE: 'deutsch'
   });
@@ -20,4 +20,12 @@ app.controller('Ctrl', function ($scope, $translate) {
   $scope.changeLanguage = function (key) {
     $translate.use(key);
   };
+});
+
+// To highlight select nav btn. Take the URL (after /, not taking what after #)
+app.controller('HeaderController', function ($scope, $location) {
+  $scope.isActive = function (viewLocation) {
+    console.log($location);
+        return viewLocation === $location.path();
+    };
 });

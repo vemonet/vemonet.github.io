@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -42,23 +42,33 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Vincent Emonet</a>
+                <a class="navbar-brand" href="#">Vincent Emonet</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="HeaderController">
+                <ul class="nav navbar-nav navbar-right f32" ng-controller="Ctrl" class="ng-scope">
+                    <!-- Highlight btn in vendor/jquery/freelancer.js with scrollspy -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="/"></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
+                    <li class="page-scroll" ng-class="{ active: isActive('#projects')}">
+                        <a href="#projects">Projects</a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="page-scroll" ng-class="{ active: isActive('#about')}">
                         <a href="#about">About</a>
                     </li>
+                    <li class="page-scroll" ng-class="{ active: isActive('about.html')}">
+                        <a href="voyages.html">Voyages</a>
+                    </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="mailto:vincent.emonet@gmail.com">Contact</a>
+                    </li>
+                    <li class="page-scroll" style="padding-left: 15px;">
+                      <span class="flag gb" ng-click="changeLanguage('en')" title="English" style="cursor: pointer;"></span>
+                    </li>
+                    <li class="page-scroll" style="padding-left: 15px;">
+                      <span class="flag fr" ng-click="changeLanguage('fr')" title="Français" style="cursor: pointer;"></span>
                     </li>
                 </ul>
             </div>
@@ -470,8 +480,13 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery/jquery.easing.1.3.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="vendor/jquery/freelancer.js"></script>
+    <!-- Custom js -->
+  <script src="vendor/jquery/freelancer.js"></script>
+
+  <!-- Angular: translate text in selected language -->
+  <script src="vendor/angular/angular.min.js"></script>
+  <script src="vendor/angular/angular-translate.min.js"></script>
+  <script src="js/translate.js"></script>
 
 </body>
 
