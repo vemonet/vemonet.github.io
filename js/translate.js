@@ -32,6 +32,14 @@ app.config(function ($translateProvider) {
 app.controller('TranslateCtrl', function ($scope, $translate) {
   $scope.changeLanguage = function (key) {
     $translate.use(key);
+    // Change opacity of flags when selected
+    if (key === "fr") {
+      $("#frFlag").css("opacity", "1");
+      $("#enFlag").css("opacity", "0.5");
+    } else {
+      $("#frFlag").css("opacity", "0.5");
+      $("#enFlag").css("opacity", "1");
+    }
   };
 });
 
