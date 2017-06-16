@@ -166,6 +166,7 @@ header .intro-text .skills {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+  /* Change the navbar size when scrolling down */
   .navbar-custom.affix {
     padding: 10px 0;
   }
