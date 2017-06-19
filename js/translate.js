@@ -5,6 +5,18 @@ app.config(function ($translateProvider) {
   $translateProvider.translations('en', {
     TITLE: 'Hello',
     FOO: 'This is a paragraph.',
+    
+    ABOUT_TEXT: `I am actually working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier). On different project linked to the semantic Web and ontologies:
+<ul>
+  <li>SIFR BioPortal and AgroPortal web services: two web ontology repositories allowing users to annotate text with the stored ontologies.</li>
+  <li>Yam++: a web tool to discover mappings between ontologies.</li>
+</ul>
+It made me consolidate my developping skills (Java, Web, Ruby) and my knowledge about the semantic web, Linked Data and ontologies. I also discovered Natural Language Processing, and various tools like Docker.
+
+Before that, while obtaining my Master degree in bioinformatics, I worked for the Bio2RDF project at the research center of the Quebec University Hospital. Where I gain knowledge on Java, data processing (using ETL), Linked Data and Big Data.
+
+Discovering new horizons is a great motivation, which allows me to quickly adapt myself to new situations and technologies with little help. But as someone pretty social, working in collaboration with a team is also something that I am actively looking for.`,
+    
     WORK_EXPE_TITLE: 'Work experience',
     
     FIRST_EXPE_TITLE: "Semantic Web design engineer",
@@ -81,7 +93,19 @@ Skills: Python, DNA sequence analysis
     TITLE: 'Salut',
     FOO: 'En français.',
     
+    ABOUT_TEXT: `Je travaille actuellement en tant qu'ingénieur d'étude au LIRMM (Laboratoire d'informatique, de Robotique, de Microélectronique de Montpellier) sur plusieurs projets liés au Web sémantique : 
+<ul>
+  <li>AgroPortal et BioPortal : deux portails d'ontologies permettant d'exploiter les ontologies stockées et d'annoter des données.</li>
+  <li>Yam++ : un outil web permettant de découvrir des mappings entre ontologies.</li>
+</ul>
+Ces projets m'ont permis de renforcer mes compétences en développement (Java, Web, Ruby) et dans le domaine des ontologies. Ainsi que de découvrir le Natural Language Processing.
+
+C'est après l'obtention de mon Master en bioinformatique, que j'ai découvert le domaine du Web sémantique, lié à la recherche en biologie. Le projet Bio2RDF (conversion de base de données biologique au format RDF) au Québec, m'a permis d'en apprendre beaucoup sur la gestion et le traitement de données par l'utilisation d'ETL et de Java (développement de composants Talend). Tout en me familiarisant avec les modèles de données liées (Linked Data) et le Big Data. Avant de travailler pour le LIRMM.
+
+La découverte de nouveaux domaines me motivent beaucoup, c'est pourquoi j'ai su rapidement m'adapter à des situations et des technologies qui m'étaient inconnues avec peu d'aide extérieur. Mais étant assez social, je recherche beaucoup le travail d'équipe.`,
+    
     WORK_EXPE_TITLE: 'Expérience professionnelle',
+    
     FIRST_EXPE_TITLE: "Ingénieur d'étude Web sémantique",
     FIRST_EXPE_COMPANY: "2017 - aujourd'hui au <i>LIRMM</i>, Laboratoire d'informatique, de robotique et de microélectronique de Montpellier",
     FIRST_EXPE_TXT: `
