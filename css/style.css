@@ -269,6 +269,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-bg-dark .fh5co-heading h2 {
     color: #fff !important; }
 
+#skills .panel-body img {
+  max-height: 50px; }
+
 .info {
   margin: 0;
   padding: 0;
