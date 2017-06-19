@@ -11,8 +11,9 @@ app.config(function ($translateProvider) {
     FIRST_EXPE_COMPANY: "2017 - today at <i>LIRMM</i> (Laboratory for informatics, robotics and microelectronics of Montpellier)",
     FIRST_EXPE_TXT: `
 <ul>
-  <li>Administration and new features development on <a href='http://bioportal.lirmm.fr' target='_blank'>SIFR BioPortal</a> and <a href='http://agroportal.lirmm.fr' target='_blank'>IBC AgroPortal</a> platforms, used for ontology storage, exploration and text annotation (Ruby on Rails & Java): github.com/sifrproject</li>
-  <li>Kept compatibility with main version of the NCBO BioPortal (tests)</li>
+  <li>Administration of <a href='http://bioportal.lirmm.fr' target='_blank'>SIFR BioPortal</a> and <a href='http://agroportal.lirmm.fr' target='_blank'>IBC AgroPortal</a> platforms, used for ontology storage, exploration and text annotation</li>
+  <li>New features development for <a href='https://github.com/sifrproject' target='_blank'>BioPortal services</a> (Ruby on Rails & Java) : ontologies metadata, mappings, text annotation</li>
+  <li>Kept compatibility with main version of the <a href='http://bioportal.bioontology.org' target='_blank'>NCBO BioPortal</a> (tests)</li>
   <li>Packaged, integrated and documented Natural Language Processing programs for the <a href='https://gite.lirmm.fr/advanse' target='_blank'>ADVANSE</a> team, available at <a href='https://advanse.lirmm.fr' target='_blank'>advanse.lirmm.fr</a> (Java, AngularJS, Linux)</li>
   <li>Enhanced and packaged the <a href='https://gite.lirmm.fr/opendata' target='_blank'>YAM++ ontologies matching tool</a> (Java)</li>
   <li>Developped a <a href='http://yamplusplus.lirmm.fr/' target='_blank'>web interface</a> for ontologies mappings validation (JEE)</li>
