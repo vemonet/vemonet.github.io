@@ -6,7 +6,7 @@ app.config(function ($translateProvider) {
     TITLE: 'Hello',
     FOO: 'This is a paragraph.',
     DDL_CV_LABEL: 'Resume',
-    DDL_CV_FILE: 'RESUME_VincentEmonet.pdf',
+    DDL_CV_FILE: 'resources/RESUME_VincentEmonet.pdf',
     
     ABOUT_TEXT: `I am actually working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier). On different project linked to the semantic Web and ontologies:
 <ul>
@@ -96,7 +96,7 @@ Skills: Python, DNA sequence analysis
     FOO: 'En français.',
     
     DDL_CV_LABEL: 'CV',
-    DDL_CV_FILE: 'CV_VincentEmonet.pdf',
+    DDL_CV_FILE: 'resources/CV_VincentEmonet.pdf',
     
     ABOUT_TEXT: `Je travaille actuellement en tant qu'ingénieur d'étude au LIRMM (Laboratoire d'informatique, de Robotique, de Microélectronique de Montpellier) sur plusieurs projets liés au Web sémantique : 
 <ul>
@@ -188,13 +188,17 @@ Compétences : Python, analyse de séquences ADN`,
 app.controller('TranslateCtrl', function ($scope, $translate) {
   $scope.changeLanguage = function (key) {
     $translate.use(key);
-    // Change opacity of flags when selected
+    // Change opacity of flags when selected and change CV link
     if (key === "fr") {
       $("#frFlag").css("opacity", "1");
       $("#enFlag").css("opacity", "0.5");
+      $("#cvHrefLabel").attr("href", "resources/CV_VincentEmonet.pdf")
+      $("#cvHrefBtn").attr("href", "resources/CV_VincentEmonet.pdf")
     } else {
       $("#frFlag").css("opacity", "0.5");
       $("#enFlag").css("opacity", "1");
+      $("#cvHrefLabel").attr("href", "resources/RESUME_VincentEmonet.pdf")
+      $("#cvHrefBtn").attr("href", "resources/RESUME_VincentEmonet.pdf")
     }
   };
 });
