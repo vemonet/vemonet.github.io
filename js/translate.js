@@ -95,7 +95,8 @@ Skills: Python, DNA sequence analysis
 </ul>`,
     
     
-    SKILLS_TOOL_TITLE: "Tools"
+    SKILLS_TOOL_TITLE: "Tools",
+    SKILLS_WEB_TITLE: "Web technologies"
     
     
   });
@@ -193,7 +194,8 @@ Compétences : Python, analyse de séquences ADN`,
 </ul>`,
     
     
-    SKILLS_TOOL_TITLE: "Outils"
+    SKILLS_TOOL_TITLE: "Outils",
+    SKILLS_WEB_TITLE: "Technologies du web"
     
   });
   
