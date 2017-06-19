@@ -190,6 +190,16 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 16px;
 }
 
+/* Change image size for interests */
+#interests img {
+  max-width: 100%;
+}
+
+#interests col-md-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 
 #fh5co-header,
 .fh5co-cover {
