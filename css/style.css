@@ -284,6 +284,9 @@ h1, h2, h3, h4, h5, h6, figure {
   max-height: 50px;
   margin: 5px; }
 
+#publications h1, h2, h3, ul {
+  text-align: center; }
+
 .info {
   margin: 0;
   padding: 0;

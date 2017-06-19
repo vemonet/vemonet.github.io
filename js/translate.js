@@ -1,7 +1,7 @@
 var app = angular.module('translate', ['pascalprecht.translate']);
 
 app.config(function ($translateProvider) {
-  // Dictionaries
+  // Dictionary for english
   $translateProvider.translations('en', {
     TITLE: 'Hello',
     FOO: 'This is a paragraph.',
@@ -99,8 +99,11 @@ Skills: Python, DNA sequence analysis
     SKILLS_WEB_TITLE: "Web technologies",
     SKILLS_LANG_TITLE: "Languages",    
     
+    PUBLICATIONS_TEXT:""
+    
   });
   
+  // Dictionary for french
   $translateProvider.translations('fr', {
     TITLE: 'Salut',
     FOO: 'En français.',
@@ -197,6 +200,8 @@ Compétences : Python, analyse de séquences ADN`,
     SKILLS_TOOL_TITLE: "Outils",
     SKILLS_WEB_TITLE: "Technologies du web",
     SKILLS_LANG_TITLE: "Langages",
+    
+    PUBLICATIONS_TEXT:""
     
   });
   
