@@ -20,6 +20,8 @@ Before that, while obtaining my Master degree in bioinformatics, I worked for th
 
 Discovering new horizons is a great motivation, which allows me to quickly adapt myself to new situations and technologies with little help. But as someone pretty social, working in collaboration with a team is also something that I am actively looking for.`,
     
+    PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and exploiting those data.',
+    
     WORK_EXPE_TITLE: 'Work experience',
     
     FIRST_EXPE_TITLE: "Semantic Web design engineer",
@@ -110,6 +112,8 @@ Ces projets m'ont permis de renforcer mes compétences en développement (Java, 
 C'est après l'obtention de mon Master en bioinformatique, que j'ai découvert le domaine du Web sémantique, lié à la recherche en biologie. Le projet Bio2RDF (conversion de base de données biologique au format RDF) au Québec, m'a permis d'en apprendre beaucoup sur la gestion et le traitement de données par l'utilisation d'ETL et de Java (développement de composants Talend). Tout en me familiarisant avec les modèles de données liées (Linked Data) et le Big Data. Avant de travailler pour le LIRMM.
 
 La découverte de nouveaux domaines me motivent beaucoup, c'est pourquoi j'ai su rapidement m'adapter à des situations et des technologies qui m'étaient inconnues avec peu d'aide extérieur. Mais étant assez social, je recherche beaucoup le travail d'équipe.`,
+    
+    PROJECT_BIO2RDF: 'Conversion de bases de données biologiques au format RDF et exploitation de ces données.',
     
     WORK_EXPE_TITLE: 'Expérience professionnelle',
     
