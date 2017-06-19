@@ -173,7 +173,6 @@ app.controller('TranslateCtrl', function ($scope, $translate) {
 // To highlight select nav btn. Take the URL (after /, not taking what after #)
 app.controller('HeaderController', function ($scope, $location) {
   $scope.isActive = function (viewLocation) {
-    console.log($location);
-        return viewLocation === $location.path();
-    };
+    return viewLocation === $location.path();
+  };
 });
