@@ -263,7 +263,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started {
   border-bottom: none; }
 
+.fh5co-bg-color {
+  padding-top: 1em; }
+
 .fh5co-bg-dark {
+  padding-top: 1em;
   background: #2F3C4F;
   background: #FF9000; }
   .fh5co-bg-dark .fh5co-heading h2 {
