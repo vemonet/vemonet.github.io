@@ -38,7 +38,7 @@ Discovering new horizons is a great motivation, which allows me to quickly adapt
     TWO_EXPE_COMPANY: "9 months in 2013 and 2014 at <i>CHU de Québec</i> research center",
     TWO_EXPE_TXT: `
 <ul>
-  <li>Co-administrator of the <a href='http://bio2rdf.org/' target='_blank'>Bio2RDF</a> project.</li>
+  <li>Participation to the <a href='http://bio2rdf.org/' target='_blank'>Bio2RDF</a> project administration and development.</li>
   <li>Set up and use of a Hadoop data platform on a cluster of CentOS servers.</li>
   <li>Develop web <a href='https://github.com/bio2rdf/bio2rdf-rest' target="_blank">RESTful services</a> that consume RDF data using Talend ETL.</li>
   <li>Develop <a href='https://github.com/vemonet/talend4sw' target='_blank'>Talend ETL components</a> for the semantic web using Java.</li>
@@ -129,7 +129,7 @@ La découverte de nouveaux domaines me motivent beaucoup, c'est pourquoi j'ai su
     TWO_EXPE_COMPANY: "9 mois entre 2013 et 2014 au Centre de recherche du <i>CHU de Québec</i>",
     TWO_EXPE_TXT: `
 <ul>
-  <li>Co-administrateur du projet <a href='http://bio2rdf.org/' target='_blank'>Bio2RDF</a></li>
+  <li>Participation à l'administration et au développement du projet <a href='http://bio2rdf.org/' target='_blank'>Bio2RDF</a></li>
   <li>Développement de <a href='https://github.com/bio2rdf/bio2rdf-rest' target="_blank">web services RESTful</a> gestion de données biologiques au format RDF.</li>
   <li>Développement de <a href='https://github.com/vemonet/talend4sw' target='_blank'>composants d’ETL Talend</a> en Java pour le web sémantique.</li>
   <li>Conversion de bases de données biologiques au format RDF (PubMed, neXtProt) avec Java et l'ETL Talend.</li>
