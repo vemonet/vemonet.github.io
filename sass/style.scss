@@ -9,7 +9,9 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
+/* Primary and secondary colors */
 $brand-primary: #FF9000 !default;
+$brand-secondary: #337ab7 !default;
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -144,7 +146,7 @@ a {
 	color: $brand-primary;
 	@include transition(.5s);
 	&:hover, &:active, &:focus {
-		color: $brand-primary;
+		color: $brand-secondary;
 		outline: none;
 		text-decoration: none;
 	}
@@ -171,6 +173,11 @@ h1, h2, h3, h4, h5, h6, figure {
 ::selection {
   color: $brand-white;
   background: $brand-primary;
+}
+
+/* Change navbar color (from freelancer) */
+.navbar-custom {
+  background: $brand-secondary;
 }
 
 /* Change Bootstrap box fonts */

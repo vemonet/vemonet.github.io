@@ -1,3 +1,4 @@
+/* Primary and secondary colors */
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -47,7 +48,7 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #FF9000;
+    color: #337ab7;
     outline: none;
     text-decoration: none; }
 
@@ -71,6 +72,10 @@ h1, h2, h3, h4, h5, h6, figure {
 ::selection {
   color: #fff;
   background: #FF9000; }
+
+/* Change navbar color (from freelancer) */
+.navbar-custom {
+  background: #337ab7; }
 
 /* Change Bootstrap box fonts */
 .panel-title {
