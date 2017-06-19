@@ -92,7 +92,10 @@ Skills: Python, DNA sequence analysis
 <ul>
   <li>Knowledges in genetics, biochemistry, molecular biology, physiology and microbiology.</li>
   <li>Wet lab manipulations.</li>
-</ul>`
+</ul>`,
+    
+    
+    SKILLS_TOOL_TITLE: "Tools"
     
     
   });
@@ -187,7 +190,10 @@ Compétences : Python, analyse de séquences ADN`,
 <ul>
   <li>Acquisition de connaissances en génie génétique, biochimie, microbiologie et physiologie.</li>
   <li>Travail en laboratoire.</li>
-</ul>`
+</ul>`,
+    
+    
+    SKILLS_TOOL_TITLE: "Outils"
     
   });
   
