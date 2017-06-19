@@ -273,8 +273,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .info li {
     width: 100%;
     float: left;
-    list-style: none;
-    padding: 10px 0; }
+    list-style: none; }
     .info li:first-child {
       padding-top: 0; }
     .info li .first-block {
@@ -293,6 +292,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0; }
   .fh5co-social-icons li {
     margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     list-style: none;
     display: -moz-inline-stack;
@@ -306,7 +306,8 @@ h1, h2, h3, h4, h5, h6, figure {
       *display: inline;
       color: #FF9000;
       padding-left: 10px;
-      padding-right: 10px; }
+      padding-right: 10px;
+      margin-right: 15px; }
       .fh5co-social-icons li a i {
         font-size: 20px; }
 
