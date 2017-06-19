@@ -9,8 +9,13 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-/* Primary and secondary colors */
+/* Primary color */
+/* Orange: FF9000
+Green: 18BC9C */
+
 $brand-primary: #FF9000 !default;
+
+/* Secondary color (mainly for navbar) */
 $brand-secondary: #337ab7 !default;
 
 $brand-white: #fff;
@@ -178,6 +183,10 @@ h1, h2, h3, h4, h5, h6, figure {
 /* Change navbar color (from freelancer) */
 .navbar-custom {
   background: $brand-secondary;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: $brand-primary;
 }
 
 /* Change Bootstrap box fonts */
@@ -995,6 +1004,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 #fh5co-footer {
+  background: $brand-secondary;
+  color: white;
 	padding: 50px 0;
 	float: left;
 	width: 100%;
