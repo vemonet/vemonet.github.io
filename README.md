@@ -13,7 +13,7 @@ To begin using this template, choose one of the following options to get started
 
 * Voyages: faire une page simple avec des titres (California, Benelux)
 
-
+* Really simple version: http://themes.3rdwavemedia.com/demo/orbit/
 
 ## Using Sass to precompile the CSS
 
