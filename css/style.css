@@ -270,7 +270,8 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #fff !important; }
 
 #skills .panel-body img {
-  max-height: 50px; }
+  max-height: 50px;
+  margin: 5px; }
 
 .info {
   margin: 0;
