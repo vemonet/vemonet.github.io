@@ -3,8 +3,9 @@ var app = angular.module('translate', ['pascalprecht.translate']);
 app.config(function ($translateProvider) {
   // Dictionary for english
   $translateProvider.translations('en', {
-    TITLE: 'Hello',
-    FOO: 'This is a paragraph.',
+    PROJECTS_TITLE: "Projects",
+    SKILLS_TITLE: "Skills",
+    
     DDL_CV_LABEL: 'Resume',
     DDL_CV_FILE: 'resources/RESUME_VincentEmonet.pdf',
     
@@ -105,8 +106,8 @@ Skills: Python, DNA sequence analysis
   
   // Dictionary for french
   $translateProvider.translations('fr', {
-    TITLE: 'Salut',
-    FOO: 'En français.',
+    PROJECTS_TITLE: "Projets",
+    SKILLS_TITLE: "Competences",
     
     DDL_CV_LABEL: 'CV',
     DDL_CV_FILE: 'resources/CV_VincentEmonet.pdf',
