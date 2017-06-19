@@ -20,7 +20,7 @@ Before that, while obtaining my Master degree in bioinformatics, I worked for th
 
 Discovering new horizons is a great motivation, which allows me to quickly adapt myself to new situations and technologies with little help. But as someone pretty social, working in collaboration with a team is also something that I am actively looking for.`,
     
-    PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and exploiting those data.',
+    PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and accessing those data.',
     PROJECT_BIOPORTAL: 'Services to store ontologies, explore it and use it to annotate text (french and agronomical ontologies).',
     PROJECT_YAMPP: 'Tool to align ontologies, with a web UI to curate generated mappings.',    
     
@@ -120,7 +120,7 @@ C'est après l'obtention de mon Master en bioinformatique, que j'ai découvert l
 
 La découverte de nouveaux domaines me motivent beaucoup, c'est pourquoi j'ai su rapidement m'adapter à des situations et des technologies qui m'étaient inconnues avec peu d'aide extérieur. Mais étant assez social, je recherche beaucoup le travail d'équipe.`,
     
-    PROJECT_BIO2RDF: 'Conversion de bases de données biologiques au format RDF et exploitation de ces données.',
+    PROJECT_BIO2RDF: 'Conversion de bases de données biologiques au format RDF et accès à ces données.',
     PROJECT_BIOPORTAL: "Services permettant de stocker des ontologies, les explorer et les utiliser pour annotater du texte (ontologies françaises et du domaine de l'agronomie).",
     PROJECT_YAMPP: 'Outils pour aligner des ontologies avec interface web pour valider les mappings générés.',
     
