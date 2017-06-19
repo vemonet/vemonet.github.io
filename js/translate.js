@@ -5,6 +5,8 @@ app.config(function ($translateProvider) {
   $translateProvider.translations('en', {
     TITLE: 'Hello',
     FOO: 'This is a paragraph.',
+    DDL_CV_LABEL: 'Resume',
+    DDL_CV_FILE: 'RESUME_VincentEmonet.pdf',
     
     ABOUT_TEXT: `I am actually working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier). On different project linked to the semantic Web and ontologies:
 <ul>
@@ -92,6 +94,9 @@ Skills: Python, DNA sequence analysis
   $translateProvider.translations('fr', {
     TITLE: 'Salut',
     FOO: 'En français.',
+    
+    DDL_CV_LABEL: 'CV',
+    DDL_CV_FILE: 'CV_VincentEmonet.pdf',
     
     ABOUT_TEXT: `Je travaille actuellement en tant qu'ingénieur d'étude au LIRMM (Laboratoire d'informatique, de Robotique, de Microélectronique de Montpellier) sur plusieurs projets liés au Web sémantique : 
 <ul>
