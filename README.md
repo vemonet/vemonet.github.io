@@ -1,5 +1,7 @@
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
+CV template: https://freehtml5.co/preview/?item=profile-free-html5-bootstrap-template-for-personal-and-vcard,-resume-websites
+
 ## Getting Started
 
 To begin using this template, choose one of the following options to get started:
