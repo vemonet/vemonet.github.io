@@ -9,6 +9,8 @@ To begin using this template, choose one of the following options to get started
 
 ## To do
 
+* 2 download links: vCard and Resume PDF
+
 * Voyages: faire une page simple avec des titres (California, Benelux)
 
 
