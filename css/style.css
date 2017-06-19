@@ -356,8 +356,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 19px; }
 
 .fh5co-heading h2 {
+  text-align: center;
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   line-height: 1.5;
   color: #000; }
 .fh5co-heading p {
