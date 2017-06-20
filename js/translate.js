@@ -231,3 +231,20 @@ app.controller('HeaderController', function ($scope, $location) {
     return viewLocation === $location.path();
   };
 });
+
+/**
+ * For nice tooltip display when mouseover publications
+ */
+jQuery(document).ready(function() {
+  "use strict";
+
+  $('.tooltip').tooltipster({
+    interactive: true,
+    position: "top",
+    contentAsHTML: true,
+    animation: 'fade',
+    delay: 0,
+    theme: 'tooltipster-light',
+    trigger: 'hover'
+  });
+});
