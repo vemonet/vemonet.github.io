@@ -3,7 +3,9 @@
     @id: "http://vemonet.github.io",
     @type: "http://rdfs.org/resume-rdf/cv.rdfs#CV",
     
-    aboutPerson: "http://vemonet.github.io",
+    aboutPerson: "http://vemonet.github.io/person/VincentEmonet",
+    
+    hasEducation: ["http://vemonet.github.io/education/1"],
 
     PROJECTS_TITLE: "Projects",
     SKILLS_TITLE: "Skills",
@@ -204,6 +206,7 @@
       foaf:	"http://xmlns.com/foaf/0.1/"
     }
   },
+  
   {
     @id: "http://vemonet.github.io/person/VincentEmonet",
     @type: "http://xmlns.com/foaf/0.1/person"
@@ -227,18 +230,43 @@
       cv:	"http://rdfs.org/resume-rdf/cv.rdfs#"
     }
   },
+  
+  {
+    @id: "http://vemonet.github.io/education/1",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Education"
+    studiedIn: "Université de Poitiers",
+    givenName: "Vincent",
+    familyName: "Emonet",
+    firstName: "Vincent",
+    lastName: "Emonet",
+    gender: "male",
+    birthday: "11-13-1991",
+    phone: "+33 6 75 72 59 52",
+    publications: "https://hal.archives-ouvertes.fr/search/index/q/*/authFullName_s/Vincent+Emonet",
+    homepage: "http://vemonet.github.io/",
+    workplaceHomepage: "http://www.lirmm.fr/",
+    img: "https://vemonet.github.io/images/picture_vincent_emonet.jpg",
+    
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+    }
+  },
+  
+  
   {
     @id: "http://vemonet.github.io/skill/java",
     @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
-  
     label: {
       "en": "Java",
       "fr": "Java"
     }
+    skillLevel: "3",
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -254,7 +282,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -270,7 +298,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -286,7 +314,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -302,7 +330,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -318,7 +346,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -334,7 +362,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -350,7 +378,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -366,7 +394,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -382,7 +410,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -398,7 +426,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -414,7 +442,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -430,7 +458,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -446,7 +474,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -462,7 +490,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -478,7 +506,7 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
@@ -494,10 +522,11 @@
     @context {
       @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
       label: {
-        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @id: "http://rdfs.org/resume-rdf/cv.rdfs#skillName",
         @container: "@language"
       }
     }
   }
+  
   
 ]
