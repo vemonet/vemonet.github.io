@@ -194,5 +194,11 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     SKILLS_LANG_TITLE: "Langages",
     
     PUBLICATIONS_TEXT:""
-    
-  })
+   
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      rdfs: "http://www.w3.org/2000/01/rdf-schema#",
+      foaf:	"http://xmlns.com/foaf/0.1/"
+    }
+  }
