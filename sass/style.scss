@@ -188,6 +188,21 @@ h1, h2, h3, h4, h5, h6, figure {
   color: white;
   background: $brand-primary;
 }
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  background: $brand-primary;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: $brand-primary;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: $brand-primary;
+  border-color: $brand-primary;
+}
+
 
 /* Change Bootstrap box fonts */
 .panel-title {

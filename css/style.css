@@ -84,6 +84,19 @@ h1, h2, h3, h4, h5, h6, figure {
   color: white;
   background: #FF9000; }
 
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  background: #FF9000; }
+
+.navbar-custom .navbar-nav li a:hover {
+  color: #FF9000; }
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #FF9000;
+  border-color: #FF9000; }
+
 /* Change Bootstrap box fonts */
 .panel-title {
   font-size: 18px;
