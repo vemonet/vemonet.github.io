@@ -46,3 +46,7 @@ $nav-color-light: #0080FF;
   border-color: $nav-color-light;
 }
 ```
+
+## Doing the résumé in RDF
+
+http://rdfs.org/resume-rdf/
