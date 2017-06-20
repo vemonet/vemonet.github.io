@@ -238,7 +238,7 @@ app.controller('HeaderController', function ($scope, $location) {
 jQuery(document).ready(function() {
   "use strict";
 
-  $('.tooltip').tooltipster({
+  $('.tooltipster').tooltipster({
     interactive: true,
     position: "top",
     contentAsHTML: true,
