@@ -243,7 +243,7 @@ jQuery(document).ready(function() {
     position: "top",
     contentAsHTML: true,
     animation: 'fade',
-    delay: 0,
+    delay: 300,
     theme: 'tooltipster-light',
     trigger: 'hover'
   });
