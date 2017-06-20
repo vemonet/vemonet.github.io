@@ -49,19 +49,16 @@ Discovering new horizons is a great motivation, which allows me to quickly adapt
   <li>Develop web <a href='https://github.com/bio2rdf/bio2rdf-rest' target="_blank">RESTful services</a> that consume RDF data using Talend ETL.</li>
   <li>Develop <a href='https://github.com/vemonet/talend4sw' target='_blank'>Talend ETL components</a> for the semantic web using Java.</li>
   <li>Develop Java programs that convert public biological databases to RDF format (PubMed, neXtProt).</li>
-</ul><br>
-Skills : semantic web, Java, JSON/XML, RESTful services, ETL.<br>
+</ul>
 Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank'>Bio2RDF Release 3: A Larger Connected Network of Linked Data for the Life Sciences</a>`,
     
     THREE_EXPE_TITLE: "Research assistant in bioinformatics",
     THREE_EXPE_COMPANY: "3 months during 2012 in <a href='https://nature.berkeley.edu/almeidalab/' target='_blank'>Almeida lab</a> at <i>University of California Berkeley</i>",
     THREE_EXPE_TXT: `
 <ul>
-  <li>Development of informatics tools to help the analysis of the evolution of Xyllela fastidiosa using the Python 2.7 programming language.</i>
+  <li>Development of informatics tools to help DNA analysis to understand the evolution of the <i>Xyllela fastidiosa</i> bacteria, using Python 2.7.</i>
   <li>Installation of an Amazon Machine Image based on Linux (for Amazon Web Services)</li>
-</ul><br>
-Skills: Python, DNA sequence analysis
-`,
+</ul>`,
     
     FOUR_EXPE_TITLE: "Laboratory technician",
     FOUR_EXPE_COMPANY: "3 months during 2011 at <i>INSERM</i> in Nice, France",
@@ -152,18 +149,16 @@ La découverte de nouveaux domaines me motivent beaucoup, c'est pourquoi j'ai su
   <li>Développement de <a href='https://github.com/vemonet/talend4sw' target='_blank'>composants d’ETL Talend</a> en Java pour le web sémantique.</li>
   <li>Conversion de bases de données biologiques au format RDF (PubMed, neXtProt) avec Java et l'ETL Talend.</li>
   <li>Mise en place d’une plateforme Hadoop pour le Big Data sur des serveurs CentOS</li>
-</ul><br>
-Skills : semantic web, Java, JSON/XML, RESTful services, ETL.<br>
+</ul>
 Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank'>Bio2RDF Release 3: A Larger Connected Network of Linked Data for the Life Sciences</a>`,
     
     THREE_EXPE_TITLE: "Assistant de recherche en BioInformatique",
     THREE_EXPE_COMPANY: "3 mois en 2012 à <a href='https://nature.berkeley.edu/almeidalab/' target='_blank'>Almeida lab</a> à <i>University of California Berkeley</i>",
     THREE_EXPE_TXT: `
 <ul>
-  <li>Création de programmes d'analyses de séquences ADN dans le cadre de l'analyse de l'évolution de la bactérie Xyllela fastidiosa en utilisant le langage de programmation Python 2.7.</i>
+  <li>Création de programmes d'analyses de séquences ADN dans le cadre de l'analyse de l'évolution de la bactérie <i>Xyllela fastidiosa</i>, en utilisant Python 2.7.</i>
   <li>Péparation d'une Amazon Machine Image basé sur Linux (afin de pouvoir utiliser ensuite le service Cloud Amazon Web Service)</li>
-</ul><br>
-Compétences : Python, analyse de séquences ADN`,
+</ul>`,
     
     FOUR_EXPE_TITLE: "Technicien de laboratoire",
     FOUR_EXPE_COMPANY: "3 mois en 2011 à l'INSERM à Nice, France",
