@@ -1,8 +1,9 @@
 [
   {   
     @id: "http://vemonet.github.io",
-    @type: "foaf:person",
-
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#CV",
+    
+    aboutPerson: "http://vemonet.github.io",
 
     PROJECTS_TITLE: "Projects",
     SKILLS_TITLE: "Skills",
@@ -204,11 +205,20 @@
     }
   },
   {
-    @id: "http://vemonet.github.io",
+    @id: "http://vemonet.github.io/person/VincentEmonet",
     @type: "http://xmlns.com/foaf/0.1/person"
     name: "Vincent Emonet",
+    givenName: "Vincent",
+    familyName: "Emonet",
+    firstName: "Vincent",
+    lastName: "Emonet",
+    gender: "male",
+    birthday: "11-13-1991",
+    phone: "+33 6 75 72 59 52",
+    publications: "https://hal.archives-ouvertes.fr/search/index/q/*/authFullName_s/Vincent+Emonet",
     homepage: "http://vemonet.github.io/",
-    img: "aaa",
+    workplaceHomepage: "http://www.lirmm.fr/",
+    img: "https://vemonet.github.io/images/picture_vincent_emonet.jpg",
     
     @context {
       @vocab: "http://xmlns.com/foaf/0.1/",
@@ -216,5 +226,278 @@
       rdfs: "http://www.w3.org/2000/01/rdf-schema#",
       cv:	"http://rdfs.org/resume-rdf/cv.rdfs#"
     }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/java",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "Java",
+      "fr": "Java"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/ruby",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "Ruby (on Rails)",
+      "fr": "Ruby (on Rails)"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/python",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "Python",
+      "fr": "Python"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/git",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "Git",
+      "fr": "Git"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/docker",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "Docker",
+      "fr": "Docker"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/talend",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "Talend ETL",
+      "fr": "Talend ETL"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/linux",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "Linux",
+      "fr": "Linux"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/sparql",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "SPARQL",
+      "fr": "SPARQL"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/hadoop",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "Hadoop",
+      "fr": "Hadoop"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/aaaa",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "aaaaaa",
+      "fr": "aaaaaa"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/sql",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "SQL",
+      "fr": "SQL"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/restapi",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "Restful API",
+      "fr": "Restful API"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/json",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "JSON",
+      "fr": "JSON"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/xml",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "XML",
+      "fr": "XML"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/html",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "HTML5",
+      "fr": "HTML5"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/css",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "CSS",
+      "fr": "CSS"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
+  },
+  {
+    @id: "http://vemonet.github.io/skill/js",
+    @type: "http://rdfs.org/resume-rdf/cv.rdfs#Skill"
+  
+    label: {
+      "en": "JavaScript",
+      "fr": "JavaScript"
+    }
+    @context {
+      @vocab: "http://rdfs.org/resume-rdf/cv.rdfs#",
+      label: {
+        @id: "http://www.w3.org/2000/01/rdf-schema#label",
+        @container: "@language"
+      }
+    }
   }
+  
 ]
