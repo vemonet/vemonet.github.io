@@ -10,16 +10,16 @@ app.config(function ($translateProvider) {
     DDL_CV_FILE: 'resources/RESUME_VincentEmonet.pdf',
     
     ABOUT_ME_H2: "About me",
-    ABOUT_TEXT: `I am actually working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier). On different project linked to the semantic Web and ontologies:
+    ABOUT_TEXT: `I am currently working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier) on a number of projects linked to the semantic Web and ontologies:
 <ul>
   <li>SIFR BioPortal and AgroPortal web services: two web ontology repositories allowing users to annotate text with the stored ontologies.</li>
   <li>Yam++: a web tool to discover mappings between ontologies.</li>
 </ul>
-<p>It made me consolidate my developping skills (Java, Web, Ruby) and my knowledge about the semantic web, Linked Data and ontologies. I also discovered Natural Language Processing, and various tools like Docker.</p>
+<p>This work has allowed me to consolidate both my developing skills (Java, Web, Ruby) and my knowledge of the Semantic Web, Linked Data and ontologies. I have been introduced to Natural Language Processing and have learnt to use various tools, including Docker.</p>
 
-<p>Before that, while obtaining my Master degree in bioinformatics, I was part of the Bio2RDF project at the research center of the Quebec University Hospital. Where I worked knowledge on Java, data processing (using ETL), Linked Data and Big Data.</p>
+<p>While completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and Big Data.</p>
 
-<p>Discovering new horizons is a great motivation, which allows me to quickly adapt myself to new situations and technologies with little help. But as someone pretty social, working in collaboration with a team is also something that I am actively looking for.</p>`,
+<p>Making new discoveries acts a great source of motivation for me. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for. </p>`,
     
     PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and accessing those data.',
     PROJECT_BIOPORTAL: 'Services to store ontologies, explore it and use it to annotate text (french and agronomical ontologies).',
@@ -37,7 +37,7 @@ app.config(function ($translateProvider) {
   <li>Kept compatibility with main version of the <a href='http://bioportal.bioontology.org' target='_blank'>NCBO BioPortal</a> (tests)</li>
   <li>Packaged, integrated and documented Natural Language Processing programs for the <a href='https://gite.lirmm.fr/advanse' target='_blank'>ADVANSE</a> team, available at <a href='https://advanse.lirmm.fr' target='_blank'>advanse.lirmm.fr</a> (Java, AngularJS, Linux)</li>
   <li>Enhanced and packaged the <a href='https://gite.lirmm.fr/opendata' target='_blank'>YAM++ ontologies matching tool</a> (Java)</li>
-  <li>Developped a <a href='http://yamplusplus.lirmm.fr/' target='_blank'>web interface</a> for ontologies mappings validation (JEE)</li>
+  <li>Developed a <a href='http://yamplusplus.lirmm.fr/' target='_blank'>web interface</a> for ontologies mappings validation (JEE)</li>
 </ul>`,
     
     TWO_EXPE_TITLE: "JAVA/Talend developer",
