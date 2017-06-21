@@ -19,7 +19,7 @@ app.config(function ($translateProvider) {
 
 <p>While completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and Big Data.</p>
 
-<p>Making new discoveries acts a great source of motivation for me. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for. </p>`,
+<p>Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including long-distance cycling, mountain biking, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.</p>`,
     
     PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and accessing those data.',
     PROJECT_BIOPORTAL: 'Services to store ontologies, explore it and use it to annotate text (french and agronomical ontologies).',
@@ -119,7 +119,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
 
 <p>C'est après l'obtention de mon Master en bioinformatique, que j'ai découvert le domaine du Web sémantique, lié à la recherche en biologie. Le projet Bio2RDF (conversion de base de données biologique au format RDF) au Québec, m'a permis d'en apprendre beaucoup sur la gestion et le traitement de données par l'utilisation d'ETL et de Java (développement de composants Talend). Tout en me familiarisant avec les modèles de données liées (Linked Data) et le Big Data. Avant de travailler pour le LIRMM.</p>
 
-<p>La découverte de nouveaux domaines me motivent beaucoup, c'est pourquoi j'ai su rapidement m'adapter à des situations et des technologies qui m'étaient inconnues avec peu d'aide extérieur. Mais étant assez social, je porte beaucoup d'importance au travail d'équipe.</p>`,
+<p>La découverte de nouveaux domaines est une grande source de motivation. Cette curiosité me pousse également dans d'autres domaines. Je pratique différents sports extérieurs tel que le VTT, le cyclo-tourisme, l'Ultimate frisbee, la randonnée ou le trail et ai voyagé à différents endroits en Europe et Amérique du Nord. C'est pourquoi j'ai su rapidement m'adapter à des situations et des technologies qui m'étaient inconnues avec peu d'aide extérieur. Mais étant assez social, je porte beaucoup d'importance au travail d'équipe.</p>`,
     
     PROJECT_BIO2RDF: 'Conversion de bases de données biologiques au format RDF et accès à ces données.',
     PROJECT_BIOPORTAL: "Services permettant de stocker des ontologies, les explorer et les utiliser pour annotater du texte (ontologies françaises et du domaine de l'agronomie).",
