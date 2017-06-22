@@ -19,7 +19,7 @@ app.config(function ($translateProvider) {
 
 <p>While completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and Big Data.</p>
 
-<p>Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including long-distance cycling, mountain biking, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.</p>`,
+<p>Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.</p>`,
     
     PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and accessing those data.',
     PROJECT_BIOPORTAL: 'Services to store ontologies, explore it and use it to annotate text (french and agronomical ontologies).',
