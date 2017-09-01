@@ -9,7 +9,6 @@ app.config(function ($translateProvider) {
     DDL_CV_LABEL: 'Resume',
     DDL_CV_FILE: 'resources/RESUME_VincentEmonet.pdf',
     
-    ABOUT_ME_H2: "About me",
     ABOUT_TEXT: `I am currently working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier) on a number of projects linked to the semantic Web and ontologies:
 <ul>
   <li>SIFR BioPortal and AgroPortal web services: two web ontology repositories allowing users to annotate text with the stored ontologies.</li>
@@ -109,7 +108,6 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     DDL_CV_LABEL: 'CV',
     DDL_CV_FILE: 'resources/CV_VincentEmonet.pdf',
     
-    ABOUT_ME_H2: 'A propos',
     ABOUT_TEXT: `Je travaille actuellement en tant qu'ingénieur d'étude au LIRMM (Laboratoire d'informatique, de Robotique, de Microélectronique de Montpellier) sur plusieurs projets liés au Web sémantique : 
 <ul>
   <li>AgroPortal et BioPortal : deux portails d'ontologies permettant d'exploiter les ontologies stockées et d'annoter des données.</li>
