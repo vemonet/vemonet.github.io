@@ -9,14 +9,14 @@ app.config(function ($translateProvider) {
     DDL_CV_LABEL: 'Resume',
     DDL_CV_FILE: 'resources/RESUME_VincentEmonet.pdf',
     
-    ABOUT_TEXT: `I am currently working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier) on a number of projects linked to the semantic Web and ontologies:
+    ABOUT_TEXT: `Previously working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier) on a number of projects linked to the semantic web and ontologies:
 <ul>
   <li>SIFR BioPortal and AgroPortal web services: two web ontology repositories allowing users to annotate text with the stored ontologies.</li>
   <li>Yam++: a web tool to discover mappings between ontologies.</li>
 </ul>
-<p>This work has allowed me to consolidate both my developing skills (Java, Web, Ruby) and my knowledge of the Semantic Web, Linked Data and ontologies. I have been introduced to Natural Language Processing and have learnt to use various tools, including Docker.</p>
+<p>This work has allowed me to consolidate both my developing skills (Java, Web, Ruby) and my knowledge of the semantic web, linked data and ontologies. I have been introduced to Natural Language Processing and have learnt to use various tools, including Docker.</p>
 
-<p>While completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and Big Data.</p>
+<p>While completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and big amount of data.</p>
 
 <p>Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.</p>`,
     
@@ -33,7 +33,7 @@ app.config(function ($translateProvider) {
 <ul>
   <li>Administration of <a href='http://bioportal.lirmm.fr' target='_blank'>SIFR BioPortal</a> and <a href='http://agroportal.lirmm.fr' target='_blank'>IBC AgroPortal</a> platforms, used for ontology storage, exploration and text annotation</li>
   <li>New features development for <a href='https://github.com/sifrproject' target='_blank'>BioPortal services</a> (Ruby on Rails & Java) : ontologies metadata, mappings, text annotation</li>
-  <li>Kept compatibility with main version of the <a href='http://bioportal.bioontology.org' target='_blank'>NCBO BioPortal</a> (tests)</li>
+  <li>Kept compatibility with main version of the <a href='http://bioportal.bioontology.org' target='_blank'>NCBO BioPortal</a> (tests). And provided help fixing ontologies.</li>
   <li>Packaged, integrated and documented Natural Language Processing programs for the <a href='https://gite.lirmm.fr/advanse' target='_blank'>ADVANSE</a> team, available at <a href='https://advanse.lirmm.fr' target='_blank'>advanse.lirmm.fr</a> (Java, AngularJS, Linux)</li>
   <li>Enhanced and packaged the <a href='https://gite.lirmm.fr/opendata' target='_blank'>YAM++ ontologies matching tool</a> (Java)</li>
   <li>Developed a <a href='http://yamplusplus.lirmm.fr/' target='_blank'>web interface</a> for ontologies mappings validation (JEE)</li>
@@ -108,14 +108,14 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     DDL_CV_LABEL: 'CV',
     DDL_CV_FILE: 'resources/CV_VincentEmonet.pdf',
     
-    ABOUT_TEXT: `Je travaille actuellement en tant qu'ingénieur d'étude au LIRMM (Laboratoire d'informatique, de Robotique, de Microélectronique de Montpellier) sur plusieurs projets liés au Web sémantique : 
+    ABOUT_TEXT: `Je travaillais précédemment en tant qu'ingénieur d'étude au LIRMM (Laboratoire d'informatique, de Robotique, de Microélectronique de Montpellier) sur plusieurs projets liés au web sémantique : 
 <ul>
   <li>AgroPortal et BioPortal : deux portails d'ontologies permettant d'exploiter les ontologies stockées et d'annoter des données.</li>
   <li>Yam++ : un outil web permettant de découvrir des mappings entre ontologies.</li>
 </ul>
 <p>Ces projets m'ont permis de renforcer mes compétences en développement (Java, Web, Ruby) et dans le domaine des ontologies. Ainsi que de découvrir le Natural Language Processing.</p>
 
-<p>C'est après l'obtention de mon Master en bioinformatique, que j'ai découvert le domaine du Web sémantique, lié à la recherche en biologie. Le projet Bio2RDF (conversion de base de données biologique au format RDF) au Québec, m'a permis d'en apprendre beaucoup sur la gestion et le traitement de données par l'utilisation d'ETL et de Java (développement de composants Talend). Tout en me familiarisant avec les modèles de données liées (Linked Data) et le Big Data. Avant de travailler pour le LIRMM.</p>
+<p>C'est après l'obtention de mon Master en bioinformatique, que j'ai découvert le domaine du traitement de données et du web sémantique, lié à la recherche en biologie. Le projet Bio2RDF (conversion de base de données biologique au format RDF) au Québec, m'a permis d'en apprendre beaucoup sur la gestion et le traitement de données par l'utilisation d'ETL et de Java (développement de composants Talend). Tout en me familiarisant avec les modèles de données liées (Linked Data) et le Big Data. Avant de travailler pour le LIRMM.</p>
 
 <p>La découverte de nouveaux domaines est une grande source de motivation. Cette curiosité me pousse également dans d'autres domaines. Je pratique différents sports extérieurs tel que le VTT, le cyclo-tourisme, l'Ultimate frisbee, la randonnée ou le trail et ai voyagé à différents endroits en Europe et Amérique du Nord. C'est pourquoi j'ai su rapidement m'adapter à des situations et des technologies qui m'étaient inconnues avec peu d'aide extérieur. Mais étant assez social, je porte beaucoup d'importance au travail d'équipe.</p>`,
     
@@ -132,7 +132,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
 <ul>
   <li>Administration et développement des plateformes de stockage et d'exploitation d'ontologies <a href='http://bioportal.lirmm.fr' target='_blank'>SIFR BioPortal</a> et <a href='http://agroportal.lirmm.fr' target='_blank'>IBC AgroPortal</a></li>
   <li>Implémentations de nouvelles fonctionnalités aux <a href='https://github.com/sifrproject' target='_blank'>services BioPortal</a> (Ruby on Rails et Java) : ontologies metadata, mappings, annotation de texte</li>
-  <li>Gestion de la compatibilité avec la version principale du <a href='http://bioportal.bioontology.org' target='_blank'>NCBO BioPortal</a></li>
+  <li>Gestion de la compatibilité avec la version principale du <a href='http://bioportal.bioontology.org' target='_blank'>NCBO BioPortal</a> (tests). Et aide à la correction d'ontologies.</li>
   <li>Intégration, consolidation et documentation de programmes de fouilles de données et de traitement du langage naturel pour l'équipe <a href='https://gite.lirmm.fr/advanse' target='_blank'>ADVANSE</a>, accessible à <a href='https://advanse.lirmm.fr' target='_blank'>advanse.lirmm.fr</a> (Java, AngularJS, Linux)</li>
   <li>Amélioration de l’outil de matching d’ontologies <a href='https://gite.lirmm.fr/opendata' target='_blank'>YAM++</a> (Java)</li>
   <li>Développement d’une <a href='http://yamplusplus.lirmm.fr/' target='_blank'>interface web</a> pour la validation de mappings entre ontologies (JEE)</li>
