@@ -95,7 +95,6 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     
     
     SKILLS_TOOL_TITLE: "Tools",
-    SKILLS_WEB_TITLE: "Web technologies",
     SKILLS_LANG_TITLE: "Languages",
     SKILLS_DATA_TITLE: "Data management",
     
@@ -197,7 +196,6 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     
     
     SKILLS_TOOL_TITLE: "Outils",
-    SKILLS_WEB_TITLE: "Technologies du web",
     SKILLS_LANG_TITLE: "Langages",
     SKILLS_DATA_TITLE: "Gestion de données",
     
