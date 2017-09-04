@@ -30,7 +30,7 @@ app.config(function ($translateProvider) {
     WORK_EXPE_TITLE: 'Work experience',
     
     FIRST_EXPE_TITLE: "Semantic Web design engineer",
-    FIRST_EXPE_COMPANY: "2017 - today at <i>LIRMM</i> (Laboratory for informatics, robotics and microelectronics of Montpellier)",
+    FIRST_EXPE_COMPANY: "January 2015 - July 2017 at <i>LIRMM</i> (Laboratory for informatics, robotics and microelectronics of Montpellier)",
     FIRST_EXPE_TXT: `
 <ul>
   <li>Administration of <a href='http://bioportal.lirmm.fr' target='_blank'>SIFR BioPortal</a> and <a href='http://agroportal.lirmm.fr' target='_blank'>IBC AgroPortal</a> platforms, used for ontology storage, exploration and text annotation</li>
@@ -131,7 +131,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     WORK_EXPE_TITLE: 'Expérience professionnelle',
     
     FIRST_EXPE_TITLE: "Ingénieur d'étude Web sémantique",
-    FIRST_EXPE_COMPANY: "2017 - aujourd'hui au <i>LIRMM</i>, Laboratoire d'informatique, de robotique et de microélectronique de Montpellier",
+    FIRST_EXPE_COMPANY: "Janvier 2015 - Juillet 2017 au <i>LIRMM</i>, Laboratoire d'informatique, de robotique et de microélectronique de Montpellier",
     FIRST_EXPE_TXT: `
 <ul>
   <li>Administration et développement des plateformes de stockage et d'exploitation d'ontologies <a href='http://bioportal.lirmm.fr' target='_blank'>SIFR BioPortal</a> et <a href='http://agroportal.lirmm.fr' target='_blank'>IBC AgroPortal</a></li>
