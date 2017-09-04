@@ -41,7 +41,7 @@ app.config(function ($translateProvider) {
   <li>Developed a <a href='http://yamplusplus.lirmm.fr/' target='_blank'>web interface</a> for ontologies mappings validation (JEE)</li>
 </ul>`,
     
-    TWO_EXPE_TITLE: "JAVA/Talend developer",
+    TWO_EXPE_TITLE: "Java/Talend study engineer",
     TWO_EXPE_COMPANY: "9 months in 2013 and 2014 at <i>CHU de Québec</i> research center",
     TWO_EXPE_TXT: `
 <ul>
@@ -143,7 +143,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
   <li>Développement d’une <a href='http://yamplusplus.lirmm.fr/' target='_blank'>interface web</a> pour la validation de mappings entre ontologies (JEE)</li>
 </ul>`,
     
-    TWO_EXPE_TITLE: "Programmeur Java/Talend en BioInformatique",
+    TWO_EXPE_TITLE: "Ingénieur d'étude Java/Talend en BioInformatique",
     TWO_EXPE_COMPANY: "9 mois entre 2013 et 2014 au Centre de recherche du <i>CHU de Québec</i>",
     TWO_EXPE_TXT: `
 <ul>
