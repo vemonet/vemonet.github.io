@@ -34,7 +34,7 @@ app.config(function ($translateProvider) {
     FIRST_EXPE_TXT: `
 <ul>
   <li>Administration of <a href='http://bioportal.lirmm.fr' target='_blank'>SIFR BioPortal</a> and <a href='http://agroportal.lirmm.fr' target='_blank'>IBC AgroPortal</a> platforms, used for ontology storage, exploration and text annotation</li>
-  <li>New features development for <a href='https://github.com/sifrproject' target='_blank'>BioPortal services</a> (Ruby on Rails & Java) : ontologies metadata, mappings, text annotation</li>
+  <li>New features development for <a href='https://github.com/sifrproject' target='_blank'>BioPortal services</a> (Ruby on Rails, Java, SPARQL, Redis) : ontologies metadata, mappings, text annotation</li>
   <li>Kept compatibility with main version of the <a href='http://bioportal.bioontology.org' target='_blank'>NCBO BioPortal</a> (tests). And provided help fixing ontologies.</li>
   <li>Packaged, integrated and documented Natural Language Processing programs for the <a href='https://gite.lirmm.fr/advanse' target='_blank'>ADVANSE</a> team, available at <a href='https://advanse.lirmm.fr' target='_blank'>advanse.lirmm.fr</a> (Java, AngularJS, Linux)</li>
   <li>Enhanced and packaged the <a href='https://gite.lirmm.fr/opendata' target='_blank'>YAM++ ontologies matching tool</a> (Java)</li>
@@ -135,7 +135,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     FIRST_EXPE_TXT: `
 <ul>
   <li>Administration et développement des plateformes de stockage et d'exploitation d'ontologies <a href='http://bioportal.lirmm.fr' target='_blank'>SIFR BioPortal</a> et <a href='http://agroportal.lirmm.fr' target='_blank'>IBC AgroPortal</a></li>
-  <li>Implémentations de nouvelles fonctionnalités aux <a href='https://github.com/sifrproject' target='_blank'>services BioPortal</a> (Ruby on Rails et Java) : ontologies metadata, mappings, annotation de texte</li>
+  <li>Implémentations de nouvelles fonctionnalités aux <a href='https://github.com/sifrproject' target='_blank'>services BioPortal</a> (Ruby on Rails, Java, SPARQL, Redis) : ontologies metadata, mappings, annotation de texte</li>
   <li>Gestion de la compatibilité avec la version principale du <a href='http://bioportal.bioontology.org' target='_blank'>NCBO BioPortal</a> (tests). Et aide à la correction d'ontologies.</li>
   <li>Intégration, consolidation et documentation de programmes de fouilles de données et de traitement du langage naturel pour l'équipe <a href='https://gite.lirmm.fr/advanse' target='_blank'>ADVANSE</a>, accessible à <a href='https://advanse.lirmm.fr' target='_blank'>advanse.lirmm.fr</a> (Java, AngularJS, Linux)</li>
   <li>Amélioration de l’outil de matching d’ontologies <a href='https://gite.lirmm.fr/opendata' target='_blank'>YAM++</a> (Java)</li>
