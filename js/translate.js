@@ -148,7 +148,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     TWO_EXPE_TXT: `
 <ul>
   <li>Participation à l'administration et au développement du projet <a href='http://bio2rdf.org/' target='_blank'>Bio2RDF</a></li>
-  <li>Développement de <a href='https://github.com/bio2rdf/bio2rdf-rest' target="_blank">web services RESTful</a> gestion de données biologiques au format RDF.</li>
+  <li>Développement de <a href='https://github.com/bio2rdf/bio2rdf-rest' target="_blank">services web RESTful</a> pour accéder aux données biologiques converties au format RDF.</li>
   <li>Développement de <a href='https://github.com/vemonet/talend4sw' target='_blank'>composants d’ETL Talend</a> en Java pour le web sémantique.</li>
   <li>Conversion de bases de données biologiques au format RDF (PubMed, neXtProt) avec Java et l'ETL Talend.</li>
   <li>Mise en place d’une plateforme Hadoop pour le Big Data sur des serveurs CentOS</li>
