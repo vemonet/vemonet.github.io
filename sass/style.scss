@@ -203,6 +203,12 @@ h1, h2, h3, h4, h5, h6, figure {
   border-color: $brand-primary;
 }
 
+@media (min-width: 768px) {
+  .navbar-custom .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
 
 /* Change Bootstrap box fonts */
 .panel-title {

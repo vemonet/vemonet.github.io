@@ -97,6 +97,9 @@ h1, h2, h3, h4, h5, h6, figure {
   background-color: #FF9000;
   border-color: #FF9000; }
 
+@media (min-width: 768px) {
+  .navbar-custom .navbar-brand {
+    font-size: 1.5em; } }
 /* Change Bootstrap box fonts */
 .panel-title {
   font-size: 18px;
