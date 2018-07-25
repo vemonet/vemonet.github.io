@@ -14,7 +14,7 @@ app.config(function ($translateProvider) {
   <li>SIFR BioPortal and AgroPortal web services: two web ontology repositories allowing users to annotate text with the stored ontologies.</li>
   <li>Yam++: a web tool to discover mappings between ontologies.</li>
 </ul>
-<p>This work has allowed me to consolidate both my developing skills (Java, Web, Ruby) and my knowledge of the semantic web, linked data and ontologies. I have been introduced to Natural Language Processing and have learnt to use various tools, including Docker.</p>
+<p>This work has allowed me to consolidate both my developing skills (Java, Web, Ruby, Shell) and my knowledge of the semantic web, linked data and ontologies. I have been introduced to Natural Language Processing and have learnt to use various tools, including Docker.</p>
 
 <p>While completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and big amount of data.</p>
 
@@ -116,7 +116,9 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
   <li>AgroPortal et BioPortal : deux portails d'ontologies permettant d'exploiter les ontologies stockées et d'annoter des données.</li>
   <li>Yam++ : un outil web permettant de découvrir des mappings entre ontologies.</li>
 </ul>
-<p>Ces projets m'ont permis de renforcer mes compétences en développement (Java, Web, Ruby) et dans le domaine des ontologies. Ainsi que de découvrir le Natural Language Processing.</p>
+<p>Ces projets m'ont permis de renforcer mes compétences en développement (Java, Web, Ruby, Shell) et dans le domaine des ontologies. Ainsi que de découvrir le Natural Language Processing.</p>
+
+<p>J'ai </p>
 
 <p>C'est après l'obtention de mon Master en bioinformatique, que j'ai découvert le domaine du traitement de données et du web sémantique, lié à la recherche en biologie. Le projet Bio2RDF (conversion de base de données biologique au format RDF) au Québec, m'a permis d'en apprendre beaucoup sur la gestion et le traitement de données par l'utilisation d'ETL et de Java (développement de composants Talend). Tout en me familiarisant avec les modèles de données liées (Linked Data) et le Big Data. Avant de travailler pour le LIRMM.</p>
 
