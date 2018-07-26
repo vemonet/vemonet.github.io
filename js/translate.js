@@ -16,7 +16,9 @@ app.config(function ($translateProvider) {
 </ul>
 <p>This work has allowed me to consolidate both my developing skills (Java, Web, Ruby, Shell) and my knowledge of the semantic web, linked data and ontologies. I have been introduced to Natural Language Processing and have learnt to use various tools, including Docker.</p>
 
-<p>While completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and big amount of data.</p>
+<p>I worked a few more months on Natural Language Understanding by joining the Match Group R&D team to work on a domestic Chatbot solution development. Then I joined the Institute of Data Science in Maastricht University to develop a pipeline converting structured data to RDF format.</p>
+
+<p>But while completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and big amount of data.</p>
 
 <p>Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.</p>
 
@@ -28,6 +30,23 @@ app.config(function ($translateProvider) {
     
     
     WORK_EXPE_TITLE: 'Work experience',
+    
+    SIX_EXPE_TITLE: "Data Science developer",
+    SIX_EXPE_COMPANY: "July 2018 - now in the Institute of Data Science at Maastricht University",
+    SIX_EXPE_TXT: `
+<ul>
+  <li>Development of an automated pipeline for converting structured data to a semantically meaningful RDF format</li>
+</ul>`,
+    
+    FIVE_EXPE_TITLE: "Conversational design engineer",
+    FIVE_EXPE_COMPANY: "October 2017 - June 2018 at <i>Match Group</i> in Paris",
+    FIVE_EXPE_TXT: `
+<ul>
+  <li>Involved in the development of a Natural Language Understanding (NLU) tool to build chatbots</li>
+  <li>Designed conversational patterns using API.ai framework</li>
+  <li>Analyzed conversations flow using tools like Google Analytics</li>
+  <li>Managed the multilingual aspect and translations in 6 languages of the NLU tool developed</li>
+</ul>`,
     
     FIRST_EXPE_TITLE: "Semantic Web design engineer",
     FIRST_EXPE_COMPANY: "January 2015 - July 2017 at <i>LIRMM</i> (Laboratory for informatics, robotics and microelectronics of Montpellier)",
@@ -118,9 +137,9 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
 </ul>
 <p>Ces projets m'ont permis de renforcer mes compétences en développement (Java, Web, Ruby, Shell) et dans le domaine des ontologies. Ainsi que de découvrir le Natural Language Processing.</p>
 
-<p>J'ai </p>
+<p>J'ai continué à travailler sur des problématiques liées à la compréhension du langage naturel en rejoignant l'équipe R&D de Meetic pour travailler sur le développement d'un chatbot. Avant d'intégrer l'Institute of Data Science à Maastricht University pour développer un pipeline afin de convertir des données structurées au format RDF.</p>
 
-<p>C'est après l'obtention de mon Master en bioinformatique, que j'ai découvert le domaine du traitement de données et du web sémantique, lié à la recherche en biologie. Le projet Bio2RDF (conversion de base de données biologique au format RDF) au Québec, m'a permis d'en apprendre beaucoup sur la gestion et le traitement de données par l'utilisation d'ETL et de Java (développement de composants Talend). Tout en me familiarisant avec les modèles de données liées (Linked Data) et le Big Data. Avant de travailler pour le LIRMM.</p>
+<p>Mais c'est après l'obtention de mon Master en bioinformatique que j'ai découvert le domaine du traitement de données et du web sémantique, lié à la recherche en biologie. Le projet Bio2RDF (conversion de base de données biologique au format RDF) au Québec, m'a permis d'en apprendre beaucoup sur la gestion et le traitement de données par l'utilisation d'ETL et de Java (développement de composants Talend). Tout en me familiarisant avec les modèles de données liées (Linked Data) et le Big Data. Avant de travailler pour le LIRMM.</p>
 
 <p>La découverte de nouveaux domaines est une grande source de motivation. Cette curiosité me pousse également dans d'autres domaines. Je pratique différents sports extérieurs tel que le VTT, le cyclo-tourisme, l'Ultimate frisbee, la randonnée ou le trail et ai voyagé à différents endroits en Europe et Amérique du Nord. C'est pourquoi j'ai su rapidement m'adapter à des situations et des technologies qui m'étaient inconnues avec peu d'aide extérieur. Mais étant assez social, je porte beaucoup d'importance au travail d'équipe.</p>
 
@@ -132,7 +151,24 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     
     
     WORK_EXPE_TITLE: 'Expérience professionnelle',
+      
+    SIX_EXPE_TITLE: "Développeur informatique spécialisé dans la science des données",
+    SIX_EXPE_COMPANY: "Juillet 2018 - aujourd'hui au <i>Data Science institute</i> à Maastricht University",
+    SIX_EXPE_TXT: `
+<ul>
+  <li>Développement d'un pipeline automatisé afin de convertir des données structurées en RDF.</li>
+</ul>`,
     
+    FIVE_EXPE_TITLE: "Ingénieur chatbot",
+    FIVE_EXPE_COMPANY: "Octobre 2017 - Juin 2018 chez <i>Meetic</i> à Paris",
+    FIVE_EXPE_TXT: `
+<ul>
+  <li>Participation au développement d'un outil de compréhension du langage naturel pour construire un chatbot</li>
+  <li>Mise en place de flux conversationnel en utilisant le framework DialogFlow</li>
+  <li>Analyse de conversations en utilisant Google Analytics</li>
+  <li>Gestion de la traduction en 6 langages et de l'aspect multilingue de l'outil développé</li>
+</ul>`,
+      
     FIRST_EXPE_TITLE: "Ingénieur d'étude Web sémantique",
     FIRST_EXPE_COMPANY: "Janvier 2015 - Juillet 2017 au <i>LIRMM</i>, Laboratoire d'informatique, de robotique et de microélectronique de Montpellier",
     FIRST_EXPE_TXT: `
