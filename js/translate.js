@@ -43,7 +43,7 @@ app.config(function ($translateProvider) {
     FIVE_EXPE_TXT: `
 <ul>
   <li>Involved in the development of a Natural Language Understanding (NLU) tool to build chatbots</li>
-  <li>Designed conversational patterns using API.ai framework</li>
+  <li>Designed conversational patterns using DialogFlow framework</li>
   <li>Analyzed conversations flow using tools like Google Analytics</li>
   <li>Managed the multilingual aspect and translations in 6 languages of the NLU tool developed</li>
 </ul>`,
@@ -159,7 +159,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
   <li>Développement d'un pipeline automatisé afin de convertir des données structurées en RDF.</li>
 </ul>`,
     
-    FIVE_EXPE_TITLE: "Ingénieur chatbot",
+    FIVE_EXPE_TITLE: "Ingénieur design conversationnel",
     FIVE_EXPE_COMPANY: "Octobre 2017 - Juin 2018 chez <i>Meetic</i> à Paris",
     FIVE_EXPE_TXT: `
 <ul>
