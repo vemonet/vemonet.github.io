@@ -94,7 +94,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
   <li>Knowledges in biotechnology and physiology.</li>
 </ul>`,
     
-    TWO_EDU_TITLE: "Licence Génie physiologique et informatique",
+    TWO_EDU_TITLE: "Bachelor's degree in physiological and computer engineering",
     TWO_EDU_LOCATION: "2011 - 2012 at <i>University of Poitiers</i>, France",
     TWO_EDU_TXT: `
 <ul>

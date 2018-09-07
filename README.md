@@ -11,6 +11,8 @@ To begin using this template, choose one of the following options to get started
 
 ## To do
 
+* In Publications add a link to https://www.researchgate.net/scientific-contributions/2077861418_Vincent_Emonet
+
 * 2 download links: vCard and Resume PDF
 
 * Voyages: faire une page simple avec des titres (California, Benelux)
