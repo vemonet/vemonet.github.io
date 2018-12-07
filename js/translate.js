@@ -16,7 +16,7 @@ app.config(function ($translateProvider) {
 </ul>
 <p>This work has allowed me to consolidate both my developing skills (Java, Web, Ruby, Shell) and my knowledge of the semantic web, linked data and ontologies. I have been introduced to Natural Language Processing and have learnt to use various tools, including Docker.</p>
 
-<p>I worked a few more months on Natural Language Understanding by joining the Match Group R&D team to work on a domestic Chatbot solution development. Then I joined the Institute of Data Science in Maastricht University to develop a pipeline converting structured data to RDF format.</p>
+<p>I worked a few more months on Natural Language Understanding by joining the Match Group R&D team to work on a domestic Chatbot solution development. Then I joined the Institute of Data Science in Maastricht University to develop a framework to generate services out of structured data using semantically meaningful data model.</p>
 
 <p>But while completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and big amount of data.</p>
 
@@ -27,7 +27,7 @@ app.config(function ($translateProvider) {
     PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and accessing those data.',
     PROJECT_BIOPORTAL: 'Services to store, explore and use ontologies for text annotation (french and agronomical ontologies).',
     PROJECT_YAMPP: 'Tool to align ontologies, with a web UI to curate generated mappings.',
-    PROJECT_D2S: 'Framework to generate services out of structured data using semantically meaningful model.',
+    PROJECT_D2S: 'Framework to generate services out of structured data using semantically meaningful data model.',
     
     
     WORK_EXPE_TITLE: 'Work experience',
@@ -150,7 +150,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     PROJECT_BIO2RDF: 'Conversion de bases de données biologiques au format RDF et accès à ces données.',
     PROJECT_BIOPORTAL: "Services permettant de stocker des ontologies, les explorer et les utiliser pour annotater du texte (ontologies françaises et du domaine de l'agronomie).",
     PROJECT_YAMPP: 'Outils pour aligner des ontologies avec interface web pour valider les mappings générés.',
-    PROJECT_D2S: 'Framework permettant de générer automatiquement des services à partir de données structurées:',
+    PROJECT_D2S: 'Framework permettant de générer automatiquement des services à partir de données structurées.',
     
     
     WORK_EXPE_TITLE: 'Expérience professionnelle',
