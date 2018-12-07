@@ -25,8 +25,9 @@ app.config(function ($translateProvider) {
 <p>Feel free to contact me for more details.</p>`,
     
     PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and accessing those data.',
-    PROJECT_BIOPORTAL: 'Services to store ontologies, explore it and use it to annotate text (french and agronomical ontologies).',
-    PROJECT_YAMPP: 'Tool to align ontologies, with a web UI to curate generated mappings.',    
+    PROJECT_BIOPORTAL: 'Services to store, explore and use ontologies for text annotation (french and agronomical ontologies).',
+    PROJECT_YAMPP: 'Tool to align ontologies, with a web UI to curate generated mappings.',
+    PROJECT_D2S: 'Pipeline to convert structured data to a semantically meaningful format.',
     
     
     WORK_EXPE_TITLE: 'Work experience',
@@ -35,7 +36,8 @@ app.config(function ($translateProvider) {
     SIX_EXPE_COMPANY: "July 2018 - now in the Institute of Data Science at Maastricht University",
     SIX_EXPE_TXT: `
 <ul>
-  <li>Development of an automated pipeline for converting structured data to a semantically meaningful RDF format</li>
+  <li>Development of <a href="https://github.com/MaastrichtU-IDS/data2services-pipeline">data2services</a>, an automated pipeline to convert structured data to a semantically meaningful format (Docker, Java)</li>
+  <li>Conversion of structured data, such as DrugBank and HGNC, to a semantically relevant RDF (SPARQL)</li>
 </ul>`,
     
     FIVE_EXPE_TITLE: "Conversational design engineer",
@@ -148,6 +150,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     PROJECT_BIO2RDF: 'Conversion de bases de données biologiques au format RDF et accès à ces données.',
     PROJECT_BIOPORTAL: "Services permettant de stocker des ontologies, les explorer et les utiliser pour annotater du texte (ontologies françaises et du domaine de l'agronomie).",
     PROJECT_YAMPP: 'Outils pour aligner des ontologies avec interface web pour valider les mappings générés.',
+    PROJECT_D2S: 'Pipeline automatisé afin de convertir des données structurées au format RDF.',
     
     
     WORK_EXPE_TITLE: 'Expérience professionnelle',
@@ -156,7 +159,8 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     SIX_EXPE_COMPANY: "Juillet 2018 - aujourd'hui au <i>Data Science institute</i> à Maastricht University",
     SIX_EXPE_TXT: `
 <ul>
-  <li>Développement d'un pipeline automatisé afin de convertir des données structurées en RDF.</li>
+  <li>Développement de <a href="https://github.com/MaastrichtU-IDS/data2services-pipeline">data2services</a>, un pipeline automatisé afin de convertir des données structurées en RDF (Docker, Java)</li>
+  <li>Conversion de base de données, tel que DrugBank ou HGNC, au format RDF (SPARQL)</li>
 </ul>`,
     
     FIVE_EXPE_TITLE: "Ingénieur design conversationnel",
