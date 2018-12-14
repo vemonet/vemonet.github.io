@@ -47,7 +47,7 @@ app.config(function ($translateProvider) {
   <li>Involved in the development of a Natural Language Understanding (NLU) tool to build chatbots</li>
   <li>Designed conversational patterns using DialogFlow framework</li>
   <li>Analyzed conversations flow using tools like Google Analytics</li>
-  <li>Managed the multilingual aspect and translations in 6 languages of the NLU tool developed</li>
+  <li>Managed the multilingual aspect and translations in 6 languages of the developed NLU tool</li>
 </ul>`,
     
     FIRST_EXPE_TITLE: "Semantic Web design engineer",
