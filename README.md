@@ -49,6 +49,8 @@ $nav-color-light: #0080FF;
 }
 ```
 
-## Doing the résumé in RDF
+## Doing the CV in RDF
 
 http://rdfs.org/resume-rdf/
+
+Or just generating FOAF: http://www.ldodds.com/foaf/foaf-a-matic
