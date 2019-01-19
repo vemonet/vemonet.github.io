@@ -45,8 +45,8 @@ app.config(function ($translateProvider) {
     FIVE_EXPE_TXT: `
 <ul>
   <li>Involved in the development of a Natural Language Understanding (NLU) tool to build chatbots</li>
-  <li>Designed conversational patterns using DialogFlow framework</li>
-  <li>Analyzed conversations flow using tools like Google Analytics</li>
+  <li>Designed conversational patterns using <a href="https://dialogflow.com/">DialogFlow</a> framework</li>
+  <li>Analyzed conversations flow using tools like <a href="https://analytics.google.com/analytics/web/">Google Analytics</a></li>
   <li>Managed the multilingual aspect and translations in 6 languages of the developed NLU tool</li>
 </ul>`,
     
@@ -168,8 +168,8 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     FIVE_EXPE_TXT: `
 <ul>
   <li>Participation au développement d'un outil de compréhension du langage naturel pour construire un chatbot</li>
-  <li>Mise en place de flux conversationnel en utilisant le framework DialogFlow</li>
-  <li>Analyse de conversations en utilisant Google Analytics</li>
+  <li>Mise en place de flux conversationnel en utilisant le framework <a href="https://dialogflow.com/">DialogFlow</a></li>
+  <li>Analyse de conversations en utilisant <a href="https://analytics.google.com/analytics/web/">Google Analytics</a></li>
   <li>Gestion de la traduction en 6 langages et de l'aspect multilingue de l'outil développé</li>
 </ul>`,
       
