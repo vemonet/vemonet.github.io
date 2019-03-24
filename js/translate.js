@@ -37,7 +37,9 @@ app.config(function ($translateProvider) {
     SIX_EXPE_TXT: `
 <ul>
   <li>Development of <a href="https://github.com/MaastrichtU-IDS/data2services-pipeline">data2services</a>, a framework to generate services out of structured data using semantically meaningful data model (Docker, Java)</li>
-  <li>Conversion of structured data, such as DrugBank and HGNC, to a semantically relevant RDF (SPARQL)</li>
+  <li>Conversion of structured data, such as DrugBank and HGNC, to the <a href="https://biolink.github.io/biolink-model/">BioLink</a> model; a semantically relevant RDF model for bioentities associations (<a href="http://graphdb.dumontierlab.com/">SPARQL</a>)</li>
+  <li>Published <i><a href="https://ndownloader.figshare.com/files/13573628">Data2Services: enabling automated conversion of data to services</a></i> at <a href="http://www.swat4ls.org/">SWAT4LS</a></li>
+  <li>Built RDF knowledge graphs to perform graph embeddings</li>
 </ul>`,
     
     FIVE_EXPE_TITLE: "Conversational design engineer",
@@ -155,12 +157,14 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     
     WORK_EXPE_TITLE: 'Expérience professionnelle',
       
-    SIX_EXPE_TITLE: "Développeur informatique spécialisé dans la science des données",
+    SIX_EXPE_TITLE: "Développeur en science des données",
     SIX_EXPE_COMPANY: "Juillet 2018 - aujourd'hui au <i>Data Science institute</i> à Maastricht University",
     SIX_EXPE_TXT: `
 <ul>
   <li>Développement de data2services, un framework permettant de générer automatiquement des services à partir de données structurées (Docker, Java)</li>
-  <li>Conversion de base de données, tel que DrugBank ou HGNC, au format RDF (SPARQL)</li>
+  <li>Conversion de base de données, tel que DrugBank ou HGNC, au format RDF suivant le modèle de données <a href="https://biolink.github.io/biolink-model/">BioLink</a>, pour les associations entre entités biologiques (<a href="http://graphdb.dumontierlab.com/">SPARQL</a>)</li>
+  <li>Publication de <i><a href="https://ndownloader.figshare.com/files/13573628">Data2Services: enabling automated conversion of data to services</a></i> à <a href="http://www.swat4ls.org/">SWAT4LS</a></li>
+  <li>Développement de graphs RDF pour appliquer des algorithmes de graph embeddings</li>
 </ul>`,
     
     FIVE_EXPE_TITLE: "Ingénieur design conversationnel",
