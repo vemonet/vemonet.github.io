@@ -314,6 +314,10 @@ ul.f32 li {
   max-height: 50px;
   margin: 5px; }
 
+#projects .panel-body img {
+  max-height: 50px;
+  margin: 5px; }
+
 .list-group {
   text-align: center; }
 
