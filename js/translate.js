@@ -9,7 +9,9 @@ app.config(function ($translateProvider) {
     DDL_CV_LABEL: 'Resume',
     DDL_CV_FILE: 'resources/RESUME_VincentEmonet.pdf',
     
-    ABOUT_TEXT: `Previously working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier) on a number of projects linked to the semantic web and ontologies:
+    ABOUT_TEXT: `<p><i>I like RDF, SPARQL, and biking. I like diversity, but also standards.</i></p>
+
+    Previously working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier) on a number of projects linked to the semantic web and ontologies:
 <ul>
   <li>SIFR BioPortal and AgroPortal web services: two web ontology repositories allowing users to annotate text with the stored ontologies.</li>
   <li>Yam++: a web tool to discover mappings between ontologies.</li>
@@ -134,7 +136,9 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     DDL_CV_LABEL: 'CV',
     DDL_CV_FILE: 'resources/CV_VincentEmonet.pdf',
     
-    ABOUT_TEXT: `Je travaillais précédemment en tant qu'ingénieur d'étude au LIRMM (Laboratoire d'informatique, de Robotique, de Microélectronique de Montpellier) sur plusieurs projets liés au web sémantique : 
+    ABOUT_TEXT: `<p><i>J'aime RDF, SPARQL, and faire du vélo. J'aime la diversité, mais aussi les standards.</i></p>
+
+Je travaillais précédemment en tant qu'ingénieur d'étude au LIRMM (Laboratoire d'informatique, de Robotique, de Microélectronique de Montpellier) sur plusieurs projets liés au web sémantique : 
 <ul>
   <li>AgroPortal et BioPortal : deux portails d'ontologies permettant d'exploiter les ontologies stockées et d'annoter des données.</li>
   <li>Yam++ : un outil web permettant de découvrir des mappings entre ontologies.</li>
