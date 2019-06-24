@@ -120,7 +120,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     SKILLS_TOOL_TITLE: "Tools",
     SKILLS_LANG_TITLE: "Languages",
     SKILLS_DATA_TITLE: "Data management",
-    SKILLS_SPEAK_TITLE: "Langages spoken",
+    SKILLS_SPEAK_TITLE: "Languages spoken",
     
     PUBLICATIONS_TEXT:""
     
