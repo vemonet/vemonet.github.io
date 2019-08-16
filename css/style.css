@@ -101,6 +101,10 @@ h1, h2, h3, h4, h5, h6, figure {
 @media (min-width: 768px) {
   .navbar-custom .navbar-brand {
     font-size: 1.5em; } }
+/* Change project images size */
+.project-image {
+  max-height: 50px; }
+
 /* Change Bootstrap box fonts */
 .panel-title {
   font-size: 18px;
