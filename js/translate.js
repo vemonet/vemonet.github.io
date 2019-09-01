@@ -37,6 +37,15 @@ app.config(function ($translateProvider) {
     SIX_EXPE_TXT: `
 <ul>
   <li>Development of <a href="https://github.com/MaastrichtU-IDS/data2services-pipeline">data2services</a>, a framework to generate services out of structured data using semantically meaningful data model (Docker, Java)</li>
+  <li>
+  Development of modules for the <a href="https://github.com/MaastrichtU-IDS/data2services-ecosystem">data2services ecosystem</a>, aiming to make Semantic Web more accessible (Docker)
+  </li>
+  <ul style="list-style-type: circle;">
+    <li><a href="https://github.com/MaastrichtU-IDS/data2services-sparql-operations">data2services-sparql-operations</a>: execute operations on SPARQL endpoints (Java, RDF4J)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/data2services-transform-biolink">data2services-transform-biolink</a>: workflows to transform structured data to RDF (CWL, Argo, SPARQL)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/linked-data-browser">linked-data-browser</a>: modern UI to browse and explore any SPARQL endpoint (ReactJS, SPARQL)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/data2services-download">data2services-download</a>: scripts to download biomedical datasets (Bash)</li>
+  </ul>
   <li>Conversion of structured data, such as DrugBank and HGNC, to the <a href="https://biolink.github.io/biolink-model/">BioLink</a> model; a semantically relevant RDF model for bioentities associations (<a href="http://graphdb.dumontierlab.com/">SPARQL</a>)</li>
   <li>Published <i><a href="https://ndownloader.figshare.com/files/13573628">Data2Services: enabling automated conversion of data to services</a></i> at <a href="http://www.swat4ls.org/">SWAT4LS</a></li>
   <li>Built RDF knowledge graphs to perform graph embeddings</li>
@@ -162,6 +171,15 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     SIX_EXPE_TXT: `
 <ul>
   <li>Développement de data2services, un framework permettant de générer automatiquement des services à partir de données structurées (Docker, Java)</li>
+  <li>
+  Développement de module pour <a href="https://github.com/MaastrichtU-IDS/data2services-ecosystem">l'écosystème data2services</a>, permettant d'accéder au Web sémantique (Docker)
+  </li>
+  <ul style="list-style-type: circle;">
+    <li><a href="https://github.com/MaastrichtU-IDS/data2services-sparql-operations">data2services-sparql-operations</a>: exécution d'opérations sur des SPARQL endpoints (Java, RDF4J)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/data2services-transform-biolink">data2services-transform-biolink</a>: workflows pour transformer des données structurées en RDF (CWL, Argo, SPARQL)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/linked-data-browser">linked-data-browser</a>: UI moderne pour parcourir et explorer n'importe quel SPARQL endpoint (ReactJS, SPARQL)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/data2services-download">data2services-download</a>: scripts pour télécharger des datasets biomédicaux (Bash)</li>
+  </ul>
   <li>Conversion de base de données, tel que DrugBank ou HGNC, au format RDF suivant le modèle de données <a href="https://biolink.github.io/biolink-model/">BioLink</a>, pour les associations entre entités biologiques (<a href="http://graphdb.dumontierlab.com/">SPARQL</a>)</li>
   <li>Publication de <i><a href="https://ndownloader.figshare.com/files/13573628">Data2Services: enabling automated conversion of data to services</a></i> à <a href="http://www.swat4ls.org/">SWAT4LS</a></li>
   <li>Développement de graphs RDF pour appliquer des algorithmes de graph embeddings</li>
