@@ -118,8 +118,8 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     
     
     SKILLS_TOOL_TITLE: "Tools",
-    SKILLS_LANG_TITLE: "Languages",
-    SKILLS_DATA_TITLE: "Data management",
+    SKILLS_LANG_TITLE: "Languages & frameworks",
+    SKILLS_DATA_TITLE: "Data engineering",
     SKILLS_SPEAK_TITLE: "Languages spoken",
     
     PUBLICATIONS_TEXT:""
@@ -243,7 +243,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     
     
     SKILLS_TOOL_TITLE: "Outils",
-    SKILLS_LANG_TITLE: "Langages",
+    SKILLS_LANG_TITLE: "Langages & frameworks",
     SKILLS_DATA_TITLE: "Gestion de données",
     SKILLS_SPEAK_TITLE: "Langues parlées",
     
