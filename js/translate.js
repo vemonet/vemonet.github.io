@@ -28,7 +28,7 @@ app.config(function ($translateProvider) {
     PROJECT_BIOPORTAL: 'Services to store, explore and use ontologies for text annotation (french and agronomical ontologies).',
     PROJECT_YAMPP: 'Tool to align ontologies, with a web UI to curate generated mappings.',
     PROJECT_D2S: 'Framework to generate services out of structured data using semantically meaningful data model.',
-    
+    PROJECT_DSRI: 'The <a href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</a>, an OpenShift cluster for academic researchers to deploy Data Science services and jobs.',
     
     WORK_EXPE_TITLE: 'Work experience',
     
@@ -163,7 +163,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     PROJECT_BIOPORTAL: "Services permettant de stocker des ontologies, les explorer et les utiliser pour annotater du texte (ontologies françaises et du domaine de l'agronomie).",
     PROJECT_YAMPP: 'Outils pour aligner des ontologies avec interface web pour valider les mappings générés.',
     PROJECT_D2S: 'Framework permettant de générer automatiquement des services à partir de données structurées.',
-    
+    PROJECT_DSRI: 'La <a href="https://maastrichtu-ids.github.io/dsri-documentation">Data Science Research Infrastructure</a>, un cluster OpenShift on-premise pour permettre le deploiement de services et workflow pour la recherche académique.',
     
     WORK_EXPE_TITLE: 'Expérience professionnelle',
       
