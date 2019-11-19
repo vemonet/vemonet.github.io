@@ -9,20 +9,14 @@ app.config(function ($translateProvider) {
     DDL_CV_LABEL: 'Resume',
     DDL_CV_FILE: 'resources/RESUME_VincentEmonet.pdf',
     
-    ABOUT_TEXT: `Previously working as a research engineer at the LIRMM (Laboratory of Informatics, Robotics, Microelectronics of Montpellier) on a number of projects linked to the semantic web and ontologies:
-<ul>
-  <li>SIFR BioPortal and AgroPortal web services: two web ontology repositories allowing users to annotate text with the stored ontologies.</li>
-  <li>Yam++: a web tool to discover mappings between ontologies.</li>
-</ul>
-<p>This work has allowed me to consolidate both my developing skills (Java, Web, Ruby, Shell) and my knowledge of the semantic web, linked data and ontologies. I have been introduced to Natural Language Processing and have learnt to use various tools, including Docker.</p>
+    ABOUT_TEXT: `<p>The aim of my work is build data ecosystems that will enable scientific researchers to make new discoveries. As a data science developer at the Institute of Data Science at Maastricht University, I developed the <a href=”https://maastrichtu-ids.github.io/dsri-documentation/”>Data Science Research Infrastructure</a>, an OpenShift cluster for academic researchers, and <a href=”http://d2s.semanticscience.org/”>Data2Services</a>, a framework to generate services from structured data using a semantically meaningful data model. I also built a RDF knowledge graph that integrates data from biomedical and clinical data sources, was involved in the Knowledge Graph Standardization effort of the <a href=”https://ncats.nih.gov/translator”>NIH NCATS Translator project</a>, and contributed to advancing the <a href=”https://biolink.github.io/biolink-model/docs/”>BioLink model</a>. All these activities have been aimed at building an infrastructure for computationally-assisted exploration of knowledge and innovative research hypotheses.</p>
 
-<p>I worked a few more months on Natural Language Understanding by joining the Match Group R&D team to work on a domestic Chatbot solution development. Then I joined the Institute of Data Science in Maastricht University to develop a framework to generate services out of structured data using semantically meaningful data model.</p>
-
-<p>But while completing my master’s degree in Bioinformatics, I worked on the Bio2RDF project at the Quebec University Hospital research centre. Here, I built up a strong understanding of data processing through my use of ETL and Java began working with Linked Data and big amount of data.</p>
-
-<p>Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.</p>
-
-<p>Feel free to contact me for more details.</p>`,
+    <p>I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <a href=”http://bio2rdf.org/”>Bio2RDF project</a> at Quebec University as part of a Master’s in Bioinformatics. I have since dedicated my career to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice. Before taking my current position at the Institute of Data Science at UM, I worked as a research engineer at the LIRMM in Montpellier on projects to make the semantic web and ontologies more accessible to researchers, such as AgroPortal a portal for agronomical ontologies.</p>
+    
+    <p>Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.</p>
+    
+    <p>Feel free to contact me for more details.</p>
+    `,
     
     PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and accessing those data.',
     PROJECT_BIOPORTAL: 'Services to store, explore and use ontologies for text annotation (french and agronomical ontologies).',
