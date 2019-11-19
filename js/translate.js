@@ -36,7 +36,8 @@ app.config(function ($translateProvider) {
     SIX_EXPE_COMPANY: "July 2018 - now in the Institute of Data Science at Maastricht University",
     SIX_EXPE_TXT: `
 <ul>
-  <li>Development of <a href="https://github.com/MaastrichtU-IDS/data2services-pipeline">data2services</a>, a framework to generate services out of structured data using semantically meaningful data model (Docker, Java)</li>
+  <li>Development of the <a href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</a>, an OpenShift cluster for academic researchers to deploy Data Science services and jobs (Kubernetes, MapR)</li>
+  <li>Development of <a href="https://github.com/MaastrichtU-IDS/data2services-pipeline">Data2Services</a>, a framework to generate services out of structured data using semantically meaningful data model (Kubernetes, Docker, Java)</li>
   <li>
   Development of modules for the <a href="https://github.com/MaastrichtU-IDS/data2services-ecosystem">data2services ecosystem</a>, aiming to make Semantic Web more accessible (Docker)
   </li>
@@ -126,7 +127,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
 </ul>`,
     
     
-    SKILLS_TOOL_TITLE: "Tools",
+    SKILLS_TOOL_TITLE: "DevOps tools",
     SKILLS_LANG_TITLE: "Languages & frameworks",
     SKILLS_DATA_TITLE: "Data engineering",
     SKILLS_SPEAK_TITLE: "Languages spoken",
@@ -170,9 +171,10 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
     SIX_EXPE_COMPANY: "Juillet 2018 - aujourd'hui au <i>Data Science institute</i> à Maastricht University",
     SIX_EXPE_TXT: `
 <ul>
-  <li>Développement de data2services, un framework permettant de générer automatiquement des services à partir de données structurées (Docker, Java)</li>
+  <li>Développement de la <a href="https://maastrichtu-ids.github.io/dsri-documentation">Data Science Research Infrastructure</a>, un cluster OpenShift on-premise pour permettre le deploiement de services et workflow pour la recherche académique (Kubernetes, MapR)</li>
+  <li>Développement de <a href="http://d2s.semanticscience.org/">data2services</a>, un framework permettant de générer automatiquement des services à partir de données structurées (Kubernetes, Docker, Java)</li>
   <li>
-  Développement de module pour <a href="https://github.com/MaastrichtU-IDS/data2services-ecosystem">l'écosystème data2services</a>, permettant d'accéder au Web sémantique (Docker)
+  Développement de module pour <a href="http://d2s.semanticscience.org/docs/d2s-ecosystem">l'écosystème data2services</a>, permettant d'accéder au Web sémantique (Docker)
   </li>
   <ul style="list-style-type: circle;">
     <li><a href="https://github.com/MaastrichtU-IDS/data2services-sparql-operations">data2services-sparql-operations</a>: exécution d'opérations sur des SPARQL endpoints (Java, RDF4J)</li>
@@ -260,7 +262,7 @@ Publication : <a href='http://ceur-ws.org/Vol-1272/paper_121.pdf' target='_blank
 </ul>`,
     
     
-    SKILLS_TOOL_TITLE: "Outils",
+    SKILLS_TOOL_TITLE: "Outils DevOps",
     SKILLS_LANG_TITLE: "Langages & frameworks",
     SKILLS_DATA_TITLE: "Gestion de données",
     SKILLS_SPEAK_TITLE: "Langues parlées",
