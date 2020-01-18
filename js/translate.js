@@ -33,13 +33,12 @@ app.config(function ($translateProvider) {
   <li>Development of the <a href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</a>, an OpenShift cluster for academic researchers to deploy Data Science services and jobs (Kubernetes, MapR)</li>
   <li>Development of <a href="https://github.com/MaastrichtU-IDS/data2services-pipeline">Data2Services</a>, a framework to generate services out of structured data using semantically meaningful data model (Kubernetes, Docker, Java)</li>
   <li>
-  Development of modules for the <a href="https://github.com/MaastrichtU-IDS/data2services-ecosystem">data2services ecosystem</a>, aiming to make Semantic Web more accessible (Docker)
+  Development of modules for the <a href="http://d2s.semanticscience.org/docs/d2s-ecosystem">data2services ecosystem</a>, aiming to make Semantic Web more accessible (Docker)
   </li>
   <ul style="list-style-type: circle;">
-    <li><a href="https://github.com/MaastrichtU-IDS/data2services-sparql-operations">data2services-sparql-operations</a>: execute operations on SPARQL endpoints (Java, RDF4J)</li>
-    <li><a href="https://github.com/MaastrichtU-IDS/data2services-transform-biolink">data2services-transform-biolink</a>: workflows to transform structured data to RDF (CWL, Argo, SPARQL)</li>
-    <li><a href="https://github.com/MaastrichtU-IDS/linked-data-browser">linked-data-browser</a>: modern UI to browse and explore any SPARQL endpoint (ReactJS, SPARQL)</li>
-    <li><a href="https://github.com/MaastrichtU-IDS/data2services-download">data2services-download</a>: scripts to download biomedical datasets (Bash)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/d2s-sparql-operations">d2s-sparql-operations</a>: execute operations on SPARQL endpoints (Java, RDF4J)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/d2s-transform-template">d2s-transform-template</a>: workflows to transform structured data to RDF (CWL, Argo, SPARQL)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/into-the-graph">into-the-graph</a>: Linked data browser to browse and explore any SPARQL endpoint (ReactJS, SPARQL)</li>
   </ul>
   <li>Conversion of structured data, such as DrugBank and HGNC, to the <a href="https://biolink.github.io/biolink-model/">BioLink</a> model; a semantically relevant RDF model for bioentities associations (<a href="http://graphdb.dumontierlab.com/">SPARQL</a>)</li>
   <li>Published <i><a href="https://ndownloader.figshare.com/files/13573628">Data2Services: enabling automated conversion of data to services</a></i> at <a href="http://www.swat4ls.org/">SWAT4LS</a></li>
