@@ -18,7 +18,7 @@ app.config(function ($translateProvider) {
     <p>Feel free to contact me for more details.</p>
     `,
     
-    PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and accessing those data.',
+    PROJECT_BIO2RDF: 'Converting Biological dataset to a RDF Knwoledge Graph.',
     PROJECT_BIOPORTAL: 'Services to store, explore and use ontologies for text annotation (french and agronomical ontologies).',
     PROJECT_YAMPP: 'Tool to align ontologies, with a web UI to curate generated mappings.',
     PROJECT_D2S: 'Framework to generate services out of structured data using semantically meaningful data model.',
@@ -43,6 +43,17 @@ app.config(function ($translateProvider) {
   <li>Conversion of structured data, such as DrugBank and HGNC, to the <a href="https://biolink.github.io/biolink-model/">BioLink</a> model; a semantically relevant RDF model for bioentities associations (<a href="http://graphdb.dumontierlab.com/">SPARQL</a>)</li>
   <li>Published <i><a href="https://ndownloader.figshare.com/files/13573628">Data2Services: enabling automated conversion of data to services</a></i> at <a href="http://www.swat4ls.org/">SWAT4LS</a></li>
   <li>Built RDF knowledge graphs to perform graph embeddings</li>
+  <li>
+    Contributed to multiple Open Source projects (improving deployment, discussing issues)
+  </li>
+  <ul style="list-style-type: circle;">
+    <li><a href="https://github.com/vemonet/vec2sparql">Vec2SPARQL</a>: Docker deployment</li>
+    <li><a href="https://github.com/vemonet/RDFUnit">RDFUnit</a>: Docker and Kubernetes deployments</li>
+    <li><a href="https://github.com/vemonet/jQuery-Widget.js">Comunica widget</a>: Docker deployment</li>
+    <li><a href="https://github.com/vemonet/yarrrml-parser">yarrrml-parser</a>: Docker deployment</li>
+    <li><a href="https://github.com/vemonet/Jupyterlab">Jupyterlab as root user</a>: new features</li>
+    <li><a href="https://github.com/vemonet/flink-on-openshift">flink-on-openshift</a>: created the repo</li>
+  </ul>
 </ul>`,
     
     FIVE_EXPE_TITLE: "Conversational design engineer",

@@ -25,7 +25,7 @@
 
   <p>Discovering new horizons is a great motivation, which allows me to quickly adapt myself to new situations and technologies with little help. But as someone pretty social, working in collaboration with a team is also something that I am actively looking for.</p>`,
 
-    PROJECT_BIO2RDF: 'Converting Biological dataset to RDF format and accessing those data.',
+    PROJECT_BIO2RDF: 'Converting Biological dataset to a RDF Knowledge Graph.',
     PROJECT_BIOPORTAL: 'Services to store ontologies, explore it and use it to annotate text (french and agronomical ontologies).',
     PROJECT_YAMPP: 'Tool to align ontologies, with a web UI to curate generated mappings.',    
 
