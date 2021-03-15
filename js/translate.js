@@ -37,7 +37,7 @@ app.config(function ($translateProvider) {
   </li>
   <ul style="list-style-type: circle;">
     <li><a href="https://github.com/MaastrichtU-IDS/d2s-sparql-operations">d2s-sparql-operations</a>: execute operations on SPARQL endpoints (Java, RDF4J)</li>
-    <li><a href="https://github.com/MaastrichtU-IDS/d2s-transform-template">d2s-transform-template</a>: workflows to transform structured data to RDF (CWL, Argo, SPARQL)</li>
+    <li><a href="https://github.com/MaastrichtU-IDS/d2s-project-template">d2s-project-template</a>: workflows to transform structured data to RDF (CWL, Argo, SPARQL)</li>
     <li><a href="https://github.com/MaastrichtU-IDS/into-the-graph">into-the-graph</a>: Linked data browser to browse and explore any SPARQL endpoint (ReactJS, SPARQL)</li>
   </ul>
   <li>Conversion of structured data, such as DrugBank and HGNC, to the <a href="https://biolink.github.io/biolink-model/">BioLink</a> model; a semantically relevant RDF model for bioentities associations (<a href="http://graphdb.dumontierlab.com/">SPARQL</a>)</li>
