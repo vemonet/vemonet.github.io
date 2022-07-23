@@ -8,6 +8,9 @@
 .cursive {
     font-family: "Great Vibes", cursive;
 }
+.event {
+    margin-bottom: 8px;
+}
 
 .title-vasy {
     font-size: 3.3em;
