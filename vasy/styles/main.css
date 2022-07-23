@@ -10060,22 +10060,16 @@ body {
     margin: 0px 15px 15px 15px;
 }
 
-
-/* :root {
-    --text-color: #6b6a6a;
-    --titles-color: #474445;
-    --links-color: #557a44;
-    --links-hover-color: #afc989;
-}
-.timeline {
+/* .mapWrapper {
     position: relative;
-    left: -527px;
-    top: 20px;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
 }
-.timeline::before {
-    content: "";
-    background: var(--links-color);
-    height: 245px;
-    width: 1px;
+.mapWrapper iframe {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 } */
