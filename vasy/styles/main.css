@@ -45,15 +45,15 @@ body {
 }
 
 /* Home Page Style */
-.ww-home-page {
+/* .homepage {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/main-background.jpg") no-repeat center center;
     background-size: cover;
     background-position: 50%;
     height: 100vh;
     min-height: 480px;
-}
+} */
 
-.ww-home-page:before {
+.homepage:before {
     content: "";
     background-color: rgba(245, 138, 119, 0.2);
     width: 100%;
@@ -77,7 +77,7 @@ body {
 
 
 
-.ww-home-page .vasy-announcement {
+.homepage .vasy-announcement {
     width: 100%;
     /* max-width: 1600px; */
     margin: 0 auto;
@@ -88,30 +88,30 @@ body {
     letter-spacing: 2px;
 }
 
-.ww-home-page .vasy-announcement .ww-announcement-container {
+.homepage .vasy-announcement .ww-announcement-container {
     /* max-width: 600px; */
     text-align: left;
     z-index: 999;
 }
 
-.ww-home-page .vasy-announcement img {
+.homepage .vasy-announcement img {
     max-height: 350px;
     width: auto;
 }
 
 @media (max-width: 480px) {
-    .ww-home-page .vasy-announcement img {
+    .homepage .vasy-announcement img {
         max-height: 250px;
         width: auto;
     }
 }
 
-.ww-home-page .vasy-announcement .ww-couple-name {
+.homepage .vasy-announcement .ww-couple-name {
     font-size: 70px;
 }
 
 @media (max-width: 576px) {
-    .ww-home-page .vasy-announcement .ww-couple-name {
+    .homepage .vasy-announcement .ww-couple-name {
         font-size: 50px;
     }
 }
