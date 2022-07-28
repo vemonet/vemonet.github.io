@@ -2,6 +2,8 @@
 
 CV template: https://freehtml5.co/preview/?item=profile-free-html5-bootstrap-template-for-personal-and-vcard,-resume-websites
 
+Convert image to 300kb (required for WhatsApp thumbnails): https://www.imgonline.com.ua/eng/compress-image-size-result.php
+
 ## Getting Started
 
 To begin using this template, choose one of the following options to get started:
