@@ -1,10 +1,12 @@
-# Vincent Emonet personal website
+# 👤 Vincent Emonet personal website
 
 [![Deploy to GitHub Pages](https://github.com/vemonet/vemonet.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/vemonet/vemonet.github.io/actions/workflows/deploy.yml)
 
-## Getting Started
+Deployed at **https://vemonet.github.io**
 
-Personal website built with Gatsby, TypeScript and [Material UI](https://material-ui.com/).
+## 🔧 Development
+
+Personal website built with [Gatsby](https://www.gatsbyjs.com/), [TypeScript](https://www.typescriptlang.org/) and [Material UI](https://mui.com/core).
 
 ```bash
 yarn
@@ -16,9 +18,11 @@ Start in development:
 yarn dev
 ```
 
-Your site is now running at http://localhost:8000
+The site is now running at http://localhost:8000
 
-_Note: You'll also see a second link: http://localhost:8000/___graphql. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
+Note: there is also another access: http://localhost:8000/___graphql. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
+
+## 📦️ Build
 
 Build in the `public` folder:
 
@@ -28,7 +32,7 @@ yarn build
 
 > All the commands are in the `package.json` > `scripts`.
 
-## Links
+## 🔗 Links
 
 Gatsby website built using https://github.com/Lindeneg/gatsby-material-typescript-starter
 
