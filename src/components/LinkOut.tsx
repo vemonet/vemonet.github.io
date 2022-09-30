@@ -2,7 +2,7 @@ import React from 'react';
 import { useTheme, styled } from '@mui/material/styles';
 import { Link } from "@mui/material";
 
-export default function LinkOut({ children, href }: any) {
+export default function LinkOut({ children, href, target }: any) {
   // const theme = useTheme();
 
   const StyledLink = styled(Link)(({ theme }) => ({
@@ -15,7 +15,7 @@ export default function LinkOut({ children, href }: any) {
   }));
 
   return(
-    <StyledLink href={href} target='_blank'>
+    <StyledLink href={href} target={target || '_blank'}>
       {children}
     </StyledLink>
   )

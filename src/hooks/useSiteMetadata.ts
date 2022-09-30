@@ -21,7 +21,6 @@ export default (): SiteMetadata => {
                     description
                     author {
                         name
-                        # content
                     }
                     social {
                         github

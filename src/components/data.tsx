@@ -7,9 +7,10 @@ export const projects = [
       git_url: 'https://github.com/vemonet/shapes-of-you',
     },
     {
-      title: '♻️ FAIR enough & FAIR test',
+      title: '♻️ FAIR enough',
       langs: ['python', 'typescript'],
-      description: `A python library and a web service where anyone can run evaluations to assess how compliant to the FAIR principles is a resource, given the resource identifier (URI/URL).`,
+      description: `A python library and a web service to define, publish, and execute extensible evaluations
+      of resources online, in order to assess their compliance to the FAIR principles.`,
       website_url: 'https://fair-enough.semanticscience.org',
       docs_url: 'https://maastrichtu-ids.github.io/fair-test',
       git_url: 'https://github.com/MaastrichtU-IDS/fair-enough',
@@ -17,7 +18,7 @@ export const projects = [
     {
       title: '✨ RDFLib endpoint',
       langs: ['python'],
-      description: `A python library to easily serve RDFLib graphs as SPARQL endpoints, and enable to implement and use custom SPARQL functions in python.`,
+      description: `A python library to easily serve RDFLib graphs as SPARQL endpoints, and enable to implement and use custom SPARQL functions with python.`,
       git_url: 'https://github.com/vemonet/rdflib-endpoint',
     },
     {
@@ -65,6 +66,11 @@ export const skills = [
         category: ['Semantic Web'],
     },
     {
+        title: 'SHACL',
+        competency: 4,
+        category: ['Semantic Web'],
+    },
+    {
         title: 'Bash',
         competency: 4,
         category: ['Languages', 'Tools'],
@@ -100,6 +106,11 @@ export const skills = [
         category: ['Languages', 'Web Development'],
     },
     {
+        title: 'JavaScript',
+        competency: 3,
+        category: ['Languages', 'Web Development'],
+    },
+    {
         title: 'React',
         competency: 3,
         category: ['Web Development'],
@@ -108,6 +119,21 @@ export const skills = [
         title: 'HTML/CSS',
         competency: 3,
         category: ['Web Development'],
+    },
+    {
+        title: 'ShEx',
+        competency: 3,
+        category: ['Semantic Web'],
+    },
+    {
+        title: 'RML',
+        competency: 3,
+        category: ['Semantic Web'],
+    },
+    {
+        title: 'Pydantic',
+        competency: 3,
+        category: ['Data Engineering'],
     },
     {
         title: 'Jupyter',
@@ -140,7 +166,7 @@ export const skills = [
         category: ['Web Development'],
     },
     {
-        title: 'Angular',
+        title: 'AngularJS',
         competency: 2,
         category: ['Web Development'],
     },

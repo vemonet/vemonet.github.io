@@ -1,3 +1,9 @@
+/**
+ * To implement Gatsby's Browser APIs, create a gatsby-browser.js file.
+ * See: https://www.gatsbyjs.org/docs/browser-apis
+ */
+
+
 module.exports = {
   // pathPrefix: "/reponame",
   siteMetadata: {
@@ -5,7 +11,6 @@ module.exports = {
     description: `Vincent Emonet personal website, with his resume.`,
     author: {
       name: `Vincent Emonet`,
-      // content: `I like build some things using TypeScript`,
     },
     social: {
       github: `https://github.com/vemonet`,

@@ -16,12 +16,12 @@
     "scripts": {
         "build": "gatsby build",
         "dev": "gatsby develop",
-        "publish": "gatsby build --prefix-paths && gh-pages -d public",
         "serve": "gatsby build && gatsby serve",
         "clean": "gatsby clean",
+        "publish": "gatsby build --prefix-paths && gh-pages -d public",
         "style": "yarn run format && yarn run lint",
-        "format": "yarn prettier ./src --write --config ./.prettierrc",
-        "check": "yarn prettier ./src --check --config ./.prettierrc",
+        "format": "yarn prettier --ignore-path .eslintignore ./src --write --config ./.prettierrc",
+        "check": "yarn prettier --ignore-path .eslintignore ./src --check --config ./.prettierrc",
         "lint": "yarn eslint ./src --cache --config ./.eslintrc.json",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
     },
