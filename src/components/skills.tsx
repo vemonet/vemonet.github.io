@@ -162,6 +162,11 @@ export const skillsList = [
         category: ['System administration', 'Tools'],
     },
     {
+        title: 'OpenShift',
+        competency: 2,
+        category: ['System administration', 'Tools'],
+    },
+    {
         title: 'MongoDB',
         competency: 2,
         category: ['Databases'],

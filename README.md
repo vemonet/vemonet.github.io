@@ -16,17 +16,17 @@ Start in development:
 yarn dev
 ```
 
+Your site is now running at http://localhost:8000
+
+_Note: You'll also see a second link: http://localhost:8000/___graphql. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
+
 Build in the `public` folder:
 
 ```bash
 yarn build
 ```
 
-Your site is now running at http://localhost:8000
-
-_Note: You'll also see a second link: http://localhost:8000/___graphql. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
-
-All the commands are in the `package.json` > `scripts`.
+> All the commands are in the `package.json` > `scripts`.
 
 ## Using Sass to precompile the CSS
 

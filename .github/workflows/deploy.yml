@@ -18,7 +18,7 @@ jobs:
           yarn install --frozen-lockfile
           yarn build
           cp -R vasy public/
-          cp -R resources/cv_vincent_emonet.pdf public/
+          cp resources/cv_vincent_emonet.pdf public/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4

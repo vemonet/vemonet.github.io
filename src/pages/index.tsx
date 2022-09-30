@@ -141,6 +141,10 @@ export default function IndexPage() {
       </Title> */}
       <Seo title="H" />
 
+      {/* <Paragraph style={{marginBottom: theme.spacing(3), textAlign: 'center'}}>
+        Knowledge graph developer working with Semantic Web standards (RDF, SPARQL, OWL ontologies, SHACL, RML), life sciences data, and web technologies.
+      </Paragraph> */}
+
       <Card style={{display: 'inline-block', padding: theme.spacing(2)}}>
         {/* <Stack sx={{ flexDirection: { xs: "column", md: "row"} }} spacing={2} alignItems="center" justifyContent="center"> */}
         <Stack direction={{xs: "column", md: "row"}} spacing={2} alignItems="center" justifyContent="center">
@@ -178,6 +182,7 @@ export default function IndexPage() {
               0000-0002-1501-1082
             </Button>
           </Tooltip>
+          {/* SOLID pod: https://vemonet.solidcommunity.net/profile/#me */}
           <Tooltip title='Publications on Google Scholar'>
             <Button href="https://scholar.google.fr/citations?user=G59f3woAAAAJ" target="_blank"
               component={Link} variant="contained" color="primary"
@@ -191,6 +196,9 @@ export default function IndexPage() {
         </Stack>
       </Card>
 
+      <Paragraph style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
+        Knowledge graph developer working with Semantic Web standards (RDF, SPARQL, OWL ontologies, SHACL, RML), life sciences data, and web technologies.
+      </Paragraph>
 
       <Title id='projects'>
         Latest projects
@@ -256,7 +264,23 @@ export default function IndexPage() {
       </Title>
 
       <Paragraph>
-        The aim of my work is build data ecosystems that will enable scientific researchers
+        The aim of my work is to build data ecosystems that will enable scientific researchers
+        to make new discoveries. Recently I developed the <MyLink href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</MyLink>,
+        an OpenShift cluster for academic researchers, and <MyLink href="http://d2s.semanticscience.org/">Data2Services</MyLink>,
+        a framework to generate services from structured data using a semantically meaningful data model.
+        I also built a RDF knowledge graph that integrates data from biomedical and clinical data sources,
+        was involved in the Knowledge Graph Standardization effort of the <MyLink href="https://ncats.nih.gov/translator">NIH NCATS Translator project</MyLink>,
+        and contributed to advancing the <MyLink href="https://biolink.github.io/biolink-model/docs/">BioLink model</MyLink>.
+        All these activities have been aimed at building an infrastructure for computationally-assisted exploration of knowledge and innovative research hypotheses.
+      </Paragraph>
+
+      <Paragraph>
+        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <MyLink href="http://bio2rdf.org/">Bio2RDF project</MyLink> at Quebec University. I have since dedicated my work to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
+      </Paragraph>
+
+
+      {/* <Paragraph>
+        The aim of my work is to build data ecosystems that will enable scientific researchers
         to make new discoveries. As a data science developer at the Institute of Data Science
         at Maastricht University, I developed the <MyLink href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</MyLink>,
         an OpenShift cluster for academic researchers, and <MyLink href="http://d2s.semanticscience.org/">Data2Services</MyLink>,
@@ -268,12 +292,14 @@ export default function IndexPage() {
       </Paragraph>
 
       <Paragraph>
-        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <MyLink href="http://bio2rdf.org/">Bio2RDF project</MyLink> at Quebec University as part of a Master’s in Bioinformatics. I have since dedicated my career to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice. Before taking my current position at the Institute of Data Science at UM, I worked as a research engineer at the LIRMM in Montpellier on projects to make the semantic web and ontologies more accessible to researchers, such as AgroPortal a portal for agronomical ontologies.
-      </Paragraph>
+        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <MyLink href="http://bio2rdf.org/">Bio2RDF project</MyLink> at Quebec University as part of a Master’s in Bioinformatics. I have since dedicated my career to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
+      </Paragraph> */}
 
-      <Paragraph>
+      {/* Before taking my current position at the Institute of Data Science at UM, I worked as a research engineer at the LIRMM in Montpellier on projects to make the semantic web and ontologies more accessible to researchers, such as AgroPortal a portal for agronomical ontologies. */}
+
+      {/* <Paragraph>
         Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.
-      </Paragraph>
+      </Paragraph> */}
 
       {/* <Paragraph style={{textAlign: 'center', marginBottom: theme.spacing(3)}}>
         If you want to know more about my experience and education, see my CV:
