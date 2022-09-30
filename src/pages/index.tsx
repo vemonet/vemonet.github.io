@@ -19,8 +19,7 @@ import GoogleScholarIcon from '../images/google_scholar_logo.svg';
 import HalIcon from '../images/hal_logo.png';
 // @ts-ignore
 import DblpIcon from '../images/dblp_logo.png';
-// @ts-ignore
-import SolidIcon from '../images/solid_logo.svg';
+// import SolidIcon from '../images/solid_logo.svg';
 // import AssessmentIcon from '@mui/icons-material/CheckCircle';
 
 import MyMarkdown from "../components/MyMarkdown";

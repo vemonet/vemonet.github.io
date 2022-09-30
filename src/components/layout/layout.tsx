@@ -6,7 +6,7 @@ import MetaLayout from './meta-layout';
 import { FCR, themes, getCookie, setCookie, themeCookie } from '../../util';
 
 const Layout: FCR = (props) => {
-    const [theme, setTheme] = useState<Theme>(themes[getCookie(themeCookie) || 'light']);
+    const [theme, setTheme] = useState<Theme>(themes[getCookie(themeCookie) || 'dark']);
     const switchTheme = (): void => {
         setTheme((prev) => {
             const newTheme = prev.palette.mode === 'dark' ? 'light' : 'dark';

@@ -4,8 +4,8 @@ import { AppBar, Toolbar, Typography, Link, Button, Tooltip } from '@mui/materia
 import { Theme, useTheme } from '@mui/material/styles';
 import { makeStyles } from '@mui/styles';
 // import { BsToggleOn, BsToggleOff } from 'react-icons/bs';
-import BsToggleOn from '@mui/icons-material/LightMode';
-import BsToggleOff from '@mui/icons-material/DarkMode';
+import BsToggleOff from '@mui/icons-material/LightMode';
+import BsToggleOn from '@mui/icons-material/DarkMode';
 
 import { FC } from '../../util';
 
@@ -48,7 +48,7 @@ const Header: FC<HeaderProps> = (props) => {
                 </Typography>
                 <Tooltip title="Switch theme (light/dark)">
                     <Button color='inherit' onClick={onSwitch}>
-                        {showOn ? <BsToggleOn /> : <BsToggleOff  />}
+                        {theme.palette.mode === 'light' ? <BsToggleOn /> : <BsToggleOff  />}
                     </Button>
                 </Tooltip>
             </Toolbar>
