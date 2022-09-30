@@ -1630,14 +1630,14 @@
   resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.10.7.tgz#b0dd472438cf769ba10c44ce44b35b597bfa0e17"
   integrity sha512-3N0UYVy3MbrHzM3j6f7fIUCZ+bQ1/sSZq143tLxwSssW3Z4AqE83brpr5flEY1Lx+Aowv/cPyQMmZxzRlFCGqw==
 
-"@mui/icons-material@^5.0.3":
+"@mui/icons-material@^5.10.1":
   version "5.10.6"
   resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.10.6.tgz#a032395cfe7fe8e9a8edde2d27b9e3bd23e5b935"
   integrity sha512-QwxdRmLA46S94B0hExPDx0td+A2unF+33bQ6Cs+lNpJKVsm1YeHwNdYXYcnpWeHeQQ07055OXl7IB2GKDd0MfA==
   dependencies:
     "@babel/runtime" "^7.19.0"
 
-"@mui/lab@^5.0.0-alpha.50":
+"@mui/lab@^5.0.0-alpha.100":
   version "5.0.0-alpha.101"
   resolved "https://registry.yarnpkg.com/@mui/lab/-/lab-5.0.0-alpha.101.tgz#e743a7ff2ddeb404e00499ff757e52d7a4179934"
   integrity sha512-Wvv3X4mhkCXy6VzaFECGHDpt91GuRIn+lvGjKiyBP0xHCAV3glsny4nbPB5PAnLtugnN9bTFY8nNR5oHgxdCwQ==
@@ -1651,7 +1651,7 @@
     prop-types "^15.8.1"
     react-is "^18.2.0"
 
-"@mui/material@^5.0.3":
+"@mui/material@^5.10.1":
   version "5.10.7"
   resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.10.7.tgz#08e72c554bd528f9f5fef604eea542551f9e5986"
   integrity sha512-o1jcQGii+q7ORrXhBiMmGzFDaboc1qTgOOC3zDW+NR9ryVzWzL7qEeqoORbgDB5zk9OBsXCjB91fUH/ls5xMwg==
@@ -1688,7 +1688,7 @@
     csstype "^3.1.1"
     prop-types "^15.8.1"
 
-"@mui/styles@^5.0.1":
+"@mui/styles@^5.10.1":
   version "5.10.7"
   resolved "https://registry.yarnpkg.com/@mui/styles/-/styles-5.10.7.tgz#73807e93cda7aa15682a19b8246d6f5b570ffde2"
   integrity sha512-veBd1ldZL3OEl2+V1J+zSfGPKzag8tONqLVITnvt31PVejztzrwDDllUG+Mo86tF5709zsfFo6Va7qK4+MK05g==

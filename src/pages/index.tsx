@@ -79,13 +79,13 @@ export default function IndexPage() {
     ...theme.typography.body1,
     marginBottom: theme.spacing(1),
     textAlign: 'justify',
-  }));
+  }))as typeof Typography;
 
   const Title = styled(Typography)(({ theme }) => ({
     ...theme.typography.h5,
     marginTop: theme.spacing(5),
     marginBottom: theme.spacing(2),
-  }));
+  })) as typeof Typography;
 
   // const Link = styled(a)(({ theme }) => ({
   //   // ...theme.typography.h5,

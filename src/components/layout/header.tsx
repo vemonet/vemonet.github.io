@@ -6,6 +6,7 @@ import { makeStyles } from '@mui/styles';
 // import { BsToggleOn, BsToggleOff } from 'react-icons/bs';
 import BsToggleOff from '@mui/icons-material/LightMode';
 import BsToggleOn from '@mui/icons-material/DarkMode';
+import { ColorModeContext } from './layout';
 
 import { FC } from '../../util';
 
@@ -24,19 +25,22 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 export interface HeaderProps {
-    switchTheme: () => void;
+    // switchTheme: () => void;
     siteTitle?: string;
 }
 
 const Header: FC<HeaderProps> = (props) => {
-    const [showOn, setShowOn] = useState<boolean>(false);
+    const colorMode = React.useContext(ColorModeContext);
+
+    // const [showOn, setShowOn] = useState<boolean>(false);
+
     const styles = useStyles();
     const theme = useTheme();
 
-    const onSwitch = (): void => {
-        setShowOn((prev) => !prev);
-        props.switchTheme();
-    };
+    // const onSwitch = (): void => {
+    //     setShowOn((prev) => !prev);
+    //     props.switchTheme();
+    // };
 
     return (
         <AppBar component="header" position="static" style={{minHeight: '42px'}}>
@@ -47,7 +51,9 @@ const Header: FC<HeaderProps> = (props) => {
                     </Link>
                 </Typography>
                 <Tooltip title="Switch theme (light/dark)">
-                    <Button color='inherit' onClick={onSwitch}>
+                    {/* <Button color='inherit' > */}
+                    <Button color='inherit' onClick={colorMode.toggleColorMode}>
+                    {/* <Button color='inherit' onClick={onSwitch}> */}
                         {theme.palette.mode === 'light' ? <BsToggleOn /> : <BsToggleOff  />}
                     </Button>
                 </Tooltip>

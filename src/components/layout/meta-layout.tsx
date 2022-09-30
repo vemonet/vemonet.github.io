@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 type MetaLayoutProps = {
-    switchTheme: () => void;
+    // switchTheme: () => void;
 };
 
 const MetaLayout: FCR<MetaLayoutProps> = (props) => {
@@ -29,7 +29,7 @@ const MetaLayout: FCR<MetaLayoutProps> = (props) => {
     const { title } = useSiteMetadata();
     return (
         <div className={styles.root}>
-            <Header switchTheme={props.switchTheme} siteTitle={title} />
+            <Header siteTitle={title} />
             <main className={styles.main}>{props.children}</main>
             <Footer />
         </div>
