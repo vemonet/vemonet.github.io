@@ -8,6 +8,8 @@ Deployed at **https://vemonet.github.io**
 
 Personal website built with [Gatsby](https://www.gatsbyjs.com/), [TypeScript](https://www.typescriptlang.org/) and [Material UI](https://mui.com/core).
 
+Install dependencies:
+
 ```bash
 yarn
 ```

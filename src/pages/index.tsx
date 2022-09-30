@@ -384,11 +384,6 @@ export default function IndexPage() {
       <Grid container spacing={2} alignItems="stretch" style={{marginTop: theme.spacing(1)}}>
         { skillsList.map((skill: any, key: number) => {
           const cat: any = skillsCategories.filter(obj => { return obj.title === skill.category[0]; })[0]
-          console.log(cat)
-          if (!cat) {
-            console.log(skillsCategories)
-            console.log(skill.category)
-          }
           return (<>
             { (state.filterSkills == 'all' || skill.category.includes(state.filterSkills)) &&
             <Grid item xs={12} md={4}>
