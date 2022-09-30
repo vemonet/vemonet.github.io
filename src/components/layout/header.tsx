@@ -50,6 +50,7 @@ const Header: FC<HeaderProps> = (props) => {
                         {props.siteTitle || ''}
                     </Link>
                 </Typography>
+                <div style={{flexGrow: '1'}} />
                 <Tooltip title="Switch theme (light/dark)">
                     {/* <Button color='inherit' > */}
                     <Button color='inherit' onClick={colorMode.toggleColorMode}>
