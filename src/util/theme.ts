@@ -3,8 +3,54 @@ import { createTheme, responsiveFontSizes, ThemeOptions, Theme } from '@mui/mate
 import { PaletteMode } from '@mui/material';
 
 
-const getDesignTokens = (mode: PaletteMode) => ({
+export const getDesignTokens = (mode: PaletteMode) => ({
     palette: {
+        webdev: {
+            // light: '#ffa726',
+            main: '#0d47a1',
+            // dark: '#ef6c00',
+            // contrastText: 'rgba(0, 0, 0, 0.87)',
+        },
+        databases: {
+            main: '#455a64',
+        },
+        tools: {
+            main: '#795548',
+        },
+        sysadmin: {
+            main: '#7e57c2',
+        },
+        dataengineering: {
+            main: '#00796b',
+        },
+        datascience: {
+            main: '#455a64',
+        },
+        semanticweb: {
+            main: '#29b6f6',
+        },
+        languages: {
+            main: '#43a047',
+        },
+        purple: {
+            main: '#c5cae9',
+            light: '#f8fdff',
+            dark: '#9499b7',
+            contrastText: 'rgba(0, 0, 0, 0.87)',
+        },
+        // grey: {
+        //     main: '#e0e0e0',
+        //     light: '#ffffff',
+        //     dark: '#aeaeae',
+        //     contrastText: 'rgba(0, 0, 0, 0.87)',
+        // },
+        yellow: {
+            main: '#ffecb3',
+            light: '#ffffe5',
+            dark: '#cbba83',
+            contrastText: 'rgba(0, 0, 0, 0.87)',
+        },
+
       mode,
       ...(mode === 'light'
         ? {
@@ -41,7 +87,7 @@ const getDesignTokens = (mode: PaletteMode) => ({
             },
           }
         : {
-            // Dark mode
+            // palette values for dark mode
             primary: {
                 main: '#2196f3'
             },
@@ -75,7 +121,7 @@ const getDesignTokens = (mode: PaletteMode) => ({
             }
           }),
     },
-  });
+});
 
 
 // const makeTheme = (variant: ThemeOptions): Theme => {
@@ -233,6 +279,6 @@ const getDesignTokens = (mode: PaletteMode) => ({
 //     dark: makeTheme(dark)
 // };
 
-// export const themeCookie = 'clthmvar';
+export const themeCookie = 'clthmvar';
 
 // export default themes;
