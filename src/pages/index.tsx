@@ -15,6 +15,12 @@ import PDFIcon from '@mui/icons-material/PictureAsPdf';
 import OrcidIcon from '../images/orcid_logo.svg';
 // @ts-ignore
 import GoogleScholarIcon from '../images/google_scholar_logo.svg';
+// @ts-ignore
+import HalIcon from '../images/hal_logo.png';
+// @ts-ignore
+import DblpIcon from '../images/dblp_logo.png';
+// @ts-ignore
+import SolidIcon from '../images/solid_logo.svg';
 // import AssessmentIcon from '@mui/icons-material/CheckCircle';
 
 import MyMarkdown from "../components/MyMarkdown";
@@ -157,7 +163,7 @@ export default function IndexPage() {
             </Button>
           </Tooltip>
           <Tooltip title='GitHub profile'>
-            <Button href="https://github.com/vemonet/" target="_blank"
+            <Button href="https://github.com/vemonet" target="_blank"
               component={Link} variant="contained" color="warning"
               startIcon={<GitHubIcon />}
             >
@@ -182,10 +188,35 @@ export default function IndexPage() {
               0000-0002-1501-1082
             </Button>
           </Tooltip>
-          {/* SOLID pod: https://vemonet.solidcommunity.net/profile/#me */}
+          {/* <Tooltip title='SOLID pod'>
+            <Button href="https://vemonet.solidcommunity.net/profile/#me" target="_blank"
+              // @ts-ignore
+              component={Link} variant="contained" color="purple"
+              startIcon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+                <img src={SolidIcon} />
+              </Icon>}
+            >
+              Solid pod
+            </Button>
+          </Tooltip> */}
+        </Stack>
+      </Card>
+
+      <Paragraph style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
+        Knowledge graph developer working with Semantic Web standards (RDF, SPARQL, OWL ontologies, SHACL, RML), life sciences data, and web technologies.
+      </Paragraph>
+
+
+      <Title>
+        Publications
+      </Title>
+
+      <Card style={{display: 'inline-block', padding: theme.spacing(2)}}>
+        {/* <Stack sx={{ flexDirection: { xs: "column", md: "row"} }} spacing={2} alignItems="center" justifyContent="center"> */}
+        <Stack direction={{xs: "column", md: "row"}} spacing={2} alignItems="center" justifyContent="center">
           <Tooltip title='Publications on Google Scholar'>
             <Button href="https://scholar.google.fr/citations?user=G59f3woAAAAJ" target="_blank"
-              component={Link} variant="contained" color="primary"
+              component={Link} variant="contained" color="warning"
               startIcon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
                 <img src={GoogleScholarIcon} />
               </Icon>}
@@ -193,12 +224,31 @@ export default function IndexPage() {
               Google Scholar
             </Button>
           </Tooltip>
+          <Tooltip title='Publications on HAL'>
+            <Button href="https://hal.archives-ouvertes.fr/search/index/q/*/authFullName_s/Vincent+Emonet" target="_blank"
+              // @ts-ignore
+              component={Link} variant="contained" color="purple"
+              startIcon={<Icon style={{display: 'flex'}}>
+                <img src={HalIcon} />
+              </Icon>}
+            >
+              HAL
+            </Button>
+          </Tooltip>
+          <Tooltip title='Publications on dblp'>
+            <Button href="http://dblp.uni-trier.de/pers/hd/e/Emonet:Vincent" target="_blank"
+            // @ts-ignore
+              component={Link} variant="contained" color="yellow"
+              startIcon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+                <img src={DblpIcon} />
+              </Icon>}
+            >
+              dblp
+            </Button>
+          </Tooltip>
         </Stack>
       </Card>
 
-      <Paragraph style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
-        Knowledge graph developer working with Semantic Web standards (RDF, SPARQL, OWL ontologies, SHACL, RML), life sciences data, and web technologies.
-      </Paragraph>
 
       <Title id='projects'>
         Latest projects
@@ -318,7 +368,7 @@ export default function IndexPage() {
       </Title>
 
       <Paragraph style={{textAlign: 'center'}}>
-        The given scores are obviously subjective, please refer to my CV for a more detailed account of how those skills were used.
+        The given scores are obviously subjective, please refer to my <MyLink href="/cv_vincent_emonet.pdf">CV</MyLink> for a more detailed account of how those skills were used.
       </Paragraph>
 
       <Button variant="text" color="inherit" onClick={() => { updateState({ filterSkills: 'all'}) }} style={{textTransform: 'none'}}>
@@ -370,6 +420,14 @@ export default function IndexPage() {
       {/* <MyMarkdown>
        Trying markdown!
       </MyMarkdown> */}
+
+      <Title>
+        Contact me
+      </Title>
+
+      <Paragraph style={{textAlign: 'center'}}>
+        vincent.emonet@gmail.com
+      </Paragraph>
 
     </Container>
   )

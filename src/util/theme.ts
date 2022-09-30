@@ -39,7 +39,26 @@ const makeTheme = (variant: ThemeOptions): Theme => {
             languages: {
                 main: '#43a047',
             },
+            purple: {
+                main: '#c5cae9',
+                light: '#f8fdff',
+                dark: '#9499b7',
+                contrastText: 'rgba(0, 0, 0, 0.87)',
+            },
+            grey: {
+                main: '#e0e0e0',
+                light: '#ffffff',
+                dark: '#aeaeae',
+                contrastText: 'rgba(0, 0, 0, 0.87)',
+            },
+            yellow: {
+                main: '#ffecb3',
+                light: '#ffffe5',
+                dark: '#cbba83',
+                contrastText: 'rgba(0, 0, 0, 0.87)',
+            },
         },
+
         // overrides: {
         //     MuiCssBaseline: {
         //         '@global': {
