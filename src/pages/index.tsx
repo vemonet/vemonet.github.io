@@ -367,7 +367,7 @@ export default function IndexPage() {
       </Title>
 
       <Paragraph style={{textAlign: 'center'}}>
-        The given scores are obviously subjective, please refer to my <MyLink href="/cv_vincent_emonet.pdf">CV</MyLink> for a more detailed account of how those skills were used.
+        The given scores are obviously subjective, please refer to my <MyLink href="/cv_vincent_emonet.pdf">CV</MyLink> for a more detailed account on how those skills were used.
       </Paragraph>
 
       <Button variant="text" color="inherit" onClick={() => { updateState({ filterSkills: 'all'}) }} style={{textTransform: 'none'}}>
@@ -396,7 +396,7 @@ export default function IndexPage() {
                 <CardContent style={{padding: '0px'}}>
                   <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     {/* 18ch is the size of the largest skill name */}
-                    <Typography variant="body2" style={{width: '18ch'}}>
+                    <Typography variant="body2" style={{width: '20ch'}}>
                       {skill.title}
                     </Typography>
                     <Box sx={{ width: '100%', mr: 1 }}>

@@ -16,14 +16,14 @@ export const skillsCategories = [
         emoji: '🔗',
     },
     {
-        title: 'Data Science',
-        color: 'datascience',
-        emoji: '📊',
-    },
-    {
         title: 'Data Engineering',
         color: 'dataengineering',
         emoji: '🔧',
+    },
+    {
+        title: 'Data Science',
+        color: 'datascience',
+        emoji: '📊',
     },
     {
         title: 'Databases',
