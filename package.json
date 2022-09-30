@@ -19,10 +19,10 @@
         "publish": "gatsby build --prefix-paths && gh-pages -d public",
         "serve": "gatsby build && gatsby serve",
         "clean": "gatsby clean",
-        "style": "yarn run style:format && yarn run style:lint",
-        "style:lint": "yarn eslint ./src --cache --config ./.eslintrc.json",
-        "style:format": "yarn prettier ./src --check --config ./.prettierrc",
-        "style:fix": "yarn prettier ./src --write --config ./.prettierrc",
+        "style": "yarn run format && yarn run lint",
+        "format": "yarn prettier ./src --write --config ./.prettierrc",
+        "check": "yarn prettier ./src --check --config ./.prettierrc",
+        "lint": "yarn eslint ./src --cache --config ./.eslintrc.json",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
     },
     "dependencies": {

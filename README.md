@@ -30,8 +30,6 @@ Build and serve (no hot reload, but deployment similar to prod)
 yarn serve
 ```
 
-
-
 ## 📦️ Build
 
 Build in the `public` folder:
