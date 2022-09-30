@@ -144,6 +144,14 @@ export default function IndexPage() {
       <Card style={{display: 'inline-block', padding: theme.spacing(2)}}>
         {/* <Stack sx={{ flexDirection: { xs: "column", md: "row"} }} spacing={2} alignItems="center" justifyContent="center"> */}
         <Stack direction={{xs: "column", md: "row"}} spacing={2} alignItems="center" justifyContent="center">
+          <Tooltip title='Vincent Emonet Curriculum Vitæ'>
+            <Button href="/cv_vincent_emonet.pdf" target="_blank"
+              component={Link} variant="contained" color="error"
+              startIcon={<PDFIcon />}
+            >
+              CV
+            </Button>
+          </Tooltip>
           <Tooltip title='GitHub profile'>
             <Button href="https://github.com/vemonet/" target="_blank"
               component={Link} variant="contained" color="warning"
@@ -267,21 +275,25 @@ export default function IndexPage() {
         Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.
       </Paragraph>
 
-      <Paragraph style={{textAlign: 'center', marginBottom: theme.spacing(3)}}>
-        If you want to know more about my experience and education, see my resume:
+      {/* <Paragraph style={{textAlign: 'center', marginBottom: theme.spacing(3)}}>
+        If you want to know more about my experience and education, see my CV:
       </Paragraph>
-      <Button href="/resume_vincent_emonet.pdf" target="_blank"
+      <Button href="/cv_vincent_emonet.pdf" target="_blank"
         component={Link} variant="contained" color="error"
         startIcon={<PDFIcon />}
       >
-        Resume
-      </Button>
+        CV
+      </Button> */}
 
       {/* <Paragraph>Feel free to contact me for more details.</Paragraph> */}
 
       <Title>
         Skills
       </Title>
+
+      <Paragraph style={{textAlign: 'center'}}>
+        The given scores are obviously subjective, please refer to my CV for a more detailed account of how those skills were used.
+      </Paragraph>
 
       <Button variant="text" color="inherit" onClick={() => { updateState({ filterSkills: 'all'}) }} style={{textTransform: 'none'}}>
         💥 All
