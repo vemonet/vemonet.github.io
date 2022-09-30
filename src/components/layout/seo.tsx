@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { FC } from '../../util';
+import { FC } from '../../util/types';
 
 type MetaProperty = {
     property: string;
@@ -23,7 +23,7 @@ export interface SEOProps {
     meta?: Meta[];
 }
 
-const SEO: FC<SEOProps> = (props) => {
+const Seo: FC<SEOProps> = (props) => {
     const { site } = useStaticQuery(
         graphql`
             query {
@@ -88,4 +88,4 @@ const SEO: FC<SEOProps> = (props) => {
     );
 };
 
-export default SEO;
+export default Seo;

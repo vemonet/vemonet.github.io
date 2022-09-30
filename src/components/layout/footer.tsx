@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Typography, Link } from '@mui/material';
-import { Theme } from '@mui/material/styles';
+import { Theme, useTheme } from '@mui/material/styles';
 import { makeStyles } from '@mui/styles';
 
-import { FC } from '../../util';
+import { FC } from '../../util/types';
 
 const useStyles = makeStyles((theme: Theme) => ({
     footer: {
@@ -20,25 +20,13 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 const Footer: FC = () => {
     const styles = useStyles();
+    const theme = useTheme();
     return (
-        <footer className={styles.footer}>
+        <footer style={{padding: theme.spacing(3, 2), marginTop: 'auto',
+        width: '100%', backgroundColor: theme.palette.background.paper}}>
             <Container maxWidth="md">
                 <Typography variant="body1" color="textDisabled" style={{textAlign: 'center'}}>
                     © {new Date().getFullYear()} Vincent Emonet
-                    {/* Built with
-                    {` `}
-                    <Link href="https://www.gatsbyjs.org" color="inherit">
-                        Gatsby
-                    </Link>
-                    ,{` `}
-                    <Link href="https://www.typescriptlang.org" color="inherit">
-                        Typescript
-                    </Link>{' '}
-                    and
-                    {` `}
-                    <Link href="https://material-ui.com/" color="inherit">
-                        @Material-ui
-                    </Link> */}
                 </Typography>
                 {/* <Typography variant="body2" >
                     This website is licensed under the&nbsp;

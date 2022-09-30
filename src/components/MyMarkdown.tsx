@@ -9,41 +9,17 @@ import Markdown from 'markdown-to-jsx';
 export default function MyMarkdown({ children }: any) {
   const theme = useTheme();
 
-  const useStyles = makeStyles(() => ({
-    link: {
-      textDecoration: 'none',
-      color: theme.palette.primary.main,
-      '&:hover': {
-        color: theme.palette.secondary.main,
-        textDecoration: 'none',
-      },
-    },
-    input: {
-      background: theme.palette.common.white,
-      fontSize: '11px',
-      fontFamily: 'monospace'
-    },
-    settingsForm: {
-      width: '100%',
-      // textAlign: 'center',
-      '& .MuiFormControl-root': {
-        marginTop: theme.spacing(1),
-        marginBottom: theme.spacing(1),
-      },
-      '& .MuiFormHelperText-root': {
-        marginTop: theme.spacing(0),
-        marginBottom: theme.spacing(1),
-      },
-    },
-    saveButton: {
-      textTransform: 'none',
-      margin: theme.spacing(2, 2),
-    },
-    fullWidth: {
-      width: '100%',
-    },
-  }))
-  const classes = useStyles();
+  // const useStyles = makeStyles(() => ({
+  //   link: {
+  //     textDecoration: 'none',
+  //     color: theme.palette.primary.main,
+  //     '&:hover': {
+  //       color: theme.palette.secondary.main,
+  //       textDecoration: 'none',
+  //     },
+  //   },
+  // }))
+  // const classes = useStyles();
 
   return(
     <Markdown style={{marginTop: theme.spacing(1)}}

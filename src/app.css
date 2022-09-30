@@ -1,18 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
-
-h5 {
-  text-align: center;
-  font-weight: 300;
-}
-
-.flexGrow {
-  flex-grow: 1;
-}
-
 .mainContainer {
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -20,53 +10,18 @@ mark {
   cursor: pointer;
 }
 
-pre {
-  border: 2px solid grey;
-  padding: 1em;
-  /* background: #22272e; */
-}
+a { text-decoration: none; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
 
-a {
-  text-decoration: none;
-}
-
-code {
-  font-family: monospace, monospace;
-  font-size: 11px;
-  border-radius: 10px;
-  padding: 3px;
-  /* color: white; */
-  /* background-color: #757575; */
-  /* background-color: #78909c; */
-}
-
-pre, code {
-  font-family: monospace, monospace;
-  border-radius: 6px;
-  /* padding: 2px; */
-  color: #adbac7;
-  background: #22272e;
-  /* padding: 0.5em; */
-  /* padding: 5px; */
-  /* color: white;
-  background-color: #757575; */
-  /* background-color: #78909c; */
-}
-
-.paper {
-  padding: 16px;
-  /* margin: 16px 0px; */
-}
-
-a {
+/* a {
   color: #006bb4;
   text-decoration: 'none';
   /* &:hover {
     color: #64b5f6;
     text-decoration: 'none';
-  } */
+  } *
 }
-
 
 a:link { text-decoration: none; }
 
@@ -74,11 +29,33 @@ a:visited { text-decoration: none; }
 
 a:hover {
   text-decoration: none;
-  /* color: #ffa726; */
+  /* color: #ffa726; *
 }
 
-a:active { text-decoration: none; }
+a:active { text-decoration: none; } */
 
 .MuiButton-root.MuiButton-contained {
   text-transform: none;
+}
+
+
+pre {
+  border: 2px solid grey;
+  padding: 1em;
+  /* background: #22272e; */
+}
+code {
+  font-family: monospace, monospace;
+  font-size: 11px;
+  border-radius: 10px;
+  padding: 3px;
+  /* color: white; */
+  /* background-color: #757575; */
+}
+pre, code {
+  font-family: monospace, monospace;
+  border-radius: 6px;
+  color: #adbac7;
+  background: #22272e;
+  /* padding: 0.5em; */
 }

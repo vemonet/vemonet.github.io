@@ -8,7 +8,7 @@ import BsToggleOff from '@mui/icons-material/LightMode';
 import BsToggleOn from '@mui/icons-material/DarkMode';
 import { ColorModeContext } from './layout';
 
-import { FC } from '../../util';
+import { FC } from '../../util/types';
 
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
@@ -52,9 +52,7 @@ const Header: FC<HeaderProps> = (props) => {
                 </Typography>
                 <div style={{flexGrow: '1'}} />
                 <Tooltip title="Switch theme (light/dark)">
-                    {/* <Button color='inherit' > */}
                     <Button color='inherit' onClick={colorMode.toggleColorMode}>
-                    {/* <Button color='inherit' onClick={onSwitch}> */}
                         {theme.palette.mode === 'light' ? <BsToggleOn /> : <BsToggleOff  />}
                     </Button>
                 </Tooltip>

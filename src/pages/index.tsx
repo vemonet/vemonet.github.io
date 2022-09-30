@@ -1,13 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@mui/styles';
 import { styled, useTheme, Theme } from '@mui/material/styles';
-import { Container, Chip, Box, Typography, Grid, Icon, Stack, Tooltip, IconButton, CardActions, CardContent, CardHeader, ListItem, Card, Link, Button, ListItemAvatar, Avatar, ListItemText  } from "@mui/material";
+import { Container, Box, Typography, Grid, Icon, Stack, Tooltip, IconButton, CardActions, CardContent, CardHeader, Card, Link, Button } from "@mui/material";
 import LinearProgress, { LinearProgressProps } from '@mui/material/LinearProgress';
-import WebappIcon from '@mui/icons-material/Computer';
-import ApiIcon from '@mui/icons-material/Storage';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import SearchIcon from '@mui/icons-material/Search';
 import GoToWebsiteIcon from '@mui/icons-material/OpenInBrowser';
 import DocsIcon from '@mui/icons-material/MenuBook';
 import PDFIcon from '@mui/icons-material/PictureAsPdf';
@@ -20,46 +17,17 @@ import HalIcon from '../images/hal_logo.png';
 // @ts-ignore
 import DblpIcon from '../images/dblp_logo.png';
 // import SolidIcon from '../images/solid_logo.svg';
-// import AssessmentIcon from '@mui/icons-material/CheckCircle';
 
-import MyMarkdown from "../components/MyMarkdown";
-import MyLink from "../components/MyLink";
 import CodeChip from '../components/CodeChip';
-import { skillsList, skillsCategories } from '../components/skills';
-import { Seo } from '../components';
-import { FC } from '../util';
-
-// import {getUrlHtml} from '../settings'
-
-
-const useStyles = makeStyles((theme: Theme) => ({
-  link: {
-    textDecoration: 'none',
-    color: theme.palette.primary.main,
-    '&:hover': {
-      color: theme.palette.secondary.main,
-      textDecoration: 'none',
-    },
-  },
-  paperPadding: {
-    padding: theme.spacing(2, 2),
-    margin: theme.spacing(2, 2),
-  },
-  paperTitle: {
-    fontWeight: 300,
-    marginBottom: theme.spacing(1),
-  },
-  mainText: {
-    textAlign: 'left',
-    marginBottom: '20px'
-    // margin: theme.spacing(4, 0)
-  }
-}))
+import { projects, skills, skillsCategories } from '../components/data';
+import Seo from '../components/layout/seo';
+import LinkOut from "../components/LinkOut";
+// import MyMarkdown from "../components/MyMarkdown";
+// import { FC } from '../util/types';
 
 
 // const IndexPage: FC = () => {
 export default function IndexPage() {
-  const classes = useStyles();
   const theme = useTheme();
 
   const [state, setState] = React.useState({
@@ -75,6 +43,7 @@ export default function IndexPage() {
     setState(stateRef.current);
   }, [setState]);
 
+  // Styled components
   const Paragraph = styled(Typography)(({ theme }) => ({
     ...theme.typography.body1,
     marginBottom: theme.spacing(1),
@@ -85,66 +54,17 @@ export default function IndexPage() {
     ...theme.typography.h5,
     marginTop: theme.spacing(5),
     marginBottom: theme.spacing(2),
+    textAlign: 'center',
+    fontWeight: '300',
   })) as typeof Typography;
 
-  // const Link = styled(a)(({ theme }) => ({
-  //   // ...theme.typography.h5,
-  //   backgroundColor: theme.palette.secondary.main,
-  //   marginBottom: theme.spacing(2),
-  // }));
-
-
-  const projects = [
-    {
-      title: '💠 Shapes of You',
-      langs: ['python', 'typescript'],
-      description: `An index for publicly available semantic resources (ontologies, vocabularies, shapes, queries, mappings) indexed from public Git platforms (GitHub, GitLab, Gitee)`,
-      website_url: 'http://index.semanticscience.org',
-      git_url: 'https://github.com/vemonet/shapes-of-you',
-    },
-    {
-      title: '♻️ FAIR enough & FAIR test',
-      langs: ['python', 'typescript'],
-      description: `A python library and a web service where anyone can run evaluations to assess how compliant to the FAIR principles is a resource, given the resource identifier (URI/URL).`,
-      website_url: 'https://fair-enough.semanticscience.org',
-      docs_url: 'https://maastrichtu-ids.github.io/fair-test',
-      git_url: 'https://github.com/MaastrichtU-IDS/fair-enough',
-    },
-    {
-      title: '✨ RDFLib endpoint',
-      langs: ['python'],
-      description: `A python library to easily serve RDFLib graphs as SPARQL endpoints, and enable to implement and use custom SPARQL functions in python.`,
-      git_url: 'https://github.com/vemonet/rdflib-endpoint',
-    },
-    {
-      title: '🔬 Knowledge Collaboratory',
-      langs: ['python', 'typescript'],
-      description: `An ecosystem to publish and retrieve scientific claims as Nanopublications using Translator standards, such as the BioLink model and the Translator Reasoner API.`,
-      website_url: 'https://collaboratory.semanticscience.org',
-      git_url: 'https://github.com/MaastrichtU-IDS/knowledge-collaboratory',
-    },
-    {
-      title: '🔭 Data Science Research Infrastructure',
-      langs: ['docker', 'kubernetes'],
-      description: `A Kubernetes/OpenShift cluster for academic researchers to deploy Data Science workspaces and services.`,
-      // website_url: 'https://dsri.maastrichtuniversity.nl',
-      docs_url: 'https://dsri.maastrichtuniversity.nl',
-      git_url: 'https://github.com/MaastrichtU-IDS/dsri-documentation',
-    },
-    {
-      title: '🪐 JupyterLab',
-      langs: ['docker', 'python'],
-      description: `JupyterLab workspace with VisualStudio Code integrated, and various packages and kernels pre-installed to help working with data science and knowledge graphs.`,
-      git_url: 'https://github.com/MaastrichtU-IDS/jupyterlab',
-    },
-  ]
 
   return(
     <Container className='mainContainer'>
+      <Seo title="Home" />
       {/* <Title>
         Online presence
       </Title> */}
-      <Seo title="H" />
 
       {/* <Paragraph style={{marginBottom: theme.spacing(3), textAlign: 'center'}}>
         Knowledge graph developer working with Semantic Web standards (RDF, SPARQL, OWL ontologies, SHACL, RML), life sciences data, and web technologies.
@@ -211,7 +131,6 @@ export default function IndexPage() {
       </Title>
 
       <Card style={{display: 'inline-block', padding: theme.spacing(2)}}>
-        {/* <Stack sx={{ flexDirection: { xs: "column", md: "row"} }} spacing={2} alignItems="center" justifyContent="center"> */}
         <Stack direction={{xs: "column", md: "row"}} spacing={2} alignItems="center" justifyContent="center">
           <Tooltip title='Publications on Google Scholar'>
             <Button href="https://scholar.google.fr/citations?user=G59f3woAAAAJ" target="_blank"
@@ -314,60 +233,46 @@ export default function IndexPage() {
 
       <Paragraph>
         The aim of my work is to build data ecosystems that will enable scientific researchers
-        to make new discoveries. Recently I developed the <MyLink href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</MyLink>,
-        an OpenShift cluster for academic researchers, and <MyLink href="http://d2s.semanticscience.org/">Data2Services</MyLink>,
+        to make new discoveries. Recently I developed the <LinkOut href="https://maastrichtu-ids.github.io/dsri-documentation">Data Science Research Infrastructure</LinkOut>,
+        an OpenShift cluster for academic researchers, and <LinkOut href="http://d2s.semanticscience.org">Data2Services</LinkOut>,
         a framework to generate services from structured data using a semantically meaningful data model.
         I also built a RDF knowledge graph that integrates data from biomedical and clinical data sources,
-        was involved in the Knowledge Graph Standardization effort of the <MyLink href="https://ncats.nih.gov/translator">NIH NCATS Translator project</MyLink>,
-        and contributed to advancing the <MyLink href="https://biolink.github.io/biolink-model/docs/">BioLink model</MyLink>.
+        was involved in the Knowledge Graph Standardization effort of the <LinkOut href="https://ncats.nih.gov/translator">NIH NCATS Translator project</LinkOut>,
+        and contributed to advancing the <LinkOut href="https://biolink.github.io/biolink-model/docs/">BioLink model</LinkOut>.
         All these activities have been aimed at building an infrastructure for computationally-assisted exploration of knowledge and innovative research hypotheses.
       </Paragraph>
 
       <Paragraph>
-        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <MyLink href="http://bio2rdf.org/">Bio2RDF project</MyLink> at Quebec University. I have since dedicated my work to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
+        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <LinkOut href="http://bio2rdf.org/">Bio2RDF project</LinkOut> at Quebec University. I have since dedicated my work to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
       </Paragraph>
-
 
       {/* <Paragraph>
         The aim of my work is to build data ecosystems that will enable scientific researchers
         to make new discoveries. As a data science developer at the Institute of Data Science
-        at Maastricht University, I developed the <MyLink href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</MyLink>,
-        an OpenShift cluster for academic researchers, and <MyLink href="http://d2s.semanticscience.org/">Data2Services</MyLink>,
+        at Maastricht University, I developed the <LinkOut href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</LinkOut>,
+        an OpenShift cluster for academic researchers, and <LinkOut href="http://d2s.semanticscience.org/">Data2Services</LinkOut>,
         a framework to generate services from structured data using a semantically meaningful data model.
         I also built a RDF knowledge graph that integrates data from biomedical and clinical data sources,
-        was involved in the Knowledge Graph Standardization effort of the <MyLink href="https://ncats.nih.gov/translator">NIH NCATS Translator project</MyLink>,
-        and contributed to advancing the <MyLink href="https://biolink.github.io/biolink-model/docs/">BioLink model</MyLink>.
+        was involved in the Knowledge Graph Standardization effort of the <LinkOut href="https://ncats.nih.gov/translator">NIH NCATS Translator project</LinkOut>,
+        and contributed to advancing the <LinkOut href="https://biolink.github.io/biolink-model/docs/">BioLink model</LinkOut>.
         All these activities have been aimed at building an infrastructure for computationally-assisted exploration of knowledge and innovative research hypotheses.
       </Paragraph>
-
       <Paragraph>
-        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <MyLink href="http://bio2rdf.org/">Bio2RDF project</MyLink> at Quebec University as part of a Master’s in Bioinformatics. I have since dedicated my career to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
-      </Paragraph> */}
-
-      {/* Before taking my current position at the Institute of Data Science at UM, I worked as a research engineer at the LIRMM in Montpellier on projects to make the semantic web and ontologies more accessible to researchers, such as AgroPortal a portal for agronomical ontologies. */}
-
-      {/* <Paragraph>
-        Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.
-      </Paragraph> */}
-
-      {/* <Paragraph style={{textAlign: 'center', marginBottom: theme.spacing(3)}}>
-        If you want to know more about my experience and education, see my CV:
+        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <LinkOut href="http://bio2rdf.org/">Bio2RDF project</LinkOut> at Quebec University as part of a Master’s in Bioinformatics. I have since dedicated my career to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
+        Before taking my current position at the Institute of Data Science at UM, I worked as a research engineer at the LIRMM in Montpellier on projects to make the semantic web and ontologies more accessible to researchers, such as AgroPortal a portal for agronomical ontologies.
       </Paragraph>
-      <Button href="/cv_vincent_emonet.pdf" target="_blank"
-        component={Link} variant="contained" color="error"
-        startIcon={<PDFIcon />}
-      >
-        CV
-      </Button> */}
+      <Paragraph>
+        Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.
+      </Paragraph>
+      <Paragraph>Feel free to contact me for more details.</Paragraph> */}
 
-      {/* <Paragraph>Feel free to contact me for more details.</Paragraph> */}
 
       <Title>
         Skills
       </Title>
 
       <Paragraph style={{textAlign: 'center'}}>
-        The given scores are obviously subjective, please refer to my <MyLink href="/cv_vincent_emonet.pdf">CV</MyLink> for a more detailed account on how those skills were used.
+        The displayed scores are obviously subjective, please refer to my <LinkOut href="/cv_vincent_emonet.pdf">CV</LinkOut> for a better account of how those skills were used.
       </Paragraph>
 
       <Button variant="text" color="inherit" onClick={() => { updateState({ filterSkills: 'all'}) }} style={{textTransform: 'none'}}>
@@ -380,9 +285,8 @@ export default function IndexPage() {
         </Button>
       ))}
 
-      {/* {console.log(skillsList)} */}
       <Grid container spacing={2} alignItems="stretch" style={{marginTop: theme.spacing(1)}}>
-        { skillsList.map((skill: any, key: number) => {
+        { skills.map((skill: any, key: number) => {
           const cat: any = skillsCategories.filter(obj => { return obj.title === skill.category[0]; })[0]
           return (<>
             { (state.filterSkills == 'all' || skill.category.includes(state.filterSkills)) &&
@@ -390,7 +294,7 @@ export default function IndexPage() {
               <Card style={{textAlign: 'left', height: '100%', padding: theme.spacing(2)}}>
                 <CardContent style={{padding: '0px'}}>
                   <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                    {/* 18ch is the size of the largest skill name */}
+                    {/* ##ch is the size of the largest skill name */}
                     <Typography variant="body2" style={{width: '20ch'}}>
                       {skill.title}
                     </Typography>

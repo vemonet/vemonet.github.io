@@ -24,6 +24,14 @@ The site is now running at http://localhost:8000
 
 Note: there is also another access: http://localhost:8000/___graphql. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
 
+Build and serve (no hot reload, but deployment similar to prod)
+
+```bash
+yarn serve
+```
+
+
+
 ## 📦️ Build
 
 Build in the `public` folder:

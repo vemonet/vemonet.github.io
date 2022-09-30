@@ -1,5 +1,3 @@
-import deepMerge from 'deepmerge';
-import { createTheme, responsiveFontSizes, ThemeOptions, Theme } from '@mui/material/styles';
 import { PaletteMode } from '@mui/material';
 
 
@@ -123,5 +121,3 @@ export const getTheme = (mode: PaletteMode) => ({
           }),
     },
 });
-
-export const themeCookie = 'clthmvar';

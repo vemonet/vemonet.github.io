@@ -27,30 +27,6 @@ export default function CodeChip({ lang }: any) {
   //       textDecoration: 'none',
   //     },
   //   },
-  //   input: {
-  //     background: 'white',
-  //     fontSize: '11px',
-  //     fontFamily: 'monospace'
-  //   },
-  //   settingsForm: {
-  //     width: '100%',
-  //     // textAlign: 'center',
-  //     '& .MuiFormControl-root': {
-  //       marginTop: theme.spacing(1),
-  //       marginBottom: theme.spacing(1),
-  //     },
-  //     '& .MuiFormHelperText-root': {
-  //       marginTop: theme.spacing(0),
-  //       marginBottom: theme.spacing(1),
-  //     },
-  //   },
-  //   saveButton: {
-  //     textTransform: 'none',
-  //     margin: theme.spacing(2, 2),
-  //   },
-  //   fullWidth: {
-  //     width: '100%',
-  //   },
   // }))
   // const classes = useStyles();
 

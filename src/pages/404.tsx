@@ -3,8 +3,8 @@ import { Typography, Container } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import { Theme } from '@mui/material/styles';
 
-import { Seo } from '../components';
-import { FC } from '../util';
+import Seo from '../components/layout/seo';
+import { FC } from '../util/types';
 
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
