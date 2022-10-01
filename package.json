@@ -16,7 +16,7 @@
     "scripts": {
         "build": "gatsby build",
         "dev": "gatsby develop",
-        "serve": "gatsby build && gatsby serve",
+        "serve": "gatsby build && gatsby serve -p 8000",
         "clean": "gatsby clean",
         "publish": "gatsby build --prefix-paths && gh-pages -d public",
         "style": "yarn run format && yarn run lint",

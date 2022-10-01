@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTheme, styled } from '@mui/material/styles';
-import { makeStyles } from '@mui/styles';
-import { Chip, Icon, Typography } from "@mui/material";
+import { Chip, Icon } from "@mui/material";
 
 // @ts-ignore
 import PythonIcon from '../images/python_logo.svg';
@@ -14,57 +13,40 @@ import DockerIcon from '../images/docker_logo.png';
 // @ts-ignore
 import JavaIcon from '../images/java_logo.png';
 
-
-export default function CodeChip({ lang }: any) {
+const CodeChip = ({ lang }: any) => {
+// export default function CodeChip({ lang }: any) {
   const theme = useTheme();
-
-  // const useStyles = makeStyles(() => ({
-  //   link: {
-  //     textDecoration: 'none',
-  //     color: theme.palette.primary.main,
-  //     '&:hover': {
-  //       color: theme.palette.secondary.main,
-  //       textDecoration: 'none',
-  //     },
-  //   },
-  // }))
-  // const classes = useStyles();
 
   const codeMap: any = {
     python: {
       label: "Python",
       icon: <Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
               <img src={PythonIcon} />
-            </Icon>,
-      color: "success",
+            </Icon>
     },
     typescript: {
       label: "TypeScript",
       icon: <Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
               <img src={TypeScriptIcon} />
-            </Icon>,
-      color: "success",
+            </Icon>
     },
     docker: {
       label: "Docker",
       icon: <Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
               <img src={DockerIcon} />
-            </Icon>,
-      color: "success",
+            </Icon>
     },
     kubernetes: {
       label: "Kubernetes",
       icon: <Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
               <img src={KubernetesIcon} />
-            </Icon>,
-      color: "success",
+            </Icon>
     },
     java: {
       label: "Java",
       icon: <Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
               <img src={JavaIcon} />
-            </Icon>,
-      color: "success",
+            </Icon>
     },
   }
 
@@ -74,7 +56,6 @@ export default function CodeChip({ lang }: any) {
     marginRight: theme.spacing(1),
     // marginBottom: theme.spacing(2),
   }));
-
 
   return(
     <MyChip
@@ -88,4 +69,4 @@ export default function CodeChip({ lang }: any) {
     />
   )
 }
-
+export default CodeChip;

@@ -1,13 +1,14 @@
 import React from 'react';
-import { makeStyles } from '@mui/styles';
-import { styled, useTheme, Theme } from '@mui/material/styles';
+import { useTheme } from '@mui/material/styles';
 import { Container, Box, Typography, Grid, Icon, Stack, Tooltip, IconButton, CardActions, CardContent, CardHeader, Card, Link, Button } from "@mui/material";
-import LinearProgress, { LinearProgressProps } from '@mui/material/LinearProgress';
+import LinearProgress from '@mui/material/LinearProgress';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GoToWebsiteIcon from '@mui/icons-material/OpenInBrowser';
 import DocsIcon from '@mui/icons-material/MenuBook';
 import PDFIcon from '@mui/icons-material/PictureAsPdf';
+import PipIcon from '@mui/icons-material/ViewInAr';
+
 // @ts-ignore
 import OrcidIcon from '../images/orcid_logo.svg';
 // @ts-ignore
@@ -16,18 +17,22 @@ import GoogleScholarIcon from '../images/google_scholar_logo.svg';
 import HalIcon from '../images/hal_logo.png';
 // @ts-ignore
 import DblpIcon from '../images/dblp_logo.png';
+// @ts-ignore
+// import PythonIcon from '../images/python_icon.svg';
+{/* <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script> */}
 // import SolidIcon from '../images/solid_logo.svg';
 
 import CodeChip from '../components/CodeChip';
-import { projects, skills, skillsCategories } from '../components/data';
+import { Title, Paragraph } from '../components/StyledComponents';
+import { projects, skills, skillsCategories } from '../data';
 import Seo from '../components/layout/seo';
 import LinkOut from "../components/LinkOut";
+import ProfileButton from "../components/ProfileButton";
+import { FC } from '../utils/types';
 // import MyMarkdown from "../components/MyMarkdown";
-// import { FC } from '../util/types';
 
 
-// const IndexPage: FC = () => {
-export default function IndexPage() {
+const IndexPage: FC = () => {
   const theme = useTheme();
 
   const [state, setState] = React.useState({
@@ -43,81 +48,50 @@ export default function IndexPage() {
     setState(stateRef.current);
   }, [setState]);
 
-  // Styled components
-  const Paragraph = styled(Typography)(({ theme }) => ({
-    ...theme.typography.body1,
-    marginBottom: theme.spacing(1),
-    textAlign: 'justify',
-  }))as typeof Typography;
-
-  const Title = styled(Typography)(({ theme }) => ({
-    ...theme.typography.h5,
-    marginTop: theme.spacing(5),
-    marginBottom: theme.spacing(2),
-    textAlign: 'center',
-    fontWeight: '300',
-  })) as typeof Typography;
-
-
   return(
     <Container className='mainContainer'>
       <Seo title="Home" />
+
       {/* <Title>
-        Online presence
+        Online profiles
       </Title> */}
 
-      {/* <Paragraph style={{marginBottom: theme.spacing(3), textAlign: 'center'}}>
-        Knowledge graph developer working with Semantic Web standards (RDF, SPARQL, OWL ontologies, SHACL, RML), life sciences data, and web technologies.
-      </Paragraph> */}
-
       <Card style={{display: 'inline-block', padding: theme.spacing(2)}}>
-        {/* <Stack sx={{ flexDirection: { xs: "column", md: "row"} }} spacing={2} alignItems="center" justifyContent="center"> */}
         <Stack direction={{xs: "column", md: "row"}} spacing={2} alignItems="center" justifyContent="center">
-          <Tooltip title='Vincent Emonet Curriculum Vitæ'>
-            <Button href="/cv_vincent_emonet.pdf" target="_blank"
-              component={Link} variant="contained" color="error"
-              startIcon={<PDFIcon />}
-            >
-              CV
-            </Button>
-          </Tooltip>
-          <Tooltip title='GitHub profile'>
-            <Button href="https://github.com/vemonet" target="_blank"
-              component={Link} variant="contained" color="warning"
-              startIcon={<GitHubIcon />}
-            >
-              vemonet
-            </Button>
-          </Tooltip>
-          <Tooltip title='LinkedIn profile'>
-            <Button href="https://www.linkedin.com/in/vincent-emonet" target="_blank"
-              component={Link} variant="contained" color="info"
-              startIcon={<LinkedInIcon />}
-            >
-              vincent-emonet
-            </Button>
-          </Tooltip>
-          <Tooltip title='ORCID profile'>
-            <Button href="https://orcid.org/0000-0002-1501-1082" target="_blank"
-              component={Link} variant="contained" color="success"
-              startIcon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
-                <img src={OrcidIcon} />
-              </Icon>}
-            >
-              0000-0002-1501-1082
-            </Button>
-          </Tooltip>
-          {/* <Tooltip title='SOLID pod'>
-            <Button href="https://vemonet.solidcommunity.net/profile/#me" target="_blank"
-              // @ts-ignore
-              component={Link} variant="contained" color="purple"
-              startIcon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
-                <img src={SolidIcon} />
-              </Icon>}
-            >
-              Solid pod
-            </Button>
-          </Tooltip> */}
+          <ProfileButton label='CV'
+            tooltip='Vincent Emonet Curriculum Vitæ'
+            href="/cv_vincent_emonet.pdf"
+            color="error"
+            icon={<PDFIcon />}
+          />
+          <ProfileButton label='vemonet'
+            tooltip='GitHub profile'
+            href="/cv_vincent_emonet.pdf"
+            color="warning"
+            icon={<GitHubIcon />}
+          />
+          <ProfileButton label='vincent-emonet'
+            tooltip='LinkedIn profile'
+            href="https://www.linkedin.com/in/vincent-emonet"
+            color="info"
+            icon={<LinkedInIcon />}
+          />
+          <ProfileButton label='0000-0002-1501-1082'
+            tooltip='ORCID profile'
+            href="https://orcid.org/0000-0002-1501-1082"
+            color="success"
+            icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+              <img src={OrcidIcon} />
+            </Icon>}
+          />
+          {/* <ProfileButton label='Solid pod'
+            tooltip='SOLID pod (Social Linked Data)'
+            href="https://vemonet.solidcommunity.net/profile/#me"
+            color="info"
+            icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+              <img src={SolidIcon} />
+            </Icon>}
+          /> */}
         </Stack>
       </Card>
 
@@ -132,38 +106,30 @@ export default function IndexPage() {
 
       <Card style={{display: 'inline-block', padding: theme.spacing(2)}}>
         <Stack direction={{xs: "column", md: "row"}} spacing={2} alignItems="center" justifyContent="center">
-          <Tooltip title='Publications on Google Scholar'>
-            <Button href="https://scholar.google.fr/citations?user=G59f3woAAAAJ" target="_blank"
-              component={Link} variant="contained" color="warning"
-              startIcon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
-                <img src={GoogleScholarIcon} />
-              </Icon>}
-            >
-              Google Scholar
-            </Button>
-          </Tooltip>
-          <Tooltip title='Publications on HAL'>
-            <Button href="https://hal.archives-ouvertes.fr/search/index/q/*/authFullName_s/Vincent+Emonet" target="_blank"
-              // @ts-ignore
-              component={Link} variant="contained" color="purple"
-              startIcon={<Icon style={{display: 'flex'}}>
-                <img src={HalIcon} />
-              </Icon>}
-            >
-              HAL
-            </Button>
-          </Tooltip>
-          <Tooltip title='Publications on dblp'>
-            <Button href="http://dblp.uni-trier.de/pers/hd/e/Emonet:Vincent" target="_blank"
-            // @ts-ignore
-              component={Link} variant="contained" color="yellow"
-              startIcon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
-                <img src={DblpIcon} />
-              </Icon>}
-            >
-              dblp
-            </Button>
-          </Tooltip>
+          <ProfileButton label='Google Scholar'
+            tooltip='Publications on Google Scholar'
+            href="https://scholar.google.fr/citations?user=G59f3woAAAAJ"
+            color="warning"
+            icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+              <img src={GoogleScholarIcon} />
+            </Icon>}
+          />
+          <ProfileButton label='HAL'
+            tooltip='Publications on HAL'
+            href="https://hal.archives-ouvertes.fr/search/index/q/*/authFullName_s/Vincent+Emonet"
+            color="purple"
+            icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+              <img src={HalIcon} />
+            </Icon>}
+          />
+          <ProfileButton label='dblp'
+            tooltip='Publications on dblp'
+            href='http://dblp.uni-trier.de/pers/hd/e/Emonet:Vincent'
+            color='yellow'
+            icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+              <img src={DblpIcon} />
+            </Icon>}
+          />
         </Stack>
       </Card>
 
@@ -197,7 +163,7 @@ export default function IndexPage() {
                 { project.website_url &&
                   <Tooltip title='Go to the website'>
                     <a href={project.website_url} target='_blank'>
-                      <IconButton aria-label="share">
+                      <IconButton aria-label="Go to website">
                         <GoToWebsiteIcon />
                       </IconButton>
                     </a>
@@ -206,7 +172,7 @@ export default function IndexPage() {
                 { project.docs_url &&
                   <Tooltip title='Documentation'>
                     <a href={project.docs_url} target='_blank'>
-                      <IconButton aria-label="share">
+                      <IconButton aria-label="Go to documentation">
                         <DocsIcon />
                       </IconButton>
                     </a>
@@ -217,6 +183,15 @@ export default function IndexPage() {
                     <a href={project.git_url} target='_blank'>
                       <IconButton aria-label="GitHub link">
                         <GitHubIcon />
+                      </IconButton>
+                    </a>
+                  </Tooltip>
+                }
+                { project.pip_url &&
+                  <Tooltip title='Python library on PyPI'>
+                    <a href={project.pip_url} target='_blank'>
+                      <IconButton aria-label="Pip link">
+                        <PipIcon />
                       </IconButton>
                     </a>
                   </Tooltip>
@@ -300,9 +275,10 @@ export default function IndexPage() {
                       {skill.title}
                     </Typography>
                     <Box sx={{ width: '100%', mr: 1 }}>
-                    {/* cat = skillsCategories.filter(obj => { return obj.title === skill.categories[0]; }); */}
-                      <LinearProgress variant="determinate" value={skill.competency*20}
-                      color={cat.color} />
+                      <LinearProgress variant="determinate"
+                        value={skill.competency*20}
+                        color={cat.color}
+                      />
                     </Box>
                     <Box sx={{ minWidth: 35 }}>
                       <Typography variant="body2" color="text.secondary">{skill.competency}/5</Typography>
@@ -317,7 +293,7 @@ export default function IndexPage() {
       </Grid>
 
       {/* <MyMarkdown>
-       Trying markdown!
+       Trying markdown
       </MyMarkdown> */}
 
       <Title>
@@ -331,3 +307,4 @@ export default function IndexPage() {
     </Container>
   )
 }
+export default IndexPage;

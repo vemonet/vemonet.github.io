@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTheme } from '@mui/material/styles';
-import { makeStyles } from '@mui/styles';
 import { Link, Box, Typography } from "@mui/material";
 
 import Markdown from 'markdown-to-jsx';
@@ -8,18 +7,6 @@ import Markdown from 'markdown-to-jsx';
 
 export default function MyMarkdown({ children }: any) {
   const theme = useTheme();
-
-  // const useStyles = makeStyles(() => ({
-  //   link: {
-  //     textDecoration: 'none',
-  //     color: theme.palette.primary.main,
-  //     '&:hover': {
-  //       color: theme.palette.secondary.main,
-  //       textDecoration: 'none',
-  //     },
-  //   },
-  // }))
-  // const classes = useStyles();
 
   return(
     <Markdown style={{marginTop: theme.spacing(1)}}

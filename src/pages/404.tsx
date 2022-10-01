@@ -1,11 +1,10 @@
 import React from 'react';
 import { Typography, Container } from '@mui/material';
-import { makeStyles } from '@mui/styles';
-import { Theme, useTheme } from '@mui/material/styles';
+import { useTheme } from '@mui/material/styles';
 
 import Seo from '../components/layout/seo';
 import LinkOut from '../components/LinkOut';
-import { FC } from '../util/types';
+import { FC } from '../utils/types';
 
 const NotFoundPage: FC = () => {
     const theme = useTheme();

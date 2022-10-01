@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
-import { createTheme, Theme, ThemeProvider } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 // import useMediaQuery from '@mui/material/useMediaQuery';
 
-// import MetaLayout from './meta-layout';
-import { FCR } from '../../util/types';
-import { getTheme } from '../../util/theme';
+import { FCR } from '../../utils/types';
+import { getTheme } from '../../utils/theme';
 import useSiteMetadata from '../../hooks/useSiteMetadata';
 import Header from './header';
 import Footer from './footer';
-
-import '../../app.css';
+import '../../utils/global.css';
 
 
 export const ColorModeContext = React.createContext({
@@ -48,9 +46,6 @@ const Layout: FCR = (props) => {
         if( localStorage.getItem("mode")){
             // @ts-ignore
             setMode(localStorage.getItem("mode"))
-        } else {
-            // Set default here to fix issue with url color not initialized properly
-            setMode('dark')
         }
      },[])
 
@@ -58,7 +53,6 @@ const Layout: FCR = (props) => {
         <ColorModeContext.Provider value={colorMode}>
             <ThemeProvider theme={theme}>
                 <CssBaseline />
-                {/* <MetaLayout>{props.children}</MetaLayout> */}
                 <Header siteTitle={title} />
                 <main style={{backgroundColor: theme.palette.background.default}}>
                     {props.children}
@@ -67,7 +61,5 @@ const Layout: FCR = (props) => {
             </ThemeProvider>
         </ColorModeContext.Provider>
     );
-
 };
-
 export default Layout;

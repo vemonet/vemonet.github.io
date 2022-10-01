@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { FC } from '../../util/types';
+import { FC } from '../../utils/types';
 
 type MetaProperty = {
     property: string;
@@ -87,5 +87,4 @@ const Seo: FC<SEOProps> = (props) => {
         />
     );
 };
-
 export default Seo;
