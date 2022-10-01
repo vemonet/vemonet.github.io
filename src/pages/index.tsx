@@ -59,7 +59,7 @@ const IndexPage: FC = () => {
       <Card style={{display: 'inline-block', padding: theme.spacing(2)}}>
         <Stack direction={{xs: "column", md: "row"}} spacing={2} alignItems="center" justifyContent="center">
           <ProfileButton label='CV'
-            tooltip='Vincent Emonet Curriculum Vitæ'
+            tooltip='Curriculum Vitæ'
             href="/cv_vincent_emonet.pdf"
             color="error"
             icon={<PDFIcon />}
