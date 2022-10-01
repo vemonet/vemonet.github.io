@@ -2,6 +2,13 @@ import { PaletteMode } from '@mui/material';
 
 
 export const getTheme = (mode: PaletteMode) => ({
+    typography: {
+        "fontFamily": "\"-apple-system\", \"Roboto\", \"Arial\"",
+        "fontWeightLight": 300,
+        "fontWeightRegular": 400,
+        "fontWeightMedium": 500,
+        "fontSize": 12
+    },
     palette: {
         // Palette common to light and dark
         languages: {
@@ -20,10 +27,10 @@ export const getTheme = (mode: PaletteMode) => ({
             main: '#9e9e9e',
         },
         tools: {
-            main: '#795548',
+            main: '#8d6e63',
         },
         sysadmin: {
-            main: '#7e57c2',
+            main: '#9575cd',
         },
         dataengineering: {
             main: '#e57373',
@@ -66,7 +73,7 @@ export const getTheme = (mode: PaletteMode) => ({
             },
             // Use grey for warning
             warning: {
-                main: '#e0e0e0'
+                main: '#e0e0e0',
             },
             info: {
                 main: '#09539c'
@@ -97,7 +104,7 @@ export const getTheme = (mode: PaletteMode) => ({
                 main: '#c62828'
             },
             warning: {
-                main: '#e0e0e0'
+                main: '#e0e0e0',
             },
             info: {
                 main: '#09539c'

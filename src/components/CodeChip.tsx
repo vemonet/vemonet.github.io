@@ -82,6 +82,7 @@ export default function CodeChip({ lang }: any) {
       label={codeMap[lang.toLowerCase()].label}
       variant="outlined"
       size="small"
+      // color="warning"
       // color={codeMap[lang].color}
       // avatar={<Avatar alt="Natacha" src="/static/images/avatar/1.jpg" />}
     />

@@ -180,6 +180,7 @@ export default function IndexPage() {
                 // avatar={<GitHubIcon />}
                 title={project.title}
                 titleTypographyProps={{variant: 'h6' }}
+                // titleTypographyProps={{variant: 'subtitle1', style: {fontSize: '1.1rem'} }}
                 subheader={<>
                   { project.langs.map((lang: any, key: number) => (
                     <CodeChip lang={lang} key={key}/>

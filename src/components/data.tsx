@@ -101,6 +101,11 @@ export const skills = [
         category: ['Web Development'],
     },
     {
+        title: 'RDFLib',
+        competency: 4,
+        category: ['Semantic Web'],
+    },
+    {
         title: 'TypeScript',
         competency: 3,
         category: ['Languages', 'Web Development'],
@@ -131,6 +136,11 @@ export const skills = [
         category: ['Semantic Web'],
     },
     {
+        title: 'Protégé',
+        competency: 3,
+        category: ['Semantic Web', 'Tools'],
+    },
+    {
         title: 'Pydantic',
         competency: 3,
         category: ['Data Engineering'],
@@ -151,17 +161,17 @@ export const skills = [
         category: ['Data Engineering', 'Tools'],
     },
     {
-        title: 'Node.JS',
+        title: 'Node.js',
         competency: 2,
         category: ['Web Development'],
     },
     {
-        title: 'ExpressJS',
+        title: 'Express.js',
         competency: 2,
         category: ['Web Development'],
     },
     {
-        title: 'NextJS',
+        title: 'Next.js',
         competency: 2,
         category: ['Web Development'],
     },
@@ -169,6 +179,16 @@ export const skills = [
         title: 'AngularJS',
         competency: 2,
         category: ['Web Development'],
+    },
+    {
+        title: 'Ruby on Rails',
+        competency: 2,
+        category: ['Languages', 'Web Development'],
+    },
+    {
+        title: 'RDF4J',
+        competency: 2,
+        category: ['Semantic Web'],
     },
     {
         title: 'Kubernetes',
@@ -210,6 +230,16 @@ export const skills = [
         competency: 1,
         category: ['Web Development'],
     },
+    {
+        title: 'MacOS',
+        competency: 1,
+        category: ['System administration'],
+    },
+    {
+        title: 'Rust',
+        competency: 1,
+        category: ['Languages'],
+    },
 ]
 // .map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -223,7 +253,7 @@ export const skillsCategories = [
     {
         title: 'Web Development',
         color: 'webdev',
-        emoji: '🕸️',
+        emoji: '🌐',
     },
     {
         title: 'Semantic Web',
@@ -235,11 +265,11 @@ export const skillsCategories = [
         color: 'dataengineering',
         emoji: '🔧',
     },
-    {
-        title: 'Data Science',
-        color: 'datascience',
-        emoji: '📊',
-    },
+    // {
+    //     title: 'Data Science',
+    //     color: 'datascience',
+    //     emoji: '📊',
+    // },
     {
         title: 'Databases',
         color: 'databases',
