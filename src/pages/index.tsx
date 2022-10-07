@@ -66,7 +66,7 @@ const IndexPage: FC = () => {
           />
           <ProfileButton label='vemonet'
             tooltip='GitHub profile'
-            href="/cv_vincent_emonet.pdf"
+            href="https://github.com/vemonet"
             color="warning"
             icon={<GitHubIcon />}
           />
