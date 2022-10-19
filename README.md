@@ -40,6 +40,15 @@ yarn build
 
 > All the commands are in the `package.json` > `scripts`.
 
+## 🥷 Use it for your own resume
+
+You can easily reuse this project to build your own minimalist resume website:
+
+1. Fork the repository
+2. Edit your name and website metadata in `gatsby-config.js`
+3. Edit the content of the website in `src/content.tsx`
+4. Checkout in `src/pages/index.tsx` to change a few remaining links (e.g. publications buttons)
+
 ## 🔗 Links
 
 Gatsby website built using https://github.com/Lindeneg/gatsby-material-typescript-starter

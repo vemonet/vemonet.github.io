@@ -1,9 +1,8 @@
 import React from 'react';
-import { useTheme, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import { Link } from "@mui/material";
 
 export default function LinkOut({ children, href, target }: any) {
-  // const theme = useTheme();
 
   const StyledLink = styled(Link)(({ theme }) => ({
     textDecoration: 'none',

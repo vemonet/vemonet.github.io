@@ -17,14 +17,10 @@ import GoogleScholarIcon from '../images/google_scholar_logo.svg';
 import HalIcon from '../images/hal_logo.png';
 // @ts-ignore
 import DblpIcon from '../images/dblp_logo.png';
-// @ts-ignore
-// import PythonIcon from '../images/python_icon.svg';
-{/* <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script> */}
-// import SolidIcon from '../images/solid_logo.svg';
 
 import CodeChip from '../components/CodeChip';
 import { Title, Paragraph } from '../components/StyledComponents';
-import { projects, skills, skillsCategories } from '../data';
+import { short_intro_text, about_me_text, projects, skills, skillsCategories } from '../content';
 import Seo from '../components/layout/seo';
 import LinkOut from "../components/LinkOut";
 import ProfileButton from "../components/ProfileButton";
@@ -95,9 +91,9 @@ const IndexPage: FC = () => {
         </Stack>
       </Card>
 
-      <Paragraph style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
-        Knowledge graph developer working with Semantic Web standards (RDF, SPARQL, OWL ontologies, SHACL, RML), life sciences data, and web technologies.
-      </Paragraph>
+      <div style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
+        {short_intro_text}
+      </div>
 
 
       <Title>
@@ -140,7 +136,7 @@ const IndexPage: FC = () => {
 
       <Grid container spacing={2} alignItems="stretch">
         { projects.map((project: any, key: number) => (
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} key={key}>
             <Card style={{display: 'inline-block', textAlign: 'left', height: '100%'}}>
               <CardHeader
                 // avatar={<GitHubIcon />}
@@ -148,8 +144,8 @@ const IndexPage: FC = () => {
                 titleTypographyProps={{variant: 'h6' }}
                 // titleTypographyProps={{variant: 'subtitle1', style: {fontSize: '1.1rem'} }}
                 subheader={<>
-                  { project.langs.map((lang: any, key: number) => (
-                    <CodeChip lang={lang} key={key}/>
+                  { project.langs.map((lang: any, key2: number) => (
+                    <CodeChip lang={lang} key={key2}/>
                   ))}
                 </>}
                 style={{paddingBottom: '0px', textAlign: 'center'}}
@@ -207,20 +203,7 @@ const IndexPage: FC = () => {
         About me
       </Title>
 
-      <Paragraph>
-        The aim of my work is to build data ecosystems that will enable scientific researchers
-        to make new discoveries. Recently I developed the <LinkOut href="https://maastrichtu-ids.github.io/dsri-documentation">Data Science Research Infrastructure</LinkOut>,
-        an OpenShift cluster for academic researchers, and <LinkOut href="http://d2s.semanticscience.org">Data2Services</LinkOut>,
-        a framework to generate services from structured data using a semantically meaningful data model.
-        I also built a RDF knowledge graph that integrates data from biomedical and clinical data sources,
-        was involved in the Knowledge Graph Standardization effort of the <LinkOut href="https://ncats.nih.gov/translator">NIH NCATS Translator project</LinkOut>,
-        and contributed to advancing the <LinkOut href="https://biolink.github.io/biolink-model/docs/">BioLink model</LinkOut>.
-        All these activities have been aimed at building an infrastructure for computationally-assisted exploration of knowledge and innovative research hypotheses.
-      </Paragraph>
-
-      <Paragraph>
-        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <LinkOut href="http://bio2rdf.org/">Bio2RDF project</LinkOut> at Quebec University. I have since dedicated my work to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
-      </Paragraph>
+      {about_me_text}
 
       {/* <Paragraph>
         The aim of my work is to build data ecosystems that will enable scientific researchers
@@ -255,7 +238,7 @@ const IndexPage: FC = () => {
         💥 All
       </Button>
       { skillsCategories.map((cat: any, key: number) => (
-        <Button variant="text" color={cat.color} style={{textTransform: 'none'}}
+        <Button variant="text" color={cat.color} style={{textTransform: 'none'}} key={key}
         onClick={() => { updateState({ filterSkills: cat.title}) }}>
           {cat.emoji} {cat.title}
         </Button>
@@ -264,37 +247,34 @@ const IndexPage: FC = () => {
       <Grid container spacing={2} alignItems="stretch" style={{marginTop: theme.spacing(1)}}>
         { skills.map((skill: any, key: number) => {
           const cat: any = skillsCategories.filter(obj => { return obj.title === skill.category[0]; })[0]
-          return (<>
-            { (state.filterSkills == 'all' || skill.category.includes(state.filterSkills)) &&
-            <Grid item xs={12} md={4}>
-              <Card style={{textAlign: 'left', height: '100%', padding: theme.spacing(2)}}>
-                <CardContent style={{padding: '0px'}}>
-                  <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                    {/* ##ch is the size of the largest skill name */}
-                    <Typography variant="body2" style={{width: '20ch'}}>
-                      {skill.title}
-                    </Typography>
-                    <Box sx={{ width: '100%', mr: 1 }}>
-                      <LinearProgress variant="determinate"
-                        value={skill.competency*20}
-                        color={cat.color}
-                      />
+
+          if (state.filterSkills == 'all' || skill.category.includes(state.filterSkills)) {
+            return (
+              <Grid item xs={12} md={4} key={key}>
+                <Card style={{textAlign: 'left', height: '100%', padding: theme.spacing(2)}}>
+                  <CardContent style={{padding: '0px'}}>
+                    <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                      {/* ##ch is the size of the largest skill name */}
+                      <Typography variant="body2" style={{width: '20ch'}}>
+                        {skill.title}
+                      </Typography>
+                      <Box sx={{ width: '100%', mr: 1 }}>
+                        <LinearProgress variant="determinate"
+                          value={skill.competency*20}
+                          color={cat.color}
+                        />
+                      </Box>
+                      <Box sx={{ minWidth: 35 }}>
+                        <Typography variant="body2" color="text.secondary">{skill.competency}/5</Typography>
+                      </Box>
                     </Box>
-                    <Box sx={{ minWidth: 35 }}>
-                      <Typography variant="body2" color="text.secondary">{skill.competency}/5</Typography>
-                    </Box>
-                  </Box>
-                </CardContent>
-              </Card>
-            </Grid>
-          }
-        </>)}
-        )}
+                  </CardContent>
+                </Card>
+              </Grid>
+            )
+        }})}
       </Grid>
 
-      {/* <MyMarkdown>
-       Trying markdown
-      </MyMarkdown> */}
 
       <Title>
         Contact me
@@ -303,6 +283,10 @@ const IndexPage: FC = () => {
       <Paragraph style={{textAlign: 'center'}}>
         vincent.emonet@gmail.com
       </Paragraph>
+
+      {/* <MyMarkdown>
+       Trying markdown
+      </MyMarkdown> */}
 
     </Container>
   )

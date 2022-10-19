@@ -1,3 +1,34 @@
+import React from 'react';
+import { Paragraph } from './components/StyledComponents';
+import LinkOut from "./components/LinkOut";
+
+
+// The short intro text placed at the top of the website
+export const short_intro_text = <Paragraph>
+  Knowledge graph developer working with Semantic Web standards (RDF, SPARQL, OWL ontologies, SHACL, RML), life sciences data, and web technologies.
+</Paragraph>
+
+
+// A longer text about me, experiences and motivation
+export const about_me_text = <>
+  <Paragraph>
+    The aim of my work is to build data ecosystems that will enable scientific researchers
+    to make new discoveries. Recently I developed the <LinkOut href="https://maastrichtu-ids.github.io/dsri-documentation">Data Science Research Infrastructure</LinkOut>,
+    an OpenShift cluster for academic researchers, and <LinkOut href="http://d2s.semanticscience.org">Data2Services</LinkOut>,
+    a framework to generate services from structured data using a semantically meaningful data model.
+    I also built a RDF knowledge graph that integrates data from biomedical and clinical data sources,
+    was involved in the Knowledge Graph Standardization effort of the <LinkOut href="https://ncats.nih.gov/translator">NIH NCATS Translator project</LinkOut>,
+    and contributed to advancing the <LinkOut href="https://biolink.github.io/biolink-model/docs/">BioLink model</LinkOut>.
+    All these activities have been aimed at building an infrastructure for computationally-assisted exploration of knowledge and innovative research hypotheses.
+  </Paragraph>
+
+  <Paragraph>
+    I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <LinkOut href="http://bio2rdf.org/">Bio2RDF project</LinkOut> at Quebec University. I have since dedicated my work to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
+  </Paragraph>
+</>
+
+
+// The list of cool projects I want to share
 export const projects = [
   {
     title: '💠 Shapes of You',
@@ -56,6 +87,8 @@ export const projects = [
   // },
 ]
 
+
+// The list of skills
 export const skills = [
   {
     title: 'Python',
@@ -258,9 +291,10 @@ export const skills = [
     category: ['Languages'],
   },
 ]
-// .map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 
+
+// This needs to match thee categories used in the previous skills list
 export const skillsCategories = [
   {
     title: 'Languages',
@@ -282,11 +316,6 @@ export const skillsCategories = [
     color: 'dataengineering',
     emoji: '🔧',
   },
-  // {
-  //     title: 'Data Science',
-  //     color: 'datascience',
-  //     emoji: '📊',
-  // },
   {
     title: 'Databases',
     color: 'databases',
@@ -296,11 +325,15 @@ export const skillsCategories = [
     title: 'System administration',
     color: 'sysadmin',
     emoji: '🔌',
-    // emoji: '🕹️',
   },
   {
     title: 'Tools',
     color: 'tools',
     emoji: '🔨',
   },
+  // {
+  //     title: 'Data Science',
+  //     color: 'datascience',
+  //     emoji: '📊',
+  // },
 ]
