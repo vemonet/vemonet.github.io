@@ -45,7 +45,7 @@ yarn build
 You can easily reuse this project to build your own minimalist resume website:
 
 1. Fork the repository
-2. Edit your name and website metadata in `gatsby-config.js`
+2. Edit your name and website metadata in `gatsby-config.js`. Change the `path` if your website  is not published at the root URL (e.g. *username.github.io/my-repo* instead of *username.github.io/my-repo*)
 3. Edit the content of the website in `src/content.tsx`
 4. Checkout in `src/pages/index.tsx` to change a few remaining links (e.g. publications buttons)
 

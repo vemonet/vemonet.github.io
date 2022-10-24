@@ -96,8 +96,8 @@ const IndexPage: FC = () => {
       </div>
 
 
-      <Title>
-        Publications
+      <Title id='publications'>
+        📚️ Publications
       </Title>
 
       <Card style={{display: 'inline-block', padding: theme.spacing(2)}}>
@@ -111,7 +111,7 @@ const IndexPage: FC = () => {
             </Icon>}
           />
           <ProfileButton label='HAL'
-            tooltip='Publications on HAL'
+            tooltip='Publications on HAL open archives'
             href="https://hal.archives-ouvertes.fr/search/index/q/*/authFullName_s/Vincent+Emonet"
             color="purple"
             icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
@@ -131,7 +131,7 @@ const IndexPage: FC = () => {
 
 
       <Title id='projects'>
-        Latest projects
+        🗂️ Latest projects
       </Title>
 
       <Grid container spacing={2} alignItems="stretch">
@@ -139,15 +139,14 @@ const IndexPage: FC = () => {
           <Grid item xs={12} md={4} key={key}>
             <Card style={{display: 'inline-block', textAlign: 'left', height: '100%'}}>
               <CardHeader
-                // avatar={<GitHubIcon />}
                 title={project.title}
                 titleTypographyProps={{variant: 'h6' }}
-                // titleTypographyProps={{variant: 'subtitle1', style: {fontSize: '1.1rem'} }}
                 subheader={<>
                   { project.langs.map((lang: any, key2: number) => (
                     <CodeChip lang={lang} key={key2}/>
                   ))}
                 </>}
+                // avatar={<GitHubIcon />}
                 style={{paddingBottom: '0px', textAlign: 'center'}}
               />
               <CardContent style={{paddingBottom: '0px', paddingTop: theme.spacing(1)}}>
@@ -199,35 +198,14 @@ const IndexPage: FC = () => {
       </Grid>
 
 
-      <Title>
-        About me
+      <Title id="about">
+        💬 About me
       </Title>
 
       {about_me_text}
 
-      {/* <Paragraph>
-        The aim of my work is to build data ecosystems that will enable scientific researchers
-        to make new discoveries. As a data science developer at the Institute of Data Science
-        at Maastricht University, I developed the <LinkOut href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</LinkOut>,
-        an OpenShift cluster for academic researchers, and <LinkOut href="http://d2s.semanticscience.org/">Data2Services</LinkOut>,
-        a framework to generate services from structured data using a semantically meaningful data model.
-        I also built a RDF knowledge graph that integrates data from biomedical and clinical data sources,
-        was involved in the Knowledge Graph Standardization effort of the <LinkOut href="https://ncats.nih.gov/translator">NIH NCATS Translator project</LinkOut>,
-        and contributed to advancing the <LinkOut href="https://biolink.github.io/biolink-model/docs/">BioLink model</LinkOut>.
-        All these activities have been aimed at building an infrastructure for computationally-assisted exploration of knowledge and innovative research hypotheses.
-      </Paragraph>
-      <Paragraph>
-        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <LinkOut href="http://bio2rdf.org/">Bio2RDF project</LinkOut> at Quebec University as part of a Master’s in Bioinformatics. I have since dedicated my career to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
-        Before taking my current position at the Institute of Data Science at UM, I worked as a research engineer at the LIRMM in Montpellier on projects to make the semantic web and ontologies more accessible to researchers, such as AgroPortal a portal for agronomical ontologies.
-      </Paragraph>
-      <Paragraph>
-        Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.
-      </Paragraph>
-      <Paragraph>Feel free to contact me for more details.</Paragraph> */}
-
-
-      <Title>
-        Skills
+      <Title id="skills">
+        🛠️ Skills
       </Title>
 
       <Paragraph style={{textAlign: 'center'}}>
@@ -276,8 +254,8 @@ const IndexPage: FC = () => {
       </Grid>
 
 
-      <Title>
-        Contact me
+      <Title id="contact">
+        📬️ Contact me
       </Title>
 
       <Paragraph style={{textAlign: 'center'}}>
