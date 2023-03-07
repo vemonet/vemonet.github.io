@@ -51,6 +51,11 @@ You can easily reuse this project to build your own minimalist resume website:
 
 ## 🔗 Links
 
+Examples:
+
+* https://leerob.io
+* https://dev.to/asheeshh/i-made-a-full-stack-portfolio-site-using-nextjs-and-tailwind-366d
+
 Gatsby website built using https://github.com/Lindeneg/gatsby-material-typescript-starter
 
 CV template: https://freehtml5.co/preview/?item=profile-free-html5-bootstrap-template-for-personal-and-vcard,-resume-websites
