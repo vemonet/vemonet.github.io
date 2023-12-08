@@ -12,6 +12,8 @@ import KubernetesIcon from '../images/kubernetes_logo.svg';
 import DockerIcon from '../images/docker_logo.png';
 // @ts-ignore
 import JavaIcon from '../images/java_logo.png';
+// @ts-ignore
+import RustIcon from '../images/rust_logo.svg';
 
 const CodeChip = ({ lang }: any) => {
 // export default function CodeChip({ lang }: any) {
@@ -46,6 +48,12 @@ const CodeChip = ({ lang }: any) => {
       label: "Java",
       icon: <Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
               <img src={JavaIcon} />
+            </Icon>
+    },
+    rust: {
+      label: "Rust",
+      icon: <Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+              <img src={RustIcon} />
             </Icon>
     },
   }

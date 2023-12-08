@@ -23,7 +23,11 @@ export const about_me_text = <>
   </Paragraph>
 
   <Paragraph>
-    I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <LinkOut href="http://bio2rdf.org/">Bio2RDF project</LinkOut> at Quebec University. I have since dedicated my work to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
+    I first realized the data access challenges faced by researchers and medical practitioners while I worked on the
+    <LinkOut href="http://bio2rdf.org/">Bio2RDF project</LinkOut> at Quebec University.
+    I have since dedicated my work to building biomedical and clinical data resources and ensuring users' access to them.
+    I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software.
+    In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
   </Paragraph>
 </>
 
@@ -52,6 +56,21 @@ export const about_me_text = <>
 // The list of cool projects I want to share
 export const projects = [
   {
+    title: '🦀 Nanopub RS',
+    langs: ['rust'],
+    description: `A cross-platform toolkit to sign and publish RDF Nanopublications using Rust, with bindings to Python, and JavaScript (compiled to WebAssembly)`,
+    git_url: 'https://github.com/vemonet/nanopub-rs',
+    docs_url: 'https://vemonet.github.io/nanopub-rs',
+    pip_url: 'https://crates.io/crates/nanopub',
+  },
+  {
+    title: '✨ RDFLib endpoint',
+    langs: ['python'],
+    description: `A python library to deploy SPARQL endpoints from RDFLib Graphs to serve RDF files, or expose machine learning models, and any other logic implemented in Python, through SPARQL functions.`,
+    git_url: 'https://github.com/vemonet/rdflib-endpoint',
+    pip_url: 'https://pypi.org/project/rdflib-endpoint',
+  },
+  {
     title: '💠 Shapes of You',
     langs: ['python', 'typescript'],
     description: `Web service indexing standard knowledge representations, such as OWL ontologies, or
@@ -70,26 +89,11 @@ export const projects = [
     pip_url: 'https://pypi.org/project/fair-test',
   },
   {
-    title: '✨ RDFLib endpoint',
-    langs: ['python'],
-    description: `A python library to deploy SPARQL endpoints from RDFLib Graphs to serve RDF files, or expose machine learning models, and any other logic implemented in Python, through SPARQL functions.`,
-    git_url: 'https://github.com/vemonet/rdflib-endpoint',
-    pip_url: 'https://pypi.org/project/rdflib-endpoint',
-  },
-  {
     title: '🔬 Knowledge Collaboratory',
     langs: ['python', 'typescript'],
     description: `An ecosystem to publish and retrieve scientific claims as Nanopublications using Translator standards, such as the BioLink model and the Translator Reasoner API.`,
     website_url: 'https://collaboratory.semanticscience.org',
     git_url: 'https://github.com/MaastrichtU-IDS/knowledge-collaboratory',
-  },
-  {
-    title: '🔮 Translator OpenPredict',
-    langs: ['python'],
-    description: `An API to serve drug-disease predictions models, and expose the predictions using standards developed
-    for the NIH NCATS Biomedical Data Translator project.`,
-    website_url: 'https://openpredict.semanticscience.org',
-    git_url: 'https://github.com/MaastrichtU-IDS/translator-openpredict',
   },
   {
     title: '🔭 Data Science Research Infrastructure',
@@ -100,6 +104,14 @@ export const projects = [
     docs_url: 'https://dsri.maastrichtuniversity.nl',
     git_url: 'https://github.com/MaastrichtU-IDS/dsri-documentation',
   },
+  // {
+  //   title: '🔮 Translator OpenPredict',
+  //   langs: ['python'],
+  //   description: `An API to serve drug-disease predictions models, and expose the predictions using standards developed
+  //   for the NIH NCATS Biomedical Data Translator project.`,
+  //   website_url: 'https://openpredict.semanticscience.org',
+  //   git_url: 'https://github.com/MaastrichtU-IDS/translator-openpredict',
+  // },
   // {
   //   title: '🪐 JupyterLab',
   //   langs: ['docker', 'python'],
@@ -182,6 +194,11 @@ export const skills = [
     category: ['Languages', 'Web Development'],
   },
   {
+    title: 'Next.js',
+    competency: 3,
+    category: ['Web Development'],
+  },
+  {
     title: 'React',
     competency: 3,
     category: ['Web Development'],
@@ -217,11 +234,6 @@ export const skills = [
     category: ['Data Engineering'],
   },
   {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
     title: 'Java',
     competency: 3,
     category: ['Languages'],
@@ -232,17 +244,22 @@ export const skills = [
     category: ['Data Engineering', 'Tools'],
   },
   {
+    title: 'Rust',
+    competency: 2,
+    category: ['Languages'],
+  },
+  {
+    title: 'Web components',
+    competency: 2,
+    category: ['Web Development'],
+  },
+  {
     title: 'Node.js',
     competency: 2,
     category: ['Web Development'],
   },
   {
     title: 'Express.js',
-    competency: 2,
-    category: ['Web Development'],
-  },
-  {
-    title: 'Next.js',
     competency: 2,
     category: ['Web Development'],
   },
@@ -270,6 +287,11 @@ export const skills = [
     title: 'OpenShift',
     competency: 2,
     category: ['System administration', 'Tools'],
+  },
+  {
+    title: 'Vector databases',
+    competency: 2,
+    category: ['Databases'],
   },
   {
     title: 'MongoDB',
@@ -302,15 +324,20 @@ export const skills = [
     category: ['Web Development'],
   },
   {
-    title: 'MacOS',
+    title: 'Svelte',
     competency: 1,
-    category: ['System administration'],
+    category: ['Web Development'],
   },
-  {
-    title: 'Rust',
-    competency: 1,
-    category: ['Languages'],
-  },
+  // {
+  //   title: 'Jupyter',
+  //   competency: 3,
+  //   category: ['Data Engineering', 'Data Science'],
+  // },
+  // {
+  //   title: 'MacOS',
+  //   competency: 1,
+  //   category: ['System administration'],
+  // },
 ]
 
 

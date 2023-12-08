@@ -183,7 +183,7 @@ const IndexPage: FC = () => {
                   </Tooltip>
                 }
                 { project.pip_url &&
-                  <Tooltip title='Python library on PyPI'>
+                  <Tooltip title='Package'>
                     <a href={project.pip_url} target='_blank'>
                       <IconButton aria-label="Pip link">
                         <PipIcon />
@@ -232,8 +232,8 @@ const IndexPage: FC = () => {
                 <Card style={{textAlign: 'left', height: '100%', padding: theme.spacing(2)}}>
                   <CardContent style={{padding: '0px'}}>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                      {/* ##ch is the size of the largest skill name */}
-                      <Typography variant="body2" style={{width: '20ch'}}>
+                      {/* NOTE: ##ch is the size of the largest skill name */}
+                      <Typography variant="body2" style={{width: '25ch'}}>
                         {skill.title}
                       </Typography>
                       <Box sx={{ width: '100%', mr: 1 }}>
