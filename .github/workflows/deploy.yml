@@ -6,6 +6,7 @@ on:
 
 jobs:
   build-and-deploy:
+    name: Build and deploy
     # concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     permissions:
       contents: write
