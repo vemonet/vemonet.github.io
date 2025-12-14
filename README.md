@@ -20,6 +20,12 @@ Build for deployment in `dist/`:
 npx @11ty/eleventy
 ```
 
+Format:
+
+```sh
+npx prettier . --write
+```
+
 ## Create posts
 
 Create markdown posts in `posts/` folder, use frontmatter for metadata:
@@ -33,4 +39,3 @@ date: 2024-01-15
 tags: posts
 ---
 ```
-

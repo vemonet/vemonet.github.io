@@ -1,21 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>{% if title %}{{ title }}{% else %}Vincent Emonet{% endif %}</title>
-    <meta property="og:title" content="{% if title %}{{ title }}{% else %}Vincent Emonet{% endif %}">
-    <meta name="description" content="{% if description %}{{ description }}{% else %}Vincent Emonet website{% endif %}" />
-    <meta property="og:description" content="{% if description %}{{ description }}{% else %}Vincent Emonet website{% endif %}">
-    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if title %}{{ title }}{% else %}Vincent Emonet{% endif %}" />
+    <meta
+      name="description"
+      content="{% if description %}{{ description }}{% else %}Vincent Emonet website{% endif %}"
+    />
+    <meta
+      property="og:description"
+      content="{% if description %}{{ description }}{% else %}Vincent Emonet website{% endif %}"
+    />
+    <meta property="og:type" content="website" />
     <link href="/static/semantic_web_logo.png" rel="icon" type="image/png" />
   </head>
 
   <body id="top">
-    <div class="page-content">
-      {{ content }}
-    </div>
+    <div class="page-content">{{ content }}</div>
   </body>
 
   <!-- https://tailwindcss.com/docs/colors -->
@@ -103,7 +107,8 @@
       border-radius: 0.3em;
     }
 
-    pre, code {
+    pre,
+    code {
       background-color: var(--color-zinc-800);
       color: var(--color-zinc-100);
     }
@@ -155,7 +160,9 @@
     .profile-button:hover {
       filter: brightness(1.1);
       transform: translateY(-1px);
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      box-shadow:
+        0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
     }
 
     .profile-button-grey {
@@ -168,11 +175,11 @@
         background-color: var(--color-zinc-800);
         color: var(--color-zinc-100);
       }
-      pre, code {
+      pre,
+      code {
         background-color: var(--color-zinc-100);
         color: var(--color-zinc-800);
       }
     }
-
   </style>
 </html>

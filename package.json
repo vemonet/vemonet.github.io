@@ -1,42 +1,42 @@
 {
-    "name": "vincent-emonet-website",
-    "description": "Vincent Emonet personal website.",
-    "type": "module",
-    "version": "0.1.0",
-    "homepage": "https://vemonet.github.io",
-    "author": {
-        "name": "Vincent Emonet",
-        "email": "vincent.emonet@gmail.com",
-        "url": "https://vemonet.github.io"
-    },
-    "keywords": [
-        "Vincent Emonet",
-        "personal website"
-    ],
-    "license": "MIT",
-    "scripts": {
-        "build": "@11ty/eleventy",
-        "dev": "@11ty/eleventy --serve",
-        "fmt": "prettier . --write",
-        "lint": "eslint ."
-    },
-    "devDependencies": {
-        "@11ty/eleventy": "^3.1.2",
-        "eslint": "^7.26.0",
-        "prettier": "^3.7.4"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/vemonet/vemonet.github.io"
-    },
-    "bugs": {
-        "url": "https://github.com/vemonet/vemonet.github.io/issues"
-    },
-    "prettier": {
-        "trailingComma": "es5",
-        "singleQuote": true,
-        "tabWidth": 2,
-        "useTabs": false,
-        "printWidth": 120
-    }
+  "name": "vincent-emonet-website",
+  "description": "Vincent Emonet personal website.",
+  "type": "module",
+  "version": "0.1.0",
+  "homepage": "https://vemonet.github.io",
+  "author": {
+    "name": "Vincent Emonet",
+    "email": "vincent.emonet@gmail.com",
+    "url": "https://vemonet.github.io"
+  },
+  "keywords": [
+    "Vincent Emonet",
+    "personal website"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "@11ty/eleventy",
+    "dev": "@11ty/eleventy --serve",
+    "fmt": "prettier . --write",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "eslint": "^7.26.0",
+    "prettier": "^3.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vemonet/vemonet.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/vemonet/vemonet.github.io/issues"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "useTabs": false,
+    "printWidth": 120
+  }
 }
