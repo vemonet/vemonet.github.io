@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>{% if title %}{{ title }}{% else %}Vincent Emonet{% endif %}</title>
+    <meta property="og:title" content="{% if title %}{{ title }}{% else %}Vincent Emonet{% endif %}">
+    <meta name="description" content="{% if description %}{{ description }}{% else %}Vincent Emonet website{% endif %}" />
+    <meta property="og:description" content="{% if description %}{{ description }}{% else %}Vincent Emonet website{% endif %}">
+    <meta property="og:type" content="website">
+    <link href="/static/semantic_web_logo.png" rel="icon" type="image/png" />
+  </head>
+
+  <body id="top">
+    <div class="page-content">
+      {{ content }}
+    </div>
+  </body>
+
+  <!-- https://tailwindcss.com/docs/colors -->
+  <style>
+    :root {
+      --color-zinc-800: oklch(14.1% 0.005 285.823);
+      --color-zinc-100: oklch(96.7% 0.001 286.375);
+      --color-zing-500: oklch(70.5% 0.015 286.067);
+      --color-gray-100: oklch(96.7% 0.003 264.542);
+    }
+
+    /* html {
+      scrollbar-gutter: stable;
+    } */
+
+    body {
+      text-rendering: optimizeLegibility;
+      font-family: sans-serif;
+      background-color: var(--color-zinc-100);
+      color: var(--color-zinc-800);
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+      font-size: 17px;
+    }
+
+    h2 {
+      font-weight: 500;
+    }
+
+    .page-content {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    /* Tablet and larger screens */
+    @media (min-width: 640px) {
+      .page-content {
+        padding: 3rem;
+      }
+    }
+
+    /* Desktop screens */
+    @media (min-width: 1024px) {
+      .page-content {
+        padding: 8rem;
+      }
+    }
+
+    /* Large desktop screens */
+    @media (min-width: 1280px) {
+      .page-content {
+        padding: 20rem;
+      }
+    }
+
+    a {
+      color: var(--color-zing-500);
+      text-decoration: none;
+      transition: filter 0.2s ease;
+    }
+
+    a:hover {
+      filter: brightness(1.2);
+    }
+
+    pre {
+      border-radius: 0.5rem;
+      overflow-x: auto;
+      padding: 1rem;
+      margin: 1.5rem 0;
+      line-height: 1;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    pre::-webkit-scrollbar {
+      display: none;
+    }
+
+    code {
+      font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+      padding: 0.2em 0.4em;
+      border-radius: 0.3em;
+    }
+
+    pre, code {
+      background-color: var(--color-zinc-800);
+      color: var(--color-zinc-100);
+    }
+
+    pre code {
+      padding: 0;
+      border: none;
+    }
+
+    hr {
+      color: var(--color-gray-200);
+    }
+
+    /* Profile buttons */
+    .profile-buttons-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      margin: 1.5rem 0;
+    }
+
+    @media (min-width: 768px) {
+      .profile-buttons-stack {
+        flex-direction: row;
+      }
+    }
+
+    .profile-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      color: var(--color-zinc-100);
+    }
+
+    .profile-button-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      display: block;
+    }
+
+    .profile-button:hover {
+      filter: brightness(1.1);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    .profile-button-grey {
+      background-color: oklch(92.8% 0.006 264.531);
+      color: var(--color-zinc-800);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: var(--color-zinc-800);
+        color: var(--color-zinc-100);
+      }
+      pre, code {
+        background-color: var(--color-zinc-100);
+        color: var(--color-zinc-800);
+      }
+    }
+
+  </style>
+</html>
